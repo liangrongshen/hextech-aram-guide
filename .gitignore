@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志与临时文件
+tools/update.log
+tools/scrape.log
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地环境
+.env
