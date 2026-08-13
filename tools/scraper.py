@@ -27,6 +27,9 @@ from bs4 import BeautifulSoup
 BASE = "https://arammayhem.com"
 LIST_URL = f"{BASE}/zh-cn/build/"
 AUGMENTS_URL = f"{BASE}/zh-cn/augments/"
+# Data Dragon 静态资源版本与英雄图片名索引
+DD_VERSION = "16.10.1"
+DD_CHAMPION_URL = f"https://ddragon.leagueoflegends.com/cdn/{DD_VERSION}/data/en_US/champion.json"
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"),
@@ -58,6 +61,22 @@ def fetch(url, retry=MAX_RETRY):
             if attempt < retry:
                 time.sleep(REQUEST_DELAY * 2 * attempt)
     return None
+
+
+def fetch_champion_img_keys():
+    """从 Data Dragon champion.json 构建 {小写id: 正式图片名} 映射。
+
+    站点英雄 slug 是 Data Dragon 英雄 id 的小写形式（如 "drmundo"），
+    而 Data Dragon 图片文件名要求正确大小写（"DrMundo"），否则 403。
+    """
+    try:
+        resp = session.get(DD_CHAMPION_URL, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()["data"]
+        return {c["id"].lower(): c["id"] for c in data.values()}
+    except Exception as e:
+        print(f"  [!] 获取 Data Dragon champion.json 失败: {e}", file=sys.stderr)
+        return {}
 
 
 def parse_rank_from_title(title):
@@ -399,6 +418,15 @@ def js_str(s):
     return json.dumps(str(s), ensure_ascii=False)
 
 
+def build_champion_img_block(keys):
+    """生成 const CHAMPION_IMG = { 小写id: 正式图片名 }; 文本。"""
+    lines = ["const CHAMPION_IMG = {"]
+    for k in sorted(keys):
+        lines.append("  %s: %s," % (js_str(k), js_str(keys[k])))
+    lines.append("};")
+    return "\n".join(lines)
+
+
 def build_augments_block(augments):
     """生成 const AUGMENTS = [...]; 文本（只含 live 符文，按胜率降序）。"""
     lines = ["const AUGMENTS = ["]
@@ -437,7 +465,7 @@ def merge_augments_into(js_path, augments):
     print(f"[✓] 已合并 AUGMENTS 到 {js_path}（{live} 个可用符文）")
 
 
-def generate_data_js(heroes, builds, augments, patch, updated, out_path):
+def generate_data_js(heroes, builds, augments, patch, updated, out_path, champion_img_keys=None):
     """生成与现有 data.js 一致的 JS 文件。"""
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = []
@@ -451,13 +479,16 @@ def generate_data_js(heroes, builds, augments, patch, updated, out_path):
     lines.append("const APP = {")
     lines.append(f"  patch: {js_str(patch)},")
     lines.append(f"  updated: {js_str(updated)},")
-    lines.append(f"  ddVersion: {js_str('16.10.1')},")
+    lines.append(f"  ddVersion: {js_str(DD_VERSION)},")
     lines.append(f"  total: {len(heroes)},")
     lines.append(f"  heroCount: {len(heroes)},")
     lines.append("};")
     lines.append("")
+    if champion_img_keys:
+        lines.append(build_champion_img_block(champion_img_keys))
+        lines.append("")
     lines.append("const IMG = {")
-    lines.append("  champion: (id) => `https://ddragon.leagueoflegends.com/cdn/${APP.ddVersion}/img/champion/${id}.png`,")
+    lines.append("  champion: (id) => `https://ddragon.leagueoflegends.com/cdn/${APP.ddVersion}/img/champion/${CHAMPION_IMG[id] || id}.png`,")
     lines.append("  item: (id) => `https://ddragon.leagueoflegends.com/cdn/${APP.ddVersion}/img/item/${id}.png`,")
     lines.append("};")
     lines.append("")
@@ -590,7 +621,8 @@ def main():
         print("[3/4] 跳过详情（--list-only）")
 
     print("[4/4] 生成 data.js ...")
-    generate_data_js(heroes, builds, augments, patch, updated, args.out)
+    champion_img_keys = fetch_champion_img_keys()
+    generate_data_js(heroes, builds, augments, patch, updated, args.out, champion_img_keys)
     print("完成。")
 
 
