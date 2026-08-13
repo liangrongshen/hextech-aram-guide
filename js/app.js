@@ -366,7 +366,8 @@
   /* ---------- 对局模式 ---------- */
   var matchState = {
     hero: null,          // 当前英雄 id
-    q: '',               // 符文搜索词
+    q: '',               // 符文搜索词（对局页）
+    heroQ: '',           // 选英雄页搜索词
     rarity: '全部',      // 稀有度筛选
     selected: [],        // 当前候选（对局中看到的符文）
     picked: [],          // 本局已确定（最多 4 个）
@@ -411,7 +412,7 @@
 
   /* ① 选英雄页 */
   function renderMatchPicker() {
-    var kw = matchState.q.trim().toLowerCase();
+    var kw = matchState.heroQ.trim().toLowerCase();
     var list = HEROES.filter(function (h) {
       if (!kw) return true;
       return h.name.toLowerCase().indexOf(kw) !== -1 ||
@@ -443,7 +444,7 @@
         '</div>' +
         '<div class="search-wrap">' +
           '<div class="search-box">' +
-            '<input type="search" id="matchSearch" placeholder="搜索英雄，如：薇恩 / Vayne" value="' + esc(matchState.q) + '" aria-label="搜索英雄">' +
+            '<input type="search" id="matchSearch" placeholder="搜索英雄，如：薇恩 / Vayne" value="' + esc(matchState.heroQ) + '" aria-label="搜索英雄">' +
             '<span class="search-icon">🔍</span>' +
           '</div>' +
         '</div>' +
@@ -454,7 +455,7 @@
     var input = document.getElementById('matchSearch');
     if (input) {
       input.addEventListener('input', function (e) {
-        matchState.q = e.target.value;
+        matchState.heroQ = e.target.value;
         renderMatchPicker();
       });
     }
@@ -467,6 +468,8 @@
 
     matchState.hero = heroId;
     matchState.selected = [];
+    matchState.q = '';
+    matchState.rarity = '全部';
     if (loadPicked() !== heroId) matchState.picked = [];
 
     var build = BUILDS[heroId];
