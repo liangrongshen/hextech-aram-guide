@@ -14,30 +14,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 安装 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: 安装依赖
         run: |
-          pip install --break-system-packages -r hextech-aram-guide/tools/requirements.txt
+          pip install -r tools/requirements.txt
 
       - name: 全量抓取并生成 data.js
         run: |
-          python hextech-aram-guide/tools/scraper.py --out hextech-aram-guide/js/data.js
+          python tools/scraper.py --out js/data.js
 
       - name: 校验 JS 语法
         run: |
-          node --check hextech-aram-guide/js/data.js || true
+          node --check js/data.js || true
 
       - name: 提交变更（无变更时跳过）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add hextech-aram-guide/js/data.js
+          git add js/data.js
           if git diff --cached --quiet; then
             echo "数据无变化，跳过提交"
           else
