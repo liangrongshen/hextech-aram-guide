@@ -48,7 +48,17 @@ body::after{
     repeating-linear-gradient(135deg, transparent 0 26px, rgba(201,162,75,.05) 26px 27px),
     radial-gradient(600px 600px at 50% 0%, rgba(201,162,75,.06), transparent 70%);
 }
-.wrap{position:relative;z-index:1;max-width:1060px;margin:0 auto;padding:0 22px 90px}
+/* LOL 元素背景层：海克斯六边形纹理 + 嚎哭深渊剪影（大乱斗地图） */
+.lol-bg{
+  position:fixed;inset:0;pointer-events:none;z-index:1;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='76' height='88' viewBox='0 0 76 88'%3E%3Cg fill='none' stroke='%23c9a24b' stroke-opacity='.09'%3E%3Cpath d='M38 2l34 20v40L38 82 4 62V22z'/%3E%3Cpath d='M38 44l17 10v20L38 84l-17-10V54z'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='300' viewBox='0 0 1440 300'%3E%3Cdefs%3E%3ClinearGradient id='ab' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%230d0a08' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230d0a08' stop-opacity='.94'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1440' height='300' fill='url(%23ab)'/%3E%3Cpath d='M0 300V252L60 234 120 248 180 230 240 242 300 224 360 238 420 250 480 232 540 244 600 228 660 240 720 252 780 236 840 246 900 230 960 242 1020 252 1080 238 1140 248 1200 232 1260 244 1320 236 1380 250 1440 232V300Z' fill='%2315100c' stroke='%23c9a24b' stroke-opacity='.10'/%3E%3Cpath d='M652 240q64-50 128 0l-16 10q-48-32-96 0z' fill='%231a140e' stroke='%23c9a24b' stroke-opacity='.14'/%3E%3Cpath d='M604 240L618 158l14 82zM818 240l14-82 14 82z' fill='%231a140e' stroke='%23c9a24b' stroke-opacity='.14'/%3E%3Ccircle cx='618' cy='150' r='4' fill='%23e07ab0' opacity='.45'/%3E%3Ccircle cx='832' cy='150' r='4' fill='%237ec8e3' opacity='.45'/%3E%3Ccircle cx='380' cy='234' r='3' fill='%23c9a24b' opacity='.35'/%3E%3Ccircle cx='1060' cy='240' r='3' fill='%23ef6a58' opacity='.3'/%3E%3C/svg%3E");
+  background-repeat:repeat,no-repeat;
+  background-position:0 0,50% 100%;
+  background-size:auto,100% auto;
+}
+.wrap{position:relative;z-index:2;max-width:1060px;margin:0 auto;padding:0 22px 90px}
 
 /* ===== 顶部 ===== */
 header{text-align:center;padding:74px 0 20px;position:relative}
@@ -259,6 +269,8 @@ footer .f-line{color:rgba(201,162,75,.4);letter-spacing:.5em}
 </style>
 </head>
 <body>
+
+<div class="lol-bg" aria-hidden="true"></div>
 
 <div class="wrap">
 
