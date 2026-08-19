@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大乱斗卦象占卜 · LOL ARAM 玄学指引</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d0a08;
+  --bg2:#14100c;
+  --ink:#ece4d3;
+  --ink-dim:#a89a82;
+  --ink-faint:#6f6350;
+  --gold:#c9a24b;
+  --gold-bright:#f0c75e;
+  --cinnabar:#c0452f;
+  --cinnabar-deep:#8f2f21;
+  --line:rgba(201,162,75,.22);
+  --card:rgba(24,19,14,.82);
+  --kai:"Ma Shan Zheng","ZCOOL XiaoWei","Kaiti SC","STKaiti","KaiTi",serif;
+  --serif:"Noto Serif SC","Songti SC","SimSun",serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--serif);
+  color:var(--ink);
+  background:
+    radial-gradient(1100px 520px at 78% -6%, rgba(192,69,47,.14), transparent 62%),
+    radial-gradient(900px 620px at 8% 110%, rgba(201,162,75,.10), transparent 60%),
+    radial-gradient(1400px 900px at 50% 40%, rgba(20,15,11,.0), var(--bg) 78%),
+    var(--bg);
+  min-height:100vh;
+  overflow-x:hidden;
+  position:relative;
+}
+/* 噪点 + 云纹氛围 */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .42 0 0 0 0 .27 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.16;
+  background:
+    repeating-linear-gradient(135deg, transparent 0 26px, rgba(201,162,75,.05) 26px 27px),
+    radial-gradient(600px 600px at 50% 0%, rgba(201,162,75,.06), transparent 70%);
+}
+.wrap{position:relative;z-index:1;max-width:1060px;margin:0 auto;padding:0 22px 90px}
+
+/* ===== 顶部 ===== */
+header{text-align:center;padding:74px 0 20px;position:relative}
+.taiji{width:74px;height:74px;margin:0 auto 20px;filter:drop-shadow(0 0 22px rgba(201,162,75,.35));animation:spin 26s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{
+  font-family:var(--kai);font-weight:400;font-size:clamp(44px,8vw,76px);
+  color:var(--gold-bright);letter-spacing:.12em;line-height:1.2;
+  text-shadow:0 0 34px rgba(201,162,75,.4),0 2px 0 rgba(0,0,0,.6);
+}
+.sub{color:var(--ink-dim);margin-top:14px;font-size:15px;letter-spacing:.5em}
+.sub em{color:var(--cinnabar);font-style:normal;margin:0 .3em}
+.divider{
+  width:min(560px,86%);height:1px;margin:34px auto 0;
+  background:linear-gradient(90deg,transparent,var(--line) 18%,var(--line) 82%,transparent);
+  position:relative;
+}
+.divider::before{content:"☯";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:var(--gold);font-size:13px;background:var(--bg);padding:0 12px}
+.divider::after{
+  content:"";position:absolute;left:6%;right:6%;top:50%;height:6px;transform:translateY(-50%);
+  background:repeating-linear-gradient(90deg,transparent 0 7px,rgba(201,162,75,.4) 7px 9px);
+  opacity:.25;
+}
+
+/* ===== 起卦台 ===== */
+.altar{
+  margin-top:52px;display:flex;flex-direction:column;align-items:center;gap:30px;
+  background:radial-gradient(520px 300px at 50% 0%, rgba(201,162,75,.07), transparent 70%);
+}
+.compass{
+  position:relative;width:230px;height:230px;border-radius:50%;
+  border:1px solid var(--line);
+  background:
+    radial-gradient(circle, rgba(201,162,75,.05) 0 58%, transparent 58.5%),
+    repeating-conic-gradient(from 0deg, rgba(201,162,75,.06) 0 3.75deg, transparent 3.75deg 7.5deg),
+    radial-gradient(circle at 50% 50%, #17120d 0 62%, #1d1712 100%);
+  box-shadow:0 0 60px rgba(201,162,75,.14), inset 0 0 40px rgba(0,0,0,.7);
+  display:grid;place-items:center;
+}
+.compass::before{content:"";position:absolute;inset:14px;border-radius:50%;border:1px dashed rgba(201,162,75,.35)}
+.compass .ring-words{position:absolute;inset:0;animation:spin 60s linear infinite}
+.ring-words span{
+  position:absolute;left:50%;top:3px;transform-origin:0 112px;
+  color:var(--ink-faint);font-size:11px;letter-spacing:.2em;
+}
+.ring-words span i{font-style:normal;display:inline-block;transform:rotate(180deg)}
+.inner-disk{position:relative;width:118px;height:118px;border-radius:50%;overflow:hidden;border:1px solid rgba(201,162,75,.4);background:#0f0c09}
+.inner-disk svg{width:100%;height:100%}
+.bagua-glyph{
+  position:absolute;font-size:13px;color:rgba(236,228,211,.5);
+  text-shadow:0 0 8px rgba(201,162,75,.5);
+}
+.bg-1{top:8px;left:50%;transform:translateX(-50%)}
+.bg-2{bottom:8px;left:50%;transform:translateX(-50%)}
+.bg-3{left:10px;top:50%;transform:translateY(-50%)}
+.bg-4{right:10px;top:50%;transform:translateY(-50%)}
+.bg-5{top:30px;right:26px}
+.bg-6{top:30px;left:26px}
+.bg-7{bottom:30px;right:26px}
+.bg-8{bottom:30px;left:26px}
+
+/* 爻线动画区 */
+.yao-stage{
+  display:flex;flex-direction:column-reverse;gap:9px;min-height:126px;
+  justify-content:center;padding:14px 0;
+}
+.yao{display:flex;justify-content:center;gap:10px;opacity:0;transform:translateY(16px) rotateX(84deg);}
+.yao span{display:block;height:7px;border-radius:2px;background:var(--gold-bright);box-shadow:0 0 12px rgba(240,199,94,.55)}
+.yao.yang span{width:118px}
+.yao.yin span{width:52px}
+.yao.on{animation:yaoDrop .5s cubic-bezier(.2,.9,.3,1.2) forwards}
+@keyframes yaoDrop{to{opacity:1;transform:translateY(0) rotateX(0)}}
+.yao-stage.hint-empty .yao{opacity:0;transform:none}
+.yao-stage .wait-hint{color:var(--ink-faint);font-size:13px;letter-spacing:.4em;text-align:center}
+
+.cast-btn{
+  font-family:var(--kai);font-size:26px;letter-spacing:.35em;color:#1a120a;
+  background:linear-gradient(180deg,#f2d381,#c9a24b 55%,#a07f33);
+  border:1px solid #8a6d2c;border-radius:6px;padding:14px 52px 14px 62px;cursor:pointer;
+  box-shadow:0 6px 0 #7c611f,0 14px 30px rgba(0,0,0,.55),0 0 40px rgba(201,162,75,.18);
+  transition:transform .12s,box-shadow .12s,filter .2s;position:relative;
+}
+.cast-btn::before{
+  content:"";position:absolute;left:26px;top:50%;width:14px;height:14px;transform:translateY(-50%) rotate(45deg);
+  background:#1a120a;border-radius:2px;box-shadow:0 0 10px rgba(0,0,0,.5);
+}
+.cast-btn:hover{filter:brightness(1.08);transform:translateY(-2px);box-shadow:0 8px 0 #7c611f,0 18px 34px rgba(0,0,0,.6),0 0 54px rgba(240,199,94,.3)}
+.cast-btn:active{transform:translateY(4px);box-shadow:0 2px 0 #7c611f,0 8px 18px rgba(0,0,0,.5)}
+.cast-btn:disabled{filter:grayscale(.5) brightness(.85);cursor:wait;transform:none}
+.cast-note{margin-top:16px;color:var(--ink-faint);font-size:12.5px;letter-spacing:.18em}
+
+/* ===== 结果卡 ===== */
+.result{
+  margin-top:58px;opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease;
+}
+.result.show{opacity:1;transform:none}
+.result-card{
+  position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  background:linear-gradient(180deg, rgba(26,20,14,.92), rgba(16,12,9,.96));
+  box-shadow:0 30px 80px rgba(0,0,0,.6), inset 0 0 80px rgba(201,162,75,.03);
+}
+.result-card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,var(--cinnabar),var(--gold),transparent 70%);
+}
+.result-head{
+  display:flex;align-items:center;gap:34px;padding:44px 46px 30px;border-bottom:1px dashed rgba(201,162,75,.18);
+  flex-wrap:wrap;
+}
+.gua-figure{
+  width:150px;height:150px;flex:0 0 150px;display:grid;place-items:center;
+  border:1px solid rgba(201,162,75,.3);border-radius:12px;background:radial-gradient(circle at 50% 30%, rgba(201,162,75,.12), rgba(0,0,0,.35));
+  box-shadow:inset 0 0 34px rgba(0,0,0,.6);color:var(--gold-bright);
+}
+.gua-figure svg{filter:drop-shadow(0 0 10px rgba(240,199,94,.55))}
+.gua-id{font-size:13px;color:var(--ink-faint);letter-spacing:.3em;margin-bottom:10px}
+.gua-name{font-family:var(--kai);font-size:52px;color:var(--gold-bright);letter-spacing:.08em;line-height:1.15}
+.gua-trigrams{color:var(--ink-dim);font-size:14px;margin-top:8px;letter-spacing:.3em}
+.gua-fortune{
+  display:inline-flex;align-items:center;gap:8px;margin-top:18px;
+  font-size:15px;letter-spacing:.2em;padding:7px 16px;border-radius:4px;
+  border:1px solid;position:relative;
+}
+.gua-fortune::before{content:"◆";font-size:8px}
+.fg-da{color:#3a2a08;background:linear-gradient(180deg,#ffe9a8,#f0c75e);border-color:#e0b54e;box-shadow:0 0 24px rgba(240,199,94,.35)}
+.fg-ji{color:#f5d98a;background:rgba(201,162,75,.1);border-color:rgba(201,162,75,.55)}
+.fg-zhong{color:#b8ab92;background:rgba(184,171,146,.08);border-color:rgba(184,171,146,.4)}
+.fg-xiong{color:#e88a78;background:rgba(192,69,47,.12);border-color:rgba(192,69,47,.6)}
+.fg-da-xiong{color:#ffd9d1;background:linear-gradient(180deg,#a33322,#7a2417);border-color:#c0452f;box-shadow:0 0 24px rgba(192,69,47,.35)}
+.fg-mix{color:#d8e0ee;background:linear-gradient(120deg,rgba(201,162,75,.14),rgba(122,132,170,.14));border-color:rgba(160,170,205,.45)}
+.result-body{padding:34px 46px 44px;display:grid;gap:26px}
+.omen-block{border-left:2px solid var(--cinnabar);padding:2px 0 2px 18px;animation:fadeUp .6s .1s both}
+.omen-block h3{font-family:var(--kai);font-size:19px;color:var(--cinnabar);letter-spacing:.25em;font-weight:400;margin-bottom:10px}
+.omen-block p{font-size:16.5px;line-height:2;color:var(--ink);letter-spacing:.04em}
+.omen-block p b{color:var(--gold-bright)}
+.omen-block.warn{border-left-color:var(--gold)}
+.omen-block.warn h3{color:var(--gold)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.cw{color:var(--c);background:color-mix(in srgb, var(--c) 16%, transparent);padding:1px 4px;border-radius:3px;font-weight:700;box-shadow:inset 0 0 0 1px color-mix(in srgb, var(--c) 34%, transparent)}
+.result-foot{padding:0 46px 36px;color:var(--ink-faint);font-size:12.5px;letter-spacing:.14em;text-align:right}
+
+/* ===== 通用区块 ===== */
+.section-title{display:flex;align-items:baseline;gap:16px;margin:78px 0 26px}
+.section-title h2{font-family:var(--kai);font-size:30px;font-weight:400;color:var(--gold);letter-spacing:.22em;white-space:nowrap}
+.section-title span{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.section-title small{color:var(--ink-faint);font-size:12px;letter-spacing:.3em}
+
+/* 八卦表 */
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+thead th{
+  font-family:var(--kai);font-weight:400;font-size:15px;letter-spacing:.18em;color:var(--gold);
+  background:rgba(201,162,75,.07);padding:13px 12px;text-align:left;border-bottom:1px solid var(--line);
+}
+tbody td{padding:13px 12px;border-bottom:1px solid rgba(201,162,75,.08);vertical-align:top;line-height:1.75;color:var(--ink-dim)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:rgba(201,162,75,.04);color:var(--ink)}
+td.trigram{font-family:var(--kai);font-size:22px;color:var(--gold-bright);letter-spacing:.1em;white-space:nowrap}
+td.trigram svg{vertical-align:-4px;margin-right:8px;color:var(--gold-bright)}
+.swatch{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:7px;border:1px solid rgba(255,255,255,.22)}
+.logic-notes{margin-top:22px;border:1px dashed rgba(201,162,75,.28);border-radius:10px;padding:20px 24px;background:rgba(201,162,75,.035)}
+.logic-notes h3{font-family:var(--kai);font-weight:400;color:var(--gold);font-size:17px;letter-spacing:.22em;margin-bottom:12px}
+.logic-notes ol{margin-left:1.4em;color:var(--ink-dim);font-size:14px;line-height:2.1}
+.logic-notes li::marker{color:var(--cinnabar)}
+
+/* 六十四卦总览 */
+.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:10px}
+.gua-cell{
+  position:relative;display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 4px 11px;
+  background:rgba(24,19,14,.75);border:1px solid rgba(201,162,75,.16);border-radius:10px;cursor:pointer;
+  transition:transform .18s,border-color .18s,box-shadow .18s;color:var(--ink-dim);
+}
+.gua-cell:hover{transform:translateY(-4px);border-color:rgba(240,199,94,.55);box-shadow:0 10px 26px rgba(0,0,0,.45),0 0 20px rgba(201,162,75,.12);color:var(--ink)}
+.gua-cell .g-svg{color:var(--gold)}
+.gua-cell .g-name{font-size:13px;letter-spacing:.06em;white-space:nowrap}
+.gua-cell .g-num{font-size:10px;color:var(--ink-faint);letter-spacing:.15em}
+.gua-cell .g-fortune{font-size:10px;padding:1px 7px;border-radius:20px;border:1px solid;letter-spacing:.08em}
+.gf-ji{color:#e8cd7f;border-color:rgba(201,162,75,.45);background:rgba(201,162,75,.07)}
+.gf-xiong{color:#d98a76;border-color:rgba(192,69,47,.5);background:rgba(192,69,47,.09)}
+.gf-zhong{color:#a99c84;border-color:rgba(169,156,132,.35);background:rgba(169,156,132,.06)}
+.gua-cell .g-fortune{display:none}
+.gua-cell:hover .g-fortune{display:inline-block}
+
+footer{margin-top:90px;text-align:center;color:var(--ink-faint);font-size:12.5px;letter-spacing:.2em;line-height:2.2;padding-bottom:26px}
+footer .f-line{color:rgba(201,162,75,.4);letter-spacing:.5em}
+
+/* 响应式 */
+@media (max-width:860px){
+  .grid{grid-template-columns:repeat(4,1fr)}
+  .result-head{padding:30px 24px 22px;gap:22px}
+  .result-body{padding:26px 24px 34px}
+  .result-foot{padding:0 24px 26px}
+  .gua-figure{width:110px;height:110px;flex-basis:110px}
+  .gua-name{font-size:38px}
+}
+@media (max-width:480px){
+  .grid{grid-template-columns:repeat(3,1fr);gap:8px}
+  .compass{width:180px;height:180px}
+  .ring-words span{transform-origin:0 86px}
+  h1{letter-spacing:.06em}
+  .sub{letter-spacing:.3em}
+  table{font-size:12.5px}
+  .omen-block p{font-size:15px}
+}
+
+/* 移动端表格横向滚动 */
+.table-scroll{overflow-x:auto;border-radius:12px}
+.table-scroll table{min-width:720px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <svg class="taiji" viewBox="0 0 100 100" aria-hidden="true">
+      <defs>
+        <clipPath id="half"><path d="M50,0 A50,50 0 0 1 50,100 A25,25 0 0 0 50,50 A25,25 0 0 1 50,0 Z"/></clipPath>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="#17120d" stroke="#c9a24b" stroke-width="2"/>
+      <g clip-path="url(#half)">
+        <rect x="50" y="0" width="50" height="100" fill="#e8d9ae"/>
+        <circle cx="50" cy="25" r="25" fill="#17120d"/>
+        <circle cx="50" cy="75" r="25" fill="#e8d9ae"/>
+        <circle cx="50" cy="25" r="9" fill="#e8d9ae"/>
+        <circle cx="50" cy="75" r="9" fill="#17120d"/>
+      </g>
+    </svg>
+    <h1>大乱斗卦象占卜</h1>
+    <p class="sub">LOL<em>·</em>ARAM<em>·</em>玄学指引</p>
+    <div class="divider"></div>
+  </header>
+
+  <section class="altar" id="altar">
+    <div class="compass">
+      <div class="ring-words" id="ringWords"></div>
+      <div class="bagua-glyph bg-1">离</div>
+      <div class="bagua-glyph bg-2">坎</div>
+      <div class="bagua-glyph bg-3">震</div>
+      <div class="bagua-glyph bg-4">兑</div>
+      <div class="bagua-glyph bg-5">乾</div>
+      <div class="bagua-glyph bg-6">坤</div>
+      <div class="bagua-glyph bg-7">艮</div>
+      <div class="bagua-glyph bg-8">巽</div>
+      <div class="inner-disk">
+        <svg viewBox="0 0 118 118" aria-hidden="true">
+          <circle cx="59" cy="59" r="56" fill="#0f0c09" stroke="#c9a24b" stroke-opacity=".45" stroke-width="1.5"/>
+          <path d="M59,8 A51,51 0 0 1 59,110 A25.5,25.5 0 0 0 59,59 A25.5,25.5 0 0 1 59,8 Z" fill="#d9c48a"/>
+          <circle cx="59" cy="33.5" r="25.5" fill="#0f0c09"/>
+          <circle cx="59" cy="84.5" r="25.5" fill="#d9c48a"/>
+          <circle cx="59" cy="33.5" r="9" fill="#d9c48a"/>
+          <circle cx="59" cy="84.5" r="9" fill="#0f0c09"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="yao-stage" id="yaoStage">
+      <div class="wait-hint">静 待 起 卦</div>
+    </div>
+
+    <div style="text-align:center">
+      <button class="cast-btn" id="castBtn">焚香起卦</button>
+      <p class="cast-note">点击起卦 · 六爻成象 · 观象知局</p>
+    </div>
+  </section>
+
+  <section class="result" id="result">
+    <div class="result-card">
+      <div class="result-head">
+        <div class="gua-figure" id="guaFigure"></div>
+        <div style="flex:1;min-width:220px">
+          <div class="gua-id" id="guaNum">第 · 卦</div>
+          <div class="gua-name" id="guaName">— —</div>
+          <div class="gua-trigrams" id="guaTrigrams"></div>
+          <div class="gua-fortune" id="guaFortune"></div>
+        </div>
+      </div>
+      <div class="result-body">
+        <div class="omen-block">
+          <h3>卦 义</h3>
+          <p id="guaMeaning"></p>
+        </div>
+        <div class="omen-block warn">
+          <h3>对 局 提 示</h3>
+          <p id="guaTip"></p>
+        </div>
+        <div class="omen-block">
+          <h3>吉 凶 预 示</h3>
+          <p id="guaOmen"></p>
+        </div>
+      </div>
+      <div class="result-foot">— 卦由心起 · 运由己握 —</div>
+    </div>
+  </section>
+
+  <section id="bagua-sec">
+    <div class="section-title">
+      <h2>八卦方位图</h2>
+      <span></span><small>大乱斗地图对应</small>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>八卦</th><th>元素</th><th>代表颜色</th><th>地图方位释义</th><th>备注（皮肤代替机制）</th></tr>
+        </thead>
+        <tbody id="baguaTbody"></tbody>
+      </table>
+    </div>
+    <div class="logic-notes">
+      <h3>解 读 逻 辑</h3>
+      <ol>
+        <li>优先看英雄本身技能属性，卦象元素和场上英雄元素对上，预兆落在该英雄身上。</li>
+        <li>阵容没有对应元素英雄时，就以皮肤主色调代替征兆对象，该英雄就是卦象提示的关键人物（威胁 / 己方核心）。</li>
+        <li>方位：我方后方 = 自家复活点一侧；我方前方 = 中线到敌方入口；敌方前方 = 敌塔、敌方复活侧；侧翼 = 左右草丛绕后位。</li>
+        <li>吉兆：该对象是我方核心；凶兆：该对象是敌方主要威胁，需要重点提防。</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="list-sec">
+    <div class="section-title">
+      <h2>六十四卦</h2>
+      <span></span><small>点击任意一卦细读</small>
+    </div>
+    <div class="grid" id="guaGrid"></div>
+  </section>
+
+  <footer>
+    <div class="f-line">◆ ◆ ◆</div>
+    趣味向占卜 · 仅供游戏娱乐 · 非现实占卜<br>
+    玄学有风险，上分需谨慎
+  </footer>
+
+</div>
+
+<script>
+/* ================= 数据 ================= */
+/* 八卦爻位定义：bits 从下往上，1=阳 0=阴 */
+const TRIGRAMS = {
+  "乾":{bits:[1,1,1],val:7},
+  "兑":{bits:[1,1,0],val:6},
+  "离":{bits:[1,0,1],val:5},
+  "震":{bits:[1,0,0],val:4},
+  "巽":{bits:[0,1,1],val:3},
+  "坎":{bits:[0,1,0],val:2},
+  "艮":{bits:[0,0,1],val:1},
+  "坤":{bits:[0,0,0],val:0}
+};
+const VAL_TO_TRIGRAM = {7:"乾",6:"兑",5:"离",4:"震",3:"巽",2:"坎",1:"艮",0:"坤"};
+
+const HEXAGRAMS_A = [
+{n:1,name:"乾为天",lower:"乾",upper:"乾",meaning:"刚健全盛，全员强势",tip:"主动开团、持续压塔；警惕亢龙有悔，不要无脑越塔浪送。",omen:"我方前方金光涌动，金系强攻型英雄为我方核心；若我方没有金系英雄，则看我方金色皮肤英雄，是本局输出支柱。切忌长驱直入深入敌方腹地，敌方金色皮肤英雄会埋伏我方后方偷袭。",fortune:"吉"},
+{n:2,name:"坤为地",lower:"坤",upper:"坤",meaning:"柔顺守势，厚积待变",tip:"苟住吃经验，抱团接团，靠拉扯消耗，等待对手失误。",omen:"我方后方土象厚重，土系坦系英雄适合留守；我方无土系，则我方黄褐色皮肤英雄适合扛伤害。危险多来自敌方前方大面积铺场消耗，敌方黄褐色皮肤英雄为主要消耗点，不要贸然前压。",fortune:"中吉"},
+{n:3,name:"水雷屯",lower:"震",upper:"坎",meaning:"开局困顿，万事开头难",tip:"不要强行打架，稳住发育，不要乱冲，等待后续转机。",omen:"我方前方雷水交织；敌方有冰雪 / 雷电英雄会频繁突袭，若无，则敌方冰蓝、电光紫皮肤英雄就是主要突袭者。开局危机潜伏，转机藏在我方后方，我方冰蓝 / 电光紫皮肤的队友是翻盘希望。",fortune:"偏凶"},
+{n:4,name:"山水蒙",lower:"坎",upper:"艮",meaning:"迷茫懵懂，决策混乱",tip:"统一思路，不要各打各的，优先补阵容短板。",omen:"敌方山型坦克挡在前方，若无山系坦克，则敌方厚重暗灰铠甲皮肤英雄充当屏障；迷雾混淆判断，容易被该英雄虚张声势迷惑，真假威胁难分辨。",fortune:"偏凶"},
+{n:5,name:"水天需",lower:"乾",upper:"坎",meaning:"密云不雨，静待时机",tip:"等关键装备成型，再主动开战。",omen:"前方水汽弥漫，水系 / 冰雪敌人虎视眈眈；没有水系敌人，则敌方冰蓝色皮肤英雄是最大威胁。时机未至强开必败，吉运蓄于我方半场，我方金色皮肤英雄需要等待装备成型。",fortune:"中吉"},
+{n:6,name:"天水讼",lower:"坎",upper:"乾",meaning:"争讼内耗，队内矛盾",tip:"停止争吵，屏蔽负面，放弃无谓争执，专注团战。",omen:"祸起内部；敌方金系输出在前方施压，无金系则敌方金色皮肤英雄持续施压，但真正破绽不在对面，而在我方内部，我方金色皮肤队友容易抢资源、引发内讧。",fortune:"凶"},
+{n:7,name:"地水师",lower:"坎",upper:"坤",meaning:"聚众作战，纪律为要",tip:"全队统一进退，切忌单人带线单走。",omen:"大军云集中线，土水组合敌方；没有土水组合，则敌方黄褐色 + 冰蓝皮肤的英雄组合最擅长团战围剿。分散则凶，聚合方可得吉，落单者必遭该组合收割。",fortune:"中"},
+{n:8,name:"水地比",lower:"坤",upper:"坎",meaning:"亲附结盟，抱团取暖",tip:"紧跟大部队，不要脱离队友。",omen:"吉兆在于彼此相依；危险来自脱离大部队，被敌方水系英雄分割包围，若无水系，敌方冰蓝皮肤英雄擅长分割战场。我方黄褐色皮肤队友是抱团的支点。",fortune:"吉"},
+{n:9,name:"风天小畜",lower:"乾",upper:"巽",meaning:"小有积蓄，力量不足大成",tip:"小优势见好就收，不要贪多。",omen:"风金之力聚于我方半场；我方金色、青绿色皮肤英雄积蓄了一定战力。前方敌方尚有余力，敌方青绿皮肤英雄机动性很强，不可追求一波击溃。",fortune:"中吉"},
+{n:10,name:"天泽履",lower:"兑",upper:"乾",meaning:"履险而行，小心踩雷",tip:"谨慎走位，不要踩敌方技能，不要贸然突进。",omen:"前方泽毒密布，暗紫色敌方英雄布满陷阱；若无泽毒英雄，敌方暗紫皮肤英雄就是陷阱制造者。一步踏错全盘倾覆，步步需提防。",fortune:"偏凶"},
+{n:11,name:"地天泰",lower:"乾",upper:"坤",meaning:"天地交泰，内外通达，大吉",tip:"抓住优势持续施压，但居安思危，不要松懈。",omen:"前后气机流通，土金相生；我方黄褐色、金色皮肤英雄配合无间，我方前后皆无大隐患；唯一凶机在于安逸松懈，敌方没有单一致命点。",fortune:"大吉"},
+{n:12,name:"天地否",lower:"坤",upper:"乾",meaning:"天地不交，上下隔绝，看似强实则不兼容",tip:"放弃强行发挥全部实力收益，优先适配团队。",omen:"前后隔绝，我方前后气机断裂；我方金色、黄褐色皮肤英雄各自实力很强，但技能、定位互不兼容，容易被敌方逐个击破。",fortune:"大凶"},
+{n:13,name:"天火同人",lower:"离",upper:"乾",meaning:"同心协力，目标一致",tip:"积极协同，互相掩护，发挥团队合力。",omen:"金火同心；我方红色、金色皮肤英雄为核心，就算没有火属性英雄，我方红色皮肤英雄就是火之征兆。全队目标统一，则前方征战无往不利。",fortune:"大吉"},
+{n:14,name:"火天大有",lower:"乾",upper:"离",meaning:"大有所得，资源丰厚",tip:"手握巨大优势，切忌骄傲冒进。",omen:"金火盛于我方，金色、红色皮肤英雄威势强盛，是本局主要拿资源点；物极必反，这两个英雄贸然冒进则吉转凶。",fortune:"吉"},
+{n:15,name:"地山谦",lower:"艮",upper:"坤",meaning:"谦抑收敛，不恃强逞能",tip:"不要装大，稳扎稳打，优势不浪。",omen:"土山内敛；我方黄褐色、暗灰厚重皮肤英雄，吉不在猛攻而在退守。即便手握优势，锋芒外露便引来敌方红色皮肤英雄集火。",fortune:"吉"},
+{n:16,name:"雷地豫",lower:"坤",upper:"震",meaning:"安乐懈怠，耽于享乐",tip:"安乐之中要警惕，不要松懈给对面翻盘机会。",omen:"我方后方安逸松弛；我方黄褐色皮肤英雄容易心态松懈。雷电敌人潜伏于前方暗处，无雷系则敌方电光紫皮肤英雄，专抓我方松懈的时机偷袭。",fortune:"中"},
+{n:17,name:"泽雷随",lower:"震",upper:"兑",meaning:"随势而动，顺势而为",tip:"灵活变通，该退就退，该进就进。",omen:"雷泽变幻；敌方电光紫、暗紫皮肤英雄状态起伏不定。不固执己见，顺着战局变化则吉；逆势硬打，被这两类英雄拉扯则凶。",fortune:"中吉"},
+{n:18,name:"山风蛊",lower:"巽",upper:"艮",meaning:"积弊腐朽，旧问题不断发酵",tip:"及时止损，改变打法，不要一条路走到黑。",omen:"山风缠绕；隐患藏在我方内部，我方暗灰厚重、青绿色皮肤英雄的失误会持续发酵，越拖局势越坏；敌方会利用我方这套失误持续施压。",fortune:"凶"},
+{n:19,name:"地泽临",lower:"兑",upper:"坤",meaning:"居高临下，逐步施压",tip:"持续消耗，逐步压缩对面生存空间。",omen:"土泽之势压向敌方前方；我方黄褐色皮肤英雄负责稳住阵线，敌方暗紫皮肤英雄会持续反消耗。缓缓蚕食为吉，急于强冲则生出祸端。",fortune:"吉"},
+{n:20,name:"风地观",lower:"坤",upper:"巽",meaning:"静观审视，观察局势",tip:"多看再打，看懂对手强度再决定接不接团。",omen:"风势游走，敌我虚实难辨；重点盯敌方青绿色皮肤英雄，该英雄擅长伪装诱敌。切勿贸然出手，看清该英雄行动再开战。",fortune:"中"},
+{n:21,name:"火雷噬嗑",lower:"震",upper:"离",meaning:"断除障碍，强力攻坚",tip:"集火关键目标，果断清除阻碍。",omen:"火雷交轰；红色、雷电紫英雄负责突破，没有火雷属性，优先集火敌方红色 / 电光紫皮肤的关键目标。前方障碍必须果断拔除，姑息养奸则凶。",fortune:"吉"},
+{n:22,name:"山火贲",lower:"离",upper:"艮",meaning:"文饰外在，虚有其表",tip:"不要被华丽特效迷惑，看重实际战斗力。",omen:"山火绚烂；敌方红色 + 暗灰铠甲皮肤英雄特效华丽声势浩大，实际战力空洞，勿被表象震慑，不要优先集火他。",fortune:"中"},
+{n:23,name:"山地剥",lower:"坤",upper:"艮",meaning:"剥落侵蚀，逐步衰败",tip:"尽量避免小规模消耗战，保存核心战力。",omen:"如山土层层剥落，我方防线从前方向后方不断瓦解；敌方暗灰厚重皮肤的前排会一点点磨掉我方血量，不要持续接小团消耗。",fortune:"大凶"},
+{n:24,name:"地雷复",lower:"震",upper:"坤",meaning:"往复回归，绝处逢生",tip:"抓住翻盘窗口，不要放弃。",omen:"雷霆生机自我方后方再起；我方电光紫、黄褐色皮肤英雄是翻盘火种。纵使全线溃败，只要这两位存活，仍存有翻盘契机，不可直接摆烂。",fortune:"凶后转吉"},
+{n:25,name:"天雷无妄",lower:"乾",upper:"震",meaning:"不妄为，不赌运气",tip:"拒绝赌命，做确定收益的操作。",omen:"天雷刚正；我方金色、电光紫皮肤英雄切忌赌徒式操作。妄想靠运气搏杀，反而招来敌方电光紫英雄的无妄突袭。",fortune:"中吉"},
+{n:26,name:"山天大畜",lower:"乾",upper:"艮",meaning:"大为积蓄，厚蓄实力",tip:"积蓄完成之后再全力出击。",omen:"金山蓄势于我方半场；我方金色、暗灰铠甲皮肤英雄需要憋装备。未积攒完成前贸然向前，力量难以发挥，容易被敌方红色皮肤英雄打断节奏。",fortune:"吉"},
+{n:27,name:"山雷颐",lower:"震",upper:"艮",meaning:"颐养自保，保全自身",tip:"适当补生存属性，优先保证存活。",omen:"山雷守御；我方暗灰铠甲、电光紫皮肤英雄，生存为第一要义。一味向前输出，自身陨落则全队皆输；敌方红色皮肤英雄专门针对残血。",fortune:"中吉"},
+{n:28,name:"泽风大过",lower:"巽",upper:"兑",meaning:"大过失衡，极端偏激",tip:"极端玩法风险极高，一旦被针对直接崩盘。",omen:"泽风倾覆；我方青绿色、暗紫皮肤英雄构筑走向极端，全员输出或全员纯肉。敌方红色皮肤英雄抓住弱点即可覆灭全队。",fortune:"大凶"},
+{n:29,name:"习坎",lower:"坎",upper:"坎",meaning:"重重险难，步步危机",tip:"步步谨慎，不要连续接团，找机会避险。",omen:"重重水险；敌方冰雪水系敌人遍布战场，若无，敌方冰蓝皮肤英雄处处布控陷阱。前方、侧翼处处是危险，连续交战会被该英雄接连击杀。",fortune:"大凶"},
+{n:30,name:"离为火",lower:"离",upper:"离",meaning:"光明附丽，依靠依附",tip:"必须和队友绑定，不可单独行动。",omen:"烈火燎原；我方火系英雄威力巨大，无火属性，则我方红色皮肤英雄是输出核心。一旦该英雄脱离队友，火光熄灭立刻陷入危局，敌方暗紫皮肤英雄会趁机切他。",fortune:"吉"},
+{n:31,name:"泽山咸",lower:"艮",upper:"兑",meaning:"感应相通，互相联动",tip:"发掘彼此之间的协同效果。",omen:"泽山交感；我方暗紫、暗灰铠甲皮肤英雄打出联动配合则吉。敌方暗紫 + 暗灰铠甲英雄一旦形成联动，对我方就是大凶。",fortune:"吉"},
+{n:32,name:"雷风恒",lower:"巽",upper:"震",meaning:"恒久稳定，打法持续可靠",tip:"走稳定持久团战路线。",omen:"雷风不息；我方电光紫、青绿色皮肤英雄适合持续输出、续航。追求瞬间爆发，被敌方红色皮肤英雄一轮爆发打掉，则难以长久立足。",fortune:"中吉"}
+];
+
+const HEXAGRAMS_B = [
+{n:33,name:"天山遁",lower:"艮",upper:"乾",meaning:"退避隐遁，知时撤退",tip:"该跑就跑，不要死磕到底。",omen:"金山压于敌方前方；敌方金色、暗灰铠甲皮肤英雄力量强盛。及时退回我方后方保全实力，恋战，被这两个英雄留住必亡。",fortune:"知退则吉，硬刚则凶"},
+{n:34,name:"雷天大壮",lower:"乾",upper:"震",meaning:"声势壮盛，但不可恃强妄动",tip:"强，但不能乱冲，克制进攻欲望。",omen:"雷金威势盛大；我方金色、电光紫皮肤英雄前方气势如虹。自持强大贸然突进，会遭到敌方冰蓝皮肤英雄埋伏。",fortune:"吉中藏凶"},
+{n:35,name:"火地晋",lower:"坤",upper:"离",meaning:"光明晋升，逐步向上",tip:"稳步推进，循序渐进扩大优势。",omen:"火光自我方向敌方前方缓缓蔓延；我方红色、黄褐色皮肤英雄稳步推进。切忌一步登天强冲，敌方暗紫皮肤英雄会抓住冒进破绽。",fortune:"吉"},
+{n:36,name:"地火明夷",lower:"离",upper:"坤",meaning:"光明受损，受创蒙难",tip:"收敛锋芒，苟活等待机会。",omen:"火光被大地遮蔽；我方红色皮肤核心被针对，敌方黄褐色皮肤英雄持续压制。该核心不可显露锋芒，躲在我方后方伺机而动。",fortune:"凶"},
+{n:37,name:"风火家人",lower:"离",upper:"巽",meaning:"队内秩序，各司其职",tip:"守好自己定位，不要抢别人职能。",omen:"风火相济；我方红色、青绿色皮肤英雄队内分工井然。各安其位则团战顺畅；越俎代庖抢职能，就会被敌方金色皮肤英雄找到突破口。",fortune:"吉"},
+{n:38,name:"火泽睽",lower:"兑",upper:"离",meaning:"异志相违，彼此背离",tip:"求同存异，统一行动，切忌各行其是。",omen:"火泽相背；我方红色、暗紫皮肤英雄想法互相冲突。一部分人向前冲锋，一部分人向后撤退，阵型撕裂；敌方冰蓝皮肤英雄专门收割分裂的队伍。",fortune:"凶"},
+{n:39,name:"水山蹇",lower:"艮",upper:"坎",meaning:"前路险阻，寸步难行",tip:"不要硬攻，迂回拉扯，寻找侧面机会。",omen:"水山阻隔；敌方坦系 + 冰雪英雄堵死正面，若无，则敌方暗灰铠甲 + 冰蓝皮肤英雄封锁全部正面。直走前方必碰壁，要绕开该组合，寻找侧翼缝隙。",fortune:"偏凶"},
+{n:40,name:"雷水解",lower:"坎",upper:"震",meaning:"险难消解，困局解开",tip:"抓住解脱窗口主动出击。",omen:"雷霆冲破水困；我方电光紫皮肤英雄，是打破敌方冰蓝英雄封锁的关键。长久压制之后，转机出现于中线交战，抓住窗口即可破局。",fortune:"凶转吉"},
+{n:41,name:"山泽损",lower:"兑",upper:"艮",meaning:"有所减损，主动舍弃",tip:"懂得取舍，不要什么都想要。",omen:"山泽相耗，必有牺牲；我方暗灰铠甲、暗紫皮肤英雄，主动舍弃部分伤害换取生存为吉。什么都不愿放弃，会被敌方红色皮肤英雄重创，全盘受损。",fortune:"中"},
+{n:42,name:"风雷益",lower:"震",upper:"巽",meaning:"互利增益，互相成全",tip:"多做利于全队的选择，助人即是助己。",omen:"风雷相益；我方电光紫、青绿色皮肤英雄互相增益，成全队友，全队力量上涨。只顾自己，便错失吉兆；敌方暗紫皮肤英雄会破坏我方增益链。",fortune:"大吉"},
+{n:43,name:"泽天夬",lower:"乾",upper:"兑",meaning:"决断清除，扫除祸患",tip:"团战集火对方威胁最大的点，速战速决。",omen:"泽金交锋；敌方暗紫、金色皮肤英雄是前方最大威胁。犹豫姑息留其性命，必将反噬我方，我方红色皮肤英雄负责完成斩杀。",fortune:"吉"},
+{n:44,name:"天风姤",lower:"巽",upper:"乾",meaning:"不期而遇，突发遭遇战",tip:"遭遇战冷静处理，不要慌乱交完全部技能。",omen:"风金猝然相逢，中线意外开战；敌方青绿色、金色皮肤英雄，最擅长猝然开团。祸从天降，切忌慌乱交光全部技能。",fortune:"中"},
+{n:45,name:"泽地萃",lower:"坤",upper:"兑",meaning:"会聚聚集，集中力量",tip:"杜绝单人游走，全员集合。",omen:"泽土汇聚；我方黄褐色、暗紫皮肤英雄必须抱团。分散游走，就会被敌方冰蓝皮肤英雄逐个收割。",fortune:"聚合吉，分散凶"},
+{n:46,name:"地风升",lower:"巽",upper:"坤",meaning:"顺势上升，逐步抬升局势",tip:"顺势发展，不要急于求成一波定胜负。",omen:"地风缓缓升腾；我方黄褐色、青绿色皮肤英雄带动局势慢慢走高。不要急于一波结束，稳步向前扩大优势；敌方红色皮肤英雄会打断速攻。",fortune:"吉"},
+{n:47,name:"泽水困",lower:"坎",upper:"兑",meaning:"受困窘迫，进退两难",tip:"避免继续消耗，找机会突围，不要原地僵持。",omen:"泽水围困；敌方暗紫、冰蓝皮肤英雄，把我方卡在中线进退不得。向前被击杀，后撤被追击，原地僵持只会持续被消耗。",fortune:"大凶"},
+{n:48,name:"水风井",lower:"巽",upper:"坎",meaning:"守其本源，依靠固有能力",tip:"外在加成只是增益，根基是自身基础实力。",omen:"水风守本；我方冰蓝、青绿色皮肤英雄，吉运根植于自身技能底子。不要过度仰仗外部加成；敌方金色皮肤英雄会无视加成直击本体。",fortune:"中吉"},
+{n:49,name:"泽火革",lower:"离",upper:"兑",meaning:"变革改易，彻底转变打法",tip:"审时度势，及时调整出装、团战思路。",omen:"泽火剧变；我方红色、暗紫皮肤英雄，必须改变原有打法。固守旧思路必败；敌方黄褐色皮肤英雄会利用我方旧打法持续消耗。",fortune:"变革则吉，守旧则凶"},
+{n:50,name:"火风鼎",lower:"巽",upper:"离",meaning:"定鼎立新，构筑成型",tip:"体系成型后发挥完整体系威力。",omen:"火风成鼎；我方红色、青绿色皮肤英雄，体系完整成型，前后配合浑然一体。体系成型后重点保护这两个英雄，提防敌方暗紫皮肤刺客。",fortune:"大吉"},
+{n:51,name:"震为雷",lower:"震",upper:"震",meaning:"震动惊变，突发大乱",tip:"保持冷静，不要被混乱场面打乱判断。",omen:"双雷震荡；敌方电光紫皮肤英雄，团战爆发极快，场面大乱。慌乱操作转凶；我方电光紫皮肤英雄冷静应对可得吉。",fortune:"吉凶混杂"},
+{n:52,name:"艮为山",lower:"艮",upper:"艮",meaning:"止而不动，知止不进",tip:"不该打的团坚决不接。",omen:"重山屹立；敌方暗灰厚重皮肤英雄把守前方。固守我方半场不主动出击，贸然向前，会被该英雄配合红色皮肤输出重创。",fortune:"守则吉，妄动则凶"},
+{n:53,name:"风山渐",lower:"艮",upper:"巽",meaning:"渐进缓进，步步推进",tip:"慢慢来，不要冒进。",omen:"风山缓缓推进；我方青绿色、暗灰铠甲皮肤英雄，一步一步蚕食敌方前方。猛冲冒进破坏节奏，会被敌方冰蓝皮肤英雄抓住破绽招致灾祸。",fortune:"吉"},
+{n:54,name:"雷泽归妹",lower:"兑",upper:"震",meaning:"强求妄进，所求不当",tip:"不要贪图炫酷选择，优先适配自身。",omen:"雷泽错位；我方电光紫、暗紫皮肤英雄，强行选用和自身不匹配的思路。追求花里胡哨，实际与队伍格格不入，敌方金色皮肤英雄会放大这套错误。",fortune:"凶"},
+{n:55,name:"雷火丰",lower:"离",upper:"震",meaning:"丰盛盛大，强盛之中藏隐患",tip:"数值再高也不要大意，提防被对面抓住破绽秒杀。",omen:"雷火盛大；我方红色、电光紫皮肤英雄输出爆炸。声势鼎盛之时破绽也最为致命，敌方暗紫皮肤刺客会优先针对这两位。",fortune:"吉中藏大凶"},
+{n:56,name:"火山旅",lower:"艮",upper:"离",meaning:"漂泊无依，没有根基",tip:"找好定位，不要全员游击，建立团队支点。",omen:"火在山外漂泊；我方红色、暗灰铠甲皮肤英雄，全队没有稳固支点。前后飘移不定，极易被敌方青绿色皮肤游走英雄打散。",fortune:"偏凶"},
+{n:57,name:"巽为风",lower:"巽",upper:"巽",meaning:"顺势入理，灵活迂回",tip:"善用拉扯，不要死磕正面。",omen:"双风迂回；我方青绿色皮肤英雄，不硬撞敌方正面。游走侧翼寻找机会；死磕正面，会撞上敌方暗灰铠甲皮肤前排处处碰壁。",fortune:"中吉"},
+{n:58,name:"兑为泽",lower:"兑",upper:"兑",meaning:"和悦沟通，心态松弛",tip:"保持良好心态，心态乱则操作乱。",omen:"双泽和悦；我方暗紫皮肤英雄心态平和，全队配合流畅。心态崩坏互相指责，再好局势也会转凶，敌方红色皮肤英雄擅长抓心态崩盘的机会。",fortune:"吉"},
+{n:59,name:"风水涣",lower:"坎",upper:"巽",meaning:"涣散分离，队伍四分五裂",tip:"立刻收拢队伍，重整阵型。",omen:"风水涣散；我方青绿色、冰蓝皮肤英雄容易四散跑开，队伍阵型崩解。队员前后脱节，被敌方金色皮肤英雄分割逐一击杀。",fortune:"大凶"},
+{n:60,name:"水泽节",lower:"兑",upper:"坎",meaning:"节制有度，懂得克制",tip:"凡事留余地，不要把收益吃满招致暴毙。",omen:"水泽有度；我方冰蓝、暗紫皮肤英雄向前进攻要懂得留退路。贪求全部收益越塔深入，会被敌方红色皮肤英雄反杀殒命。",fortune:"节制则吉，放纵则凶"},
+{n:61,name:"风泽中孚",lower:"兑",upper:"巽",meaning:"内心诚信，相信队友判断",tip:"相信队友，少怀疑多配合。",omen:"风泽相感；我方青绿色、暗紫皮肤英雄互相信任，相信队友信号则团战顺遂。猜忌多疑行动互相拆台，则给敌方黄褐色皮肤英雄消耗机会。",fortune:"吉"},
+{n:62,name:"雷山小过",lower:"艮",upper:"震",meaning:"小有逾越，小的冒进失误",tip:"及时收敛，不要小错积累成大溃败。",omen:"雷山小越；我方电光紫、暗灰铠甲皮肤英雄，在前方发生小贪冒进。只是小失误，不知收敛，会被敌方冰蓝皮肤英雄利用，累积成大败。",fortune:"小凶，可挽回"},
+{n:63,name:"水火既济",lower:"离",upper:"坎",meaning:"大功已成，局面圆满",tip:"事成之后更要谨慎，防止功亏一篑。",omen:"水火调和；我方红色、冰蓝皮肤英雄配合圆满。胜利在望之时最容易松懈翻车；敌方暗紫皮肤英雄会做最后拼死反扑，慎终如始方得全胜。",fortune:"大吉"},
+{n:64,name:"火水未济",lower:"坎",upper:"离",meaning:"事未成，错位颠倒，循环往复",tip:"不到结束不算终局，随时会反转，不可提前放松。",omen:"火水错位；我方红色、冰蓝皮肤英雄能力错位，发挥不出完整力量。战局悬而未决，敌方金色、暗紫皮肤英雄随时可以改写胜负，无论顺逆皆不可提前下定论。",fortune:"吉凶未定"}
+];
+
+const HEXAGRAMS = [...HEXAGRAMS_A, ...HEXAGRAMS_B];
+
+/* ================= 工具函数 ================= */
+/* 六爻 SVG 卦象，yaos 从下往上（初爻 index 0） */
+function guaSVG(yaos, w, h, gap){
+  let s = "";
+  for(let i=5;i>=0;i--){
+    const y = (5-i)*(h+gap);
+    if(yaos[i]===1){
+      s += `<rect x="0" y="${y}" width="${w}" height="${h}" rx="${h/3}"/>`;
+    }else{
+      s += `<rect x="0" y="${y}" width="${w*0.36}" height="${h}" rx="${h/3}"/>`;
+      s += `<rect x="${w*0.64}" y="${y}" width="${w*0.36}" height="${h}" rx="${h/3}"/>`;
+    }
+  }
+  return `<svg viewBox="0 0 ${w} ${6*(h+gap)}" width="${w}" height="${6*(h+gap)}" fill="currentColor">${s}</svg>`;
+}
+/* 三爻 SVG 卦象（八卦小图标） */
+function trigramSVG(name, w, h, gap){
+  const bits = TRIGRAMS[name].bits;
+  let s = "";
+  for(let i=2;i>=0;i--){
+    const y = (2-i)*(h+gap);
+    if(bits[i]===1){
+      s += `<rect x="0" y="${y}" width="${w}" height="${h}" rx="${h/3}"/>`;
+    }else{
+      s += `<rect x="0" y="${y}" width="${w*0.36}" height="${h}" rx="${h/3}"/>`;
+      s += `<rect x="${w*0.64}" y="${y}" width="${w*0.36}" height="${h}" rx="${h/3}"/>`;
+    }
+  }
+  return `<svg viewBox="0 0 ${w} ${3*(h+gap)}" width="${w}" height="${3*(h+gap)}" fill="currentColor">${s}</svg>`;
+}
+
+/* 皮肤颜色词高亮 */
+const COLOR_WORDS = [
+  ["电光紫","#a78bfa"],["黄褐色","#c9a36a"],["暗灰厚重","#8f8f92"],["暗灰铠甲","#8f8f92"],
+  ["冰蓝色","#7ec8e3"],["青绿色","#8ecb7f"],["暗紫色","#b080c9"],["冰蓝","#7ec8e3"],
+  ["金色","#e6c25c"],["暗灰","#8f8f92"],["暗紫","#b080c9"],["红色","#ef6a58"],
+  ["赤红","#ef6a58"],["艳红","#ef6a58"],["土黄","#c9a36a"],["棕褐","#b08d5a"],
+  ["深蓝","#6f9bd6"],["冰白","#d8eef8"],["冷白","#d8eef8"],["亮紫","#a78bfa"],
+  ["电光青","#7fd4d4"],["浅青","#8ecb7f"],["亮白","#f2efe6"],["洋红","#e07ab0"],
+  ["雷电紫","#a78bfa"],["青色","#8ecb7f"],["灰色","#9a9a9e"],["暗棕","#a0764a"]
+];
+const COLOR_RE = new RegExp(COLOR_WORDS.map(w=>w[0]).join("|"), "g");
+function highlight(text){
+  return text.replace(COLOR_RE, m=>`<span class="cw" style="--c:${COLOR_WORDS.find(w=>w[0]===m)[1]}">${m}</span>`);
+}
+
+/* 六爻组合 → 卦 */
+function yaosOf(lower, upper){
+  return [...TRIGRAMS[lower].bits, ...TRIGRAMS[upper].bits];
+}
+function findGua(lower, upper){
+  return HEXAGRAMS.find(g=>g.lower===lower && g.upper===upper);
+}
+
+/* 吉凶徽章样式 */
+function fortuneClass(f){
+  if(/大吉/.test(f)) return "fg-da";
+  if(/大凶/.test(f)) return "fg-da-xiong";
+  if(/吉凶|凶后转吉|凶转吉|吉中藏|未定/.test(f)) return "fg-mix";
+  if(/凶/.test(f)) return "fg-xiong";
+  if(/吉/.test(f)) return "fg-ji";
+  return "fg-zhong";
+}
+function fortuneCellClass(f){
+  if(/吉/.test(f) && !/凶/.test(f)) return "gf-ji";
+  if(/凶/.test(f)) return "gf-xiong";
+  return "gf-zhong";
+}
+
+/* ================= 罗盘环字 ================= */
+(function(){
+  const ring = document.getElementById("ringWords");
+  const words = ["乾","兑","离","震","巽","坎","艮","坤","乾","兑","离","震","巽","坎","艮","坤"];
+  let html = "";
+  words.forEach((w,i)=>{
+    const a = i*22.5;
+    html += `<span style="transform:rotate(${a}deg)"><i style="transform:rotate(${-a}deg)">${w}</i></span>`;
+  });
+  ring.innerHTML = html;
+})();
+
+/* ================= 八卦对照表 ================= */
+const BAGUA_ROWS = [
+  {tri:"乾",elem:"金｜天",colors:[["金色","#e6c25c"],["亮白","#f2efe6"]],pos:"我方后方（复活点）",note:"场上没有金属性英雄，则看金色皮肤的英雄，作为乾的征兆；出现在敌方，代表敌方爆发强攻威胁。"},
+  {tri:"坤",elem:"土｜地",colors:[["土黄","#c9a36a"],["棕褐","#b08d5a"]],pos:"我方半场、我方后方",note:"无土属性英雄，看土黄色 / 黄褐色皮肤；多对应坦克、持续消耗。"},
+  {tri:"震",elem:"雷",colors:[["亮紫","#a78bfa"],["电光青","#7fd4d4"]],pos:"中线、交战区",note:"无雷属性英雄，看带电光特效、紫青色皮肤；代表突袭、爆发开团。"},
+  {tri:"巽",elem:"风",colors:[["青绿","#8ecb7f"],["浅青","#8ecb7f"]],pos:"侧翼、游走位",note:"无风属性英雄，看青绿色皮肤；代表拉扯、绕后、机动。"},
+  {tri:"坎",elem:"水｜冰雪",colors:[["深蓝","#6f9bd6"],["冰白","#d8eef8"]],pos:"敌方前方、侧翼",note:"无冰雪水系英雄，看冰蓝、冷白皮肤；代表控制、减速、持续消耗。"},
+  {tri:"离",elem:"火",colors:[["赤红","#ef6a58"],["艳红","#ef6a58"]],pos:"敌方前方，交战中线",note:"重点规则：敌方没有火属性英雄，就要留意场上红色皮肤英雄，他就是火兆的载体，会是主要伤害来源。"},
+  {tri:"艮",elem:"山｜坚石",colors:[["深灰","#8f8f92"],["暗棕","#a0764a"]],pos:"敌方前排位置",note:"无山 / 坚坦英雄，看厚重暗灰铠甲皮肤；代表硬坦、阻挡、封锁走位。"},
+  {tri:"兑",elem:"泽｜毒腐蚀",colors:[["暗紫","#b080c9"],["洋红","#e07ab0"]],pos:"敌方侧方",note:"无泽 / 毒系英雄，看暗紫、洋红皮肤；代表持续 debuff、消耗、陷阱。"}
+];
+(function(){
+  const tbody = document.getElementById("baguaTbody");
+  tbody.innerHTML = BAGUA_ROWS.map(r=>`
+    <tr>
+      <td class="trigram">${trigramSVG(r.tri,20,3,2.5)}${r.tri}</td>
+      <td>${r.elem}</td>
+      <td>${r.colors.map(c=>`<span class="swatch" style="background:${c[1]}"></span>${c[0]}`).join("&nbsp; ")}</td>
+      <td>${r.pos}</td>
+      <td>${r.note}</td>
+    </tr>`).join("");
+})();
+
+/* ================= 渲染卦象 ================= */
+function renderGua(gua, yaos){
+  document.getElementById("guaFigure").innerHTML = guaSVG(yaos, 84, 9, 10);
+  document.getElementById("guaNum").textContent = `第 ${gua.n} 卦`;
+  document.getElementById("guaName").textContent = gua.name;
+  document.getElementById("guaTrigrams").textContent = `${gua.lower}下${gua.upper}上`;
+  const ft = document.getElementById("guaFortune");
+  ft.className = "gua-fortune " + fortuneClass(gua.fortune);
+  ft.textContent = gua.fortune;
+  document.getElementById("guaMeaning").innerHTML = highlight(gua.meaning);
+  document.getElementById("guaTip").innerHTML = highlight(gua.tip);
+  document.getElementById("guaOmen").innerHTML = highlight(gua.omen);
+  const res = document.getElementById("result");
+  res.classList.remove("show");
+  void res.offsetWidth;
+  res.classList.add("show");
+}
+
+/* ================= 六十四卦总览 ================= */
+(function(){
+  const grid = document.getElementById("guaGrid");
+  grid.innerHTML = HEXAGRAMS.map(g=>{
+    const yaos = yaosOf(g.lower, g.upper);
+    return `<div class="gua-cell" data-n="${g.n}" title="${g.name} · ${g.fortune}">
+      <span class="g-num">${g.n}</span>
+      <span class="g-svg">${guaSVG(yaos, 26, 3.2, 3)}</span>
+      <span class="g-name">${g.name}</span>
+      <span class="g-fortune ${fortuneCellClass(g.fortune)}">${g.fortune}</span>
+    </div>`;
+  }).join("");
+  grid.addEventListener("click", e=>{
+    const cell = e.target.closest(".gua-cell");
+    if(!cell) return;
+    const g = HEXAGRAMS.find(x=>x.n===+cell.dataset.n);
+    renderGua(g, yaosOf(g.lower, g.upper));
+    document.getElementById("result").scrollIntoView({behavior:"smooth", block:"start"});
+  });
+})();
+
+/* ================= 起卦动画 ================= */
+const castBtn = document.getElementById("castBtn");
+const yaoStage = document.getElementById("yaoStage");
+let casting = false;
+
+function animateCast(){
+  if(casting) return;
+  casting = true;
+  castBtn.disabled = true;
+  castBtn.textContent = "卦象已成";
+  document.getElementById("result").classList.remove("show");
+
+  /* 随机生成六爻（下到上） */
+  const yaos = [];
+  for(let i=0;i<6;i++) yaos.push(Math.random()<0.5?0:1);
+  const lower = VAL_TO_TRIGRAM[yaos[0]*4 + yaos[1]*2 + yaos[2]];
+  const upper = VAL_TO_TRIGRAM[yaos[3]*4 + yaos[4]*2 + yaos[5]];
+  const gua = findGua(lower, upper) || HEXAGRAMS[0];
+
+  yaoStage.innerHTML = "";
+  let built = 0;
+  for(let i=0;i<6;i++){
+    const d = document.createElement("div");
+    d.className = "yao " + (yaos[i]===1?"yang":"yin");
+    d.innerHTML = "<span></span><span></span>";
+    yaoStage.appendChild(d);
+  }
+  const kids = yaoStage.children;
+  for(let i=0;i<6;i++){
+    setTimeout(()=>{
+      kids[i].classList.add("on");
+      built++;
+      if(built===6){
+        setTimeout(()=>{
+          renderGua(gua, yaos);
+          casting = false;
+          castBtn.disabled = false;
+          castBtn.textContent = "再起一卦";
+        }, 420);
+      }
+    }, 260*i + 120);
+  }
+}
+castBtn.addEventListener("click", animateCast);
+  </script>
+</body>
+</html>
