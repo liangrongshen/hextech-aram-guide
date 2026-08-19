@@ -60,20 +60,20 @@ body::after{
   background-position:0 0,0 0,0 0,50% 100%;
   background-size:auto,auto,auto,100% auto;
 }
-/* 飘雪层 */
+/* 海克斯强化图标飘落层 */
 .snow{
   position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden;
-  mask-image:linear-gradient(to bottom,#000 70%,transparent);
+  mask-image:linear-gradient(to bottom,#000 72%,transparent);
 }
 .snow i{
-  position:absolute;top:-4vh;border-radius:50%;
-  background:#e8f4fb;
-  box-shadow:0 0 6px rgba(216,238,248,.55);
-  animation:fall linear infinite;
+  position:absolute;top:-9vh;
+  background-repeat:no-repeat;background-size:contain;background-position:center;
+  filter:drop-shadow(0 0 5px rgba(126,200,227,.35));
+  animation:hexfall linear infinite;
 }
-@keyframes fall{
-  from{transform:translate3d(0,-5vh,0)}
-  to{transform:translate3d(var(--sway,20px),106vh,0)}
+@keyframes hexfall{
+  from{transform:translate3d(0,-9vh,0) rotate(0deg)}
+  to{transform:translate3d(var(--sway,26px),114vh,0) rotate(var(--rot,360deg))}
 }
 .wrap{position:relative;z-index:2;max-width:1060px;margin:0 auto;padding:0 22px 90px}
 
@@ -688,20 +688,35 @@ function animateCast(){
 }
 castBtn.addEventListener("click", animateCast);
 
-/* ================= 飘雪 ================= */
+/* ================= 海克斯强化图标飘落 ================= */
 (function(){
   const snow = document.getElementById("snow");
   if(!snow) return;
-  const N = 46;
+  /* 强化符号：剑(攻击) / 盾(防御) / 瓶(回复) / 闪电(急速) / 星(传说) */
+  const SYMBOLS = [
+    "M14.5 2.5l7 7-8 8-7-7zM9 9.5L4 14.5l4.5 4.5 5-5z",
+    "M12 3l5.5 1.8v5.6c0 3.6-2.3 6.3-5.5 7.4-3.2-1.1-5.5-3.8-5.5-7.4V4.8z",
+    "M10.5 3h3v3h-3zM10 6.5h4v2h-4zM9 8.5h6V21H9z",
+    "M13 2L5 12h5l-1.5 10L17 12h-5z",
+    "M12 2l2.6 6.1 6.6.7-5 4.3 1.4 6.4L12 16.4l-5.6 3.1 1.4-6.4-5-4.3 6.6-.7z"
+  ];
+  /* 稀有度：普通(冰蓝) / 稀有(青绿) / 史诗(洋紫) / 传说(金) */
+  const TIERS = ["#7ec8e3","#8ecb7f","#b080c9","#e6c25c"];
+  const N = 34;
   let html = "";
   for(let i=0;i<N;i++){
+    const sym = SYMBOLS[(Math.random()*SYMBOLS.length)|0];
+    const tier = TIERS[(Math.random()*TIERS.length)|0];
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2l8.66 5v10L12 22l-8.66-5V7z" fill="none" stroke="${tier}" stroke-width="1.3" opacity=".85"/><path d="${sym}" fill="${tier}" opacity=".8"/></svg>`;
+    const uri = "url(data:image/svg+xml," + encodeURIComponent(svg) + ")";
     const x = (Math.random()*100).toFixed(1);
-    const size = (1.6 + Math.random()*2.4).toFixed(1);
-    const dur = (7 + Math.random()*9).toFixed(1);
-    const delay = (-Math.random()*18).toFixed(1);
-    const op = (0.22 + Math.random()*0.48).toFixed(2);
-    const sway = ((Math.random()*70 - 35)|0);
-    html += `<i style="left:${x}%;width:${size}px;height:${size}px;opacity:${op};animation-duration:${dur}s;animation-delay:${delay}s;--sway:${sway}px"></i>`;
+    const size = (15 + Math.random()*13).toFixed(1);
+    const dur = (8 + Math.random()*10).toFixed(1);
+    const delay = (-Math.random()*20).toFixed(1);
+    const op = (0.25 + Math.random()*0.4).toFixed(2);
+    const sway = ((Math.random()*80 - 40)|0);
+    const rot = (180 + Math.random()*540)|0;
+    html += `<i style="left:${x}%;width:${size}px;height:${size}px;opacity:${op};background-image:${uri};animation-duration:${dur}s;animation-delay:${delay}s;--sway:${sway}px;--rot:${rot}deg"></i>`;
   }
   snow.innerHTML = html;
 })();
