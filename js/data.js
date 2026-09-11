@@ -1,13 +1,13 @@
 /* ============================================================
    海克斯出装助手 · 自动生成数据（请勿手动编辑）
-   生成时间：2026-09-10 03:44 UTC
-   数据来源：arammayhem.com（版本 26.17，更新于 2026-09-07）
+   生成时间：2026-09-11 03:43 UTC
+   数据来源：arammayhem.com（版本 26.17，更新于 2026-09-09）
    图标来源：Riot Games Data Dragon
    ============================================================ */
 
 const APP = {
   patch: "26.17",
-  updated: "2026-09-07",
+  updated: "2026-09-09",
   ddVersion: "16.10.1",
   total: 172,
   heroCount: 172,
@@ -197,375 +197,375 @@ const ROLES = ['全部', '战士', '坦克', '法师', '刺客', '射手', '辅�
 const TIERS = ['全部', 'S+', 'S', 'A', 'B'];
 
 const AUGMENTS = [
-  { name: "质变：棱彩阶", rarity: "gold", wr: 65.25, pr: 63.98, rank: 1 },
-  { name: "掷骰狂人", rarity: "prismatic", wr: 65.09, pr: 43.41, rank: 2 },
-  { name: "缩小引擎", rarity: "gold", wr: 61.58, pr: 56.36, rank: 3 },
-  { name: "循环往复", rarity: "gold", wr: 60.54, pr: 58.22, rank: 4 },
-  { name: "亮出你的剑", rarity: "prismatic", wr: 60.49, pr: 15.62, rank: 5 },
-  { name: "坦克引擎", rarity: "gold", wr: 60.37, pr: 48.32, rank: 6 },
-  { name: "术士果汁盒", rarity: "gold", wr: 59.36, pr: 42.45, rank: 8 },
-  { name: "任务：钢化你心", rarity: "gold", wr: 59.36, pr: 32.63, rank: 9 },
-  { name: "暴击飞弹", rarity: "gold", wr: 59.2, pr: 41.69, rank: 10 },
-  { name: "无限循环往复", rarity: "prismatic", wr: 59.16, pr: 32.08, rank: 11 },
-  { name: "大力", rarity: "silver", wr: 58.44, pr: 46.72, rank: 12 },
-  { name: "灵魂虹吸", rarity: "gold", wr: 58.43, pr: 34.69, rank: 13 },
-  { name: "尤里卡", rarity: "prismatic", wr: 58.05, pr: 39.35, rank: 14 },
-  { name: "超凡邪恶", rarity: "gold", wr: 57.99, pr: 35.48, rank: 15 },
-  { name: "重量级打击手", rarity: "silver", wr: 57.98, pr: 38.55, rank: 16 },
-  { name: "牙仙子", rarity: "gold", wr: 57.93, pr: 41.04, rank: 17 },
-  { name: "易损", rarity: "gold", wr: 57.74, pr: 37.2, rank: 18 },
-  { name: "珠光护手", rarity: "prismatic", wr: 57.7, pr: 53.72, rank: 19 },
-  { name: "虚幻武器", rarity: "gold", wr: 57.64, pr: 42.66, rank: 20 },
-  { name: "歌利亚巨人", rarity: "prismatic", wr: 57.33, pr: 35.46, rank: 21 },
-  { name: "科学狂人", rarity: "prismatic", wr: 57.3, pr: 30.36, rank: 22 },
-  { name: "升级：无尽之刃", rarity: "gold", wr: 57.19, pr: 37.56, rank: 23 },
-  { name: "有始有终", rarity: "gold", wr: 57.1, pr: 29.44, rank: 24 },
-  { name: "飞身踢", rarity: "prismatic", wr: 57.06, pr: 42.44, rank: 25 },
-  { name: "回归基本功", rarity: "prismatic", wr: 57.06, pr: 27.22, rank: 26 },
-  { name: "逃跑计划", rarity: "silver", wr: 56.9, pr: 37.85, rank: 27 },
-  { name: "炼狱导管", rarity: "prismatic", wr: 56.89, pr: 23.08, rank: 28 },
-  { name: "双刀流", rarity: "prismatic", wr: 56.42, pr: 27.45, rank: 29 },
-  { name: "巨人杀手", rarity: "prismatic", wr: 56.35, pr: 27.97, rank: 30 },
-  { name: "叠角龙", rarity: "silver", wr: 56.18, pr: 8.38, rank: 31 },
-  { name: "捐赠", rarity: "gold", wr: 56.11, pr: 26.48, rank: 32 },
-  { name: "渴血", rarity: "silver", wr: 56.0, pr: 39.94, rank: 33 },
-  { name: "家园卫士", rarity: "silver", wr: 55.72, pr: 27.12, rank: 34 },
-  { name: "灵巧", rarity: "silver", wr: 55.71, pr: 31.08, rank: 35 },
-  { name: "物理转魔法", rarity: "silver", wr: 55.69, pr: 42.35, rank: 36 },
-  { name: "空投熊", rarity: "prismatic", wr: 55.33, pr: 12.77, rank: 37 },
-  { name: "更万用的瞄准镜", rarity: "gold", wr: 55.31, pr: 28.22, rank: 38 },
-  { name: "大师铸就", rarity: "silver", wr: 55.3, pr: 34.67, rank: 39 },
-  { name: "喂呜喂呜", rarity: "gold", wr: 55.14, pr: 2.86, rank: 40 },
-  { name: "魔法转物理", rarity: "silver", wr: 55.12, pr: 26.63, rank: 41 },
-  { name: "会心防御", rarity: "silver", wr: 55.0, pr: 18.65, rank: 42 },
-  { name: "暗影疾奔", rarity: "silver", wr: 54.99, pr: 24.18, rank: 43 },
-  { name: "狂热者", rarity: "silver", wr: 54.95, pr: 28.3, rank: 44 },
-  { name: "双生火焰", rarity: "silver", wr: 54.88, pr: 41.51, rank: 45 },
-  { name: "秘术冲拳", rarity: "prismatic", wr: 54.88, pr: 27.81, rank: 46 },
-  { name: "魔法飞弹", rarity: "gold", wr: 54.87, pr: 30.04, rank: 47 },
-  { name: "咏叹奏鸣", rarity: "gold", wr: 54.55, pr: 4.11, rank: 48 },
-  { name: "星界躯体", rarity: "gold", wr: 54.37, pr: 28.6, rank: 49 },
-  { name: "任务：沃格勒特的巫师帽", rarity: "prismatic", wr: 54.37, pr: 16.12, rank: 50 },
-  { name: "属性叠属性！", rarity: "gold", wr: 54.25, pr: 18.65, rank: 51 },
-  { name: "男爵之手", rarity: "prismatic", wr: 54.21, pr: 4.32, rank: 52 },
-  { name: "升级：收集者", rarity: "silver", wr: 54.13, pr: 33.17, rank: 53 },
-  { name: "质变：混沌", rarity: "prismatic", wr: 54.13, pr: 29.89, rank: 54 },
-  { name: "暴击律动", rarity: "gold", wr: 54.11, pr: 24.87, rank: 55 },
-  { name: "升级：献祭", rarity: "silver", wr: 54.04, pr: 20.4, rank: 56 },
-  { name: "纯粹主义者", rarity: "silver", wr: 53.84, pr: 38.46, rank: 57 },
-  { name: "旋转至胜", rarity: "silver", wr: 53.74, pr: 16.04, rank: 58 },
-  { name: "风语者的祝福", rarity: "prismatic", wr: 53.74, pr: 3.38, rank: 59 },
-  { name: "狙神飞星", rarity: "gold", wr: 53.71, pr: 16.54, rank: 60 },
-  { name: "海洋龙魂", rarity: "silver", wr: 53.64, pr: 20.44, rank: 61 },
-  { name: "侵蚀", rarity: "silver", wr: 53.54, pr: 21.45, rank: 62 },
-  { name: "狂徒豪气", rarity: "gold", wr: 53.5, pr: 10.41, rank: 63 },
-  { name: "灵魄炸弹", rarity: "prismatic", wr: 53.42, pr: 3.41, rank: 64 },
-  { name: "老练狙神", rarity: "gold", wr: 53.23, pr: 25.58, rank: 65 },
-  { name: "最终形态", rarity: "prismatic", wr: 53.22, pr: 23.55, rank: 66 },
-  { name: "练腿日", rarity: "silver", wr: 53.19, pr: 28.33, rank: 67 },
-  { name: "冰寒", rarity: "silver", wr: 53.16, pr: 27.62, rank: 68 },
-  { name: "无尽大杀四方", rarity: "gold", wr: 53.01, pr: 23.31, rank: 69 },
-  { name: "急急小子", rarity: "gold", wr: 53.01, pr: 17.71, rank: 70 },
-  { name: "快中求稳", rarity: "silver", wr: 53.0, pr: 12.92, rank: 71 },
-  { name: "保持坚定", rarity: "silver", wr: 52.94, pr: 9.55, rank: 72 },
-  { name: "巫师式思考", rarity: "silver", wr: 52.85, pr: 29.23, rank: 73 },
-  { name: "神射法师", rarity: "gold", wr: 52.82, pr: 20.35, rank: 74 },
-  { name: "由心及物", rarity: "silver", wr: 52.82, pr: 19.95, rank: 75 },
-  { name: "全能龙魂", rarity: "prismatic", wr: 52.78, pr: 9.13, rank: 76 },
-  { name: "面包和黄油", rarity: "gold", wr: 52.76, pr: 30.25, rank: 77 },
-  { name: "连拨击锤", rarity: "prismatic", wr: 52.76, pr: 24.19, rank: 78 },
-  { name: "任务：海牛阿福的勇士", rarity: "prismatic", wr: 52.76, pr: 15.4, rank: 79 },
-  { name: "别停止引导", rarity: "silver", wr: 52.71, pr: 7.54, rank: 80 },
-  { name: "升级：中娅", rarity: "silver", wr: 52.69, pr: 22.33, rank: 81 },
-  { name: "死亡之环", rarity: "prismatic", wr: 52.66, pr: 6.13, rank: 82 },
-  { name: "罪恶快感", rarity: "gold", wr: 52.54, pr: 22.77, rank: 83 },
-  { name: "超强大脑", rarity: "gold", wr: 52.51, pr: 10.7, rank: 84 },
-  { name: "最万用的瞄准镜", rarity: "prismatic", wr: 52.47, pr: 17.16, rank: 85 },
-  { name: "急速之追求", rarity: "gold", wr: 52.45, pr: 29.52, rank: 86 },
-  { name: "唯快不破", rarity: "silver", wr: 52.37, pr: 6.46, rank: 87 },
-  { name: "地形专家", rarity: "gold", wr: 52.33, pr: 5.39, rank: 88 },
-  { name: "踢踏舞", rarity: "prismatic", wr: 52.22, pr: 13.47, rank: 89 },
-  { name: "生机迸发", rarity: "gold", wr: 52.2, pr: 16.83, rank: 90 },
-  { name: "大法师", rarity: "prismatic", wr: 52.19, pr: 31.97, rank: 91 },
-  { name: "尊我为王", rarity: "prismatic", wr: 52.09, pr: 7.27, rank: 92 },
-  { name: "穿针引线", rarity: "gold", wr: 52.07, pr: 30.04, rank: 93 },
-  { name: "史上最大雪球", rarity: "prismatic", wr: 52.05, pr: 22.38, rank: 94 },
-  { name: "扇巴掌", rarity: "silver", wr: 52.05, pr: 19.68, rank: 95 },
-  { name: "邦！", rarity: "gold", wr: 51.99, pr: 10.47, rank: 96 },
-  { name: "面包和奶酪", rarity: "gold", wr: 51.98, pr: 24.39, rank: 97 },
-  { name: "吃过路兵", rarity: "prismatic", wr: 51.96, pr: 11.32, rank: 98 },
-  { name: "贪欲束缚", rarity: "gold", wr: 51.94, pr: 21.34, rank: 99 },
-  { name: "关键暴击", rarity: "gold", wr: 51.9, pr: 15.23, rank: 100 },
-  { name: "黎明使者的坚决", rarity: "gold", wr: 51.76, pr: 15.98, rank: 101 },
-  { name: "急救用具", rarity: "silver", wr: 51.68, pr: 5.65, rank: 102 },
-  { name: "小小的额外帮助", rarity: "gold", wr: 51.66, pr: 14.33, rank: 103 },
-  { name: "升级：耀光", rarity: "gold", wr: 51.58, pr: 17.28, rank: 105 },
-  { name: "天音爆", rarity: "silver", wr: 51.47, pr: 4.8, rank: 106 },
-  { name: "夺金", rarity: "prismatic", wr: 51.43, pr: 6.92, rank: 107 },
-  { name: "溢流", rarity: "gold", wr: 51.41, pr: 10.91, rank: 108 },
-  { name: "终极唤醒", rarity: "prismatic", wr: 51.37, pr: 21.48, rank: 109 },
-  { name: "虹吸", rarity: "silver", wr: 51.37, pr: 18.65, rank: 110 },
-  { name: "俯冲轰炸", rarity: "silver", wr: 51.31, pr: 23.47, rank: 111 },
-  { name: "过量延伸者", rarity: "gold", wr: 51.25, pr: 3.37, rank: 112 },
-  { name: "属性叠属性叠属性！", rarity: "prismatic", wr: 51.24, pr: 8.67, rank: 113 },
-  { name: "万用瞄准镜", rarity: "silver", wr: 51.1, pr: 19.71, rank: 114 },
-  { name: "台风", rarity: "silver", wr: 51.1, pr: 18.93, rank: 115 },
-  { name: "回力ok镖", rarity: "gold", wr: 51.07, pr: 3.37, rank: 116 },
-  { name: "战争交响乐", rarity: "prismatic", wr: 50.95, pr: 12.77, rank: 117 },
-  { name: "高压锅", rarity: "gold", wr: 50.94, pr: 18.7, rank: 118 },
-  { name: "火上浇油", rarity: "gold", wr: 50.92, pr: 13.45, rank: 119 },
-  { name: "点亮他们！", rarity: "silver", wr: 50.91, pr: 10.22, rank: 120 },
-  { name: "回响施放", rarity: "prismatic", wr: 50.81, pr: 7.03, rank: 121 },
-  { name: "残忍", rarity: "prismatic", wr: 50.75, pr: 8.94, rank: 122 },
-  { name: "海克斯科技龙魂", rarity: "silver", wr: 50.63, pr: 14.74, rank: 123 },
-  { name: "吞噬灵魂", rarity: "gold", wr: 50.56, pr: 9.98, rank: 124 },
-  { name: "火狐", rarity: "silver", wr: 50.53, pr: 10.66, rank: 125 },
-  { name: "哎哟，我的硬币！", rarity: "gold", wr: 50.49, pr: 10.51, rank: 126 },
-  { name: "至高天诺言", rarity: "prismatic", wr: 50.47, pr: 1.34, rank: 127 },
-  { name: "面包和果酱", rarity: "gold", wr: 50.46, pr: 21.03, rank: 128 },
-  { name: "全心为你", rarity: "gold", wr: 50.45, pr: 3.62, rank: 129 },
-  { name: "炼狱龙魂", rarity: "silver", wr: 50.31, pr: 16.33, rank: 130 },
-  { name: "会心治疗", rarity: "gold", wr: 50.28, pr: 3.52, rank: 131 },
-  { name: "不祥契约", rarity: "prismatic", wr: 50.2, pr: 8.15, rank: 132 },
-  { name: "全凭身法", rarity: "prismatic", wr: 50.1, pr: 16.21, rank: 133 },
-  { name: "潘朵拉的盒子", rarity: "prismatic", wr: 50.09, pr: 20.03, rank: 134 },
-  { name: "物法皆修", rarity: "prismatic", wr: 50.07, pr: 10.92, rank: 135 },
-  { name: "巨像的勇气", rarity: "prismatic", wr: 50.07, pr: 9.1, rank: 136 },
-  { name: "杀戮时间到了", rarity: "gold", wr: 50.03, pr: 20.42, rank: 137 },
-  { name: "利刃华尔兹", rarity: "prismatic", wr: 49.98, pr: 10.91, rank: 138 },
-  { name: "蛋白粉奶昔", rarity: "prismatic", wr: 49.91, pr: 2.41, rank: 139 },
-  { name: "属性！", rarity: "silver", wr: 49.89, pr: 9.57, rank: 140 },
-  { name: "尖端发明家", rarity: "gold", wr: 49.87, pr: 14.22, rank: 141 },
-  { name: "炽烈黎明", rarity: "gold", wr: 49.82, pr: 3.2, rank: 142 },
-  { name: "双发快射", rarity: "prismatic", wr: 49.73, pr: 18.91, rank: 143 },
-  { name: "仆从大师", rarity: "gold", wr: 49.64, pr: 6.36, rank: 144 },
-  { name: "前进时间到", rarity: "silver", wr: 49.61, pr: 8.97, rank: 145 },
-  { name: "杀意翻涌", rarity: "silver", wr: 49.55, pr: 10.13, rank: 146 },
-  { name: "濒死悟道", rarity: "prismatic", wr: 49.55, pr: 6.16, rank: 147 },
-  { name: "夜狩", rarity: "gold", wr: 49.54, pr: 17.82, rank: 148 },
-  { name: "信念者的强化", rarity: "prismatic", wr: 49.38, pr: 2.9, rank: 149 },
-  { name: "超负荷", rarity: "prismatic", wr: 49.34, pr: 16.06, rank: 150 },
-  { name: "鲨鱼诱饵", rarity: "gold", wr: 49.3, pr: 6.25, rank: 151 },
-  { name: "双重防御", rarity: "silver", wr: 49.28, pr: 10.28, rank: 152 },
-  { name: "终极刷新", rarity: "prismatic", wr: 49.22, pr: 19.35, rank: 153 },
-  { name: "可靠武器", rarity: "silver", wr: 49.15, pr: 9.42, rank: 154 },
-  { name: "自适应防护", rarity: "silver", wr: 49.15, pr: 6.15, rank: 155 },
-  { name: "三重射击", rarity: "prismatic", wr: 49.03, pr: 4.91, rank: 156 },
-  { name: "仁慈打击", rarity: "gold", wr: 49.03, pr: 2.16, rank: 157 },
-  { name: "咒语裂变", rarity: "prismatic", wr: 48.95, pr: 8.52, rank: 158 },
-  { name: "精怪魔法", rarity: "prismatic", wr: 48.91, pr: 11.66, rank: 159 },
-  { name: "神圣干预", rarity: "gold", wr: 48.9, pr: 11.48, rank: 160 },
-  { name: "强力护盾", rarity: "silver", wr: 48.69, pr: 3.32, rank: 161 },
-  { name: "扳机炼狱", rarity: "prismatic", wr: 48.68, pr: 12.97, rank: 162 },
-  { name: "由暴生急", rarity: "silver", wr: 48.58, pr: 10.03, rank: 163 },
-  { name: "终极不可阻挡", rarity: "silver", wr: 48.42, pr: 19.64, rank: 164 },
-  { name: "自然即是治愈", rarity: "gold", wr: 48.42, pr: 7.93, rank: 165 },
-  { name: "你摸不到", rarity: "prismatic", wr: 48.36, pr: 11.86, rank: 166 },
-  { name: "心灵净化", rarity: "gold", wr: 48.24, pr: 11.27, rank: 168 },
-  { name: "和我一起困在这里", rarity: "prismatic", wr: 48.24, pr: 5.98, rank: 169 },
-  { name: "缩小射线", rarity: "gold", wr: 48.23, pr: 12.31, rank: 170 },
-  { name: "吵闹鬼", rarity: "silver", wr: 48.06, pr: 3.21, rank: 171 },
-  { name: "不动如山", rarity: "gold", wr: 48.03, pr: 6.1, rank: 172 },
-  { name: "豪猪", rarity: "gold", wr: 47.78, pr: 9.21, rank: 174 },
-  { name: "快步", rarity: "gold", wr: 47.66, pr: 10.11, rank: 175 },
-  { name: "泰坦的坚决", rarity: "prismatic", wr: 47.65, pr: 15.67, rank: 176 },
-  { name: "山脉龙魂", rarity: "silver", wr: 47.55, pr: 4.39, rank: 177 },
-  { name: "鲨鱼暴风", rarity: "gold", wr: 47.52, pr: 7.58, rank: 178 },
-  { name: "弹球", rarity: "gold", wr: 47.45, pr: 10.55, rank: 179 },
-  { name: "舞会女王", rarity: "prismatic", wr: 47.34, pr: 2.99, rank: 180 },
-  { name: "下雪天", rarity: "silver", wr: 47.32, pr: 13.09, rank: 181 },
-  { name: "软弹啪叽抓", rarity: "prismatic", wr: 47.14, pr: 3.61, rank: 182 },
-  { name: "惊惧", rarity: "prismatic", wr: 47.04, pr: 2.6, rank: 183 },
-  { name: "闪光弹", rarity: "silver", wr: 47.01, pr: 0.63, rank: 184 },
-  { name: "藏身草丛", rarity: "gold", wr: 46.92, pr: 1.71, rank: 185 },
-  { name: "注魔", rarity: "silver", wr: 46.88, pr: 8.11, rank: 186 },
-  { name: "连锁反应", rarity: "gold", wr: 46.69, pr: 7.02, rank: 187 },
-  { name: "我们的治疗", rarity: "gold", wr: 46.59, pr: 6.13, rank: 188 },
-  { name: "闪闪现现", rarity: "silver", wr: 46.53, pr: 0.59, rank: 189 },
-  { name: "多重射击", rarity: "prismatic", wr: 46.38, pr: 6.26, rank: 190 },
-  { name: "神圣雪球", rarity: "prismatic", wr: 46.31, pr: 7.97, rank: 191 },
-  { name: "冰雪爆裂", rarity: "gold", wr: 46.22, pr: 10.12, rank: 192 },
-  { name: "电涌力场", rarity: "prismatic", wr: 45.9, pr: 3.75, rank: 193 },
-  { name: "针插垫", rarity: "prismatic", wr: 45.83, pr: 4.54, rank: 194 },
-  { name: "转得我眩晕了", rarity: "silver", wr: 44.83, pr: 3.36, rank: 195 },
-  { name: "玻璃大炮", rarity: "prismatic", wr: 44.69, pr: 4.6, rank: 196 },
-  { name: "位面转移", rarity: "prismatic", wr: 43.07, pr: 2.03, rank: 197 },
-  { name: "魄罗蛮冲", rarity: "prismatic", wr: 42.03, pr: 1.5, rank: 198 },
+  { name: "质变：棱彩阶", rarity: "gold", wr: 65.22, pr: 63.98, rank: 1 },
+  { name: "掷骰狂人", rarity: "prismatic", wr: 65.16, pr: 43.64, rank: 2 },
+  { name: "缩小引擎", rarity: "gold", wr: 61.6, pr: 56.33, rank: 3 },
+  { name: "循环往复", rarity: "gold", wr: 60.57, pr: 58.25, rank: 4 },
+  { name: "亮出你的剑", rarity: "prismatic", wr: 60.39, pr: 15.54, rank: 5 },
+  { name: "坦克引擎", rarity: "gold", wr: 60.32, pr: 48.09, rank: 6 },
+  { name: "术士果汁盒", rarity: "gold", wr: 59.33, pr: 42.52, rank: 8 },
+  { name: "暴击飞弹", rarity: "gold", wr: 59.18, pr: 41.66, rank: 9 },
+  { name: "任务：钢化你心", rarity: "gold", wr: 59.16, pr: 32.46, rank: 10 },
+  { name: "无限循环往复", rarity: "prismatic", wr: 59.07, pr: 32.13, rank: 11 },
+  { name: "大力", rarity: "silver", wr: 58.56, pr: 46.93, rank: 12 },
+  { name: "灵魂虹吸", rarity: "gold", wr: 58.4, pr: 34.79, rank: 13 },
+  { name: "尤里卡", rarity: "prismatic", wr: 58.05, pr: 39.26, rank: 14 },
+  { name: "超凡邪恶", rarity: "gold", wr: 57.99, pr: 35.47, rank: 15 },
+  { name: "牙仙子", rarity: "gold", wr: 57.95, pr: 41.19, rank: 16 },
+  { name: "重量级打击手", rarity: "silver", wr: 57.84, pr: 38.22, rank: 17 },
+  { name: "易损", rarity: "gold", wr: 57.74, pr: 37.17, rank: 18 },
+  { name: "虚幻武器", rarity: "gold", wr: 57.67, pr: 42.48, rank: 19 },
+  { name: "珠光护手", rarity: "prismatic", wr: 57.61, pr: 53.62, rank: 20 },
+  { name: "科学狂人", rarity: "prismatic", wr: 57.44, pr: 30.73, rank: 21 },
+  { name: "歌利亚巨人", rarity: "prismatic", wr: 57.35, pr: 35.44, rank: 22 },
+  { name: "回归基本功", rarity: "prismatic", wr: 57.15, pr: 27.39, rank: 23 },
+  { name: "有始有终", rarity: "gold", wr: 57.13, pr: 29.67, rank: 24 },
+  { name: "升级：无尽之刃", rarity: "gold", wr: 57.11, pr: 37.5, rank: 25 },
+  { name: "飞身踢", rarity: "prismatic", wr: 56.99, pr: 42.25, rank: 26 },
+  { name: "逃跑计划", rarity: "silver", wr: 56.87, pr: 38.06, rank: 27 },
+  { name: "炼狱导管", rarity: "prismatic", wr: 56.86, pr: 23.11, rank: 28 },
+  { name: "巨人杀手", rarity: "prismatic", wr: 56.35, pr: 28.02, rank: 29 },
+  { name: "双刀流", rarity: "prismatic", wr: 56.33, pr: 27.34, rank: 30 },
+  { name: "叠角龙", rarity: "silver", wr: 56.19, pr: 8.38, rank: 31 },
+  { name: "捐赠", rarity: "gold", wr: 56.12, pr: 26.52, rank: 32 },
+  { name: "渴血", rarity: "silver", wr: 55.99, pr: 39.94, rank: 33 },
+  { name: "家园卫士", rarity: "silver", wr: 55.89, pr: 27.26, rank: 34 },
+  { name: "物理转魔法", rarity: "silver", wr: 55.83, pr: 42.63, rank: 35 },
+  { name: "灵巧", rarity: "silver", wr: 55.65, pr: 31.08, rank: 36 },
+  { name: "喂呜喂呜", rarity: "gold", wr: 55.52, pr: 2.84, rank: 37 },
+  { name: "空投熊", rarity: "prismatic", wr: 55.32, pr: 13.15, rank: 38 },
+  { name: "大师铸就", rarity: "silver", wr: 55.31, pr: 34.42, rank: 39 },
+  { name: "更万用的瞄准镜", rarity: "gold", wr: 55.2, pr: 28.36, rank: 40 },
+  { name: "魔法转物理", rarity: "silver", wr: 55.17, pr: 26.91, rank: 41 },
+  { name: "会心防御", rarity: "silver", wr: 55.11, pr: 18.7, rank: 42 },
+  { name: "秘术冲拳", rarity: "prismatic", wr: 55.08, pr: 27.84, rank: 43 },
+  { name: "狂热者", rarity: "silver", wr: 55.04, pr: 28.36, rank: 44 },
+  { name: "暗影疾奔", rarity: "silver", wr: 54.94, pr: 24.16, rank: 45 },
+  { name: "魔法飞弹", rarity: "gold", wr: 54.86, pr: 29.96, rank: 46 },
+  { name: "双生火焰", rarity: "silver", wr: 54.8, pr: 41.3, rank: 47 },
+  { name: "咏叹奏鸣", rarity: "gold", wr: 54.54, pr: 4.08, rank: 48 },
+  { name: "星界躯体", rarity: "gold", wr: 54.42, pr: 28.59, rank: 49 },
+  { name: "属性叠属性！", rarity: "gold", wr: 54.35, pr: 18.69, rank: 50 },
+  { name: "任务：沃格勒特的巫师帽", rarity: "prismatic", wr: 54.35, pr: 16.14, rank: 51 },
+  { name: "质变：混沌", rarity: "prismatic", wr: 54.1, pr: 29.81, rank: 52 },
+  { name: "暴击律动", rarity: "gold", wr: 54.1, pr: 24.87, rank: 53 },
+  { name: "男爵之手", rarity: "prismatic", wr: 54.04, pr: 4.35, rank: 54 },
+  { name: "纯粹主义者", rarity: "silver", wr: 53.95, pr: 38.59, rank: 55 },
+  { name: "升级：收集者", rarity: "silver", wr: 53.94, pr: 33.18, rank: 56 },
+  { name: "升级：献祭", rarity: "silver", wr: 53.94, pr: 20.15, rank: 57 },
+  { name: "旋转至胜", rarity: "silver", wr: 53.78, pr: 16.06, rank: 58 },
+  { name: "狙神飞星", rarity: "gold", wr: 53.67, pr: 16.53, rank: 59 },
+  { name: "灵魄炸弹", rarity: "prismatic", wr: 53.57, pr: 3.42, rank: 60 },
+  { name: "海洋龙魂", rarity: "silver", wr: 53.54, pr: 20.49, rank: 61 },
+  { name: "狂徒豪气", rarity: "gold", wr: 53.42, pr: 10.38, rank: 62 },
+  { name: "风语者的祝福", rarity: "prismatic", wr: 53.35, pr: 3.36, rank: 63 },
+  { name: "侵蚀", rarity: "silver", wr: 53.31, pr: 21.4, rank: 64 },
+  { name: "老练狙神", rarity: "gold", wr: 53.29, pr: 25.47, rank: 65 },
+  { name: "最终形态", rarity: "prismatic", wr: 53.23, pr: 23.48, rank: 66 },
+  { name: "练腿日", rarity: "silver", wr: 53.17, pr: 28.36, rank: 67 },
+  { name: "冰寒", rarity: "silver", wr: 53.09, pr: 27.52, rank: 68 },
+  { name: "快中求稳", rarity: "silver", wr: 53.06, pr: 12.93, rank: 69 },
+  { name: "急急小子", rarity: "gold", wr: 52.99, pr: 17.68, rank: 70 },
+  { name: "无尽大杀四方", rarity: "gold", wr: 52.96, pr: 23.28, rank: 71 },
+  { name: "由心及物", rarity: "silver", wr: 52.88, pr: 19.95, rank: 72 },
+  { name: "保持坚定", rarity: "silver", wr: 52.83, pr: 9.53, rank: 73 },
+  { name: "升级：中娅", rarity: "silver", wr: 52.75, pr: 22.48, rank: 74 },
+  { name: "任务：海牛阿福的勇士", rarity: "prismatic", wr: 52.75, pr: 15.39, rank: 75 },
+  { name: "面包和黄油", rarity: "gold", wr: 52.71, pr: 30.15, rank: 76 },
+  { name: "巫师式思考", rarity: "silver", wr: 52.71, pr: 29.2, rank: 77 },
+  { name: "神射法师", rarity: "gold", wr: 52.67, pr: 20.34, rank: 78 },
+  { name: "连拨击锤", rarity: "prismatic", wr: 52.65, pr: 23.98, rank: 79 },
+  { name: "超强大脑", rarity: "gold", wr: 52.62, pr: 10.74, rank: 80 },
+  { name: "死亡之环", rarity: "prismatic", wr: 52.61, pr: 6.18, rank: 81 },
+  { name: "罪恶快感", rarity: "gold", wr: 52.58, pr: 22.68, rank: 82 },
+  { name: "全能龙魂", rarity: "prismatic", wr: 52.56, pr: 9.08, rank: 83 },
+  { name: "最万用的瞄准镜", rarity: "prismatic", wr: 52.49, pr: 17.22, rank: 84 },
+  { name: "唯快不破", rarity: "silver", wr: 52.45, pr: 6.42, rank: 85 },
+  { name: "急速之追求", rarity: "gold", wr: 52.44, pr: 29.42, rank: 86 },
+  { name: "别停止引导", rarity: "silver", wr: 52.42, pr: 7.5, rank: 87 },
+  { name: "地形专家", rarity: "gold", wr: 52.31, pr: 5.45, rank: 88 },
+  { name: "扇巴掌", rarity: "silver", wr: 52.27, pr: 19.6, rank: 89 },
+  { name: "大法师", rarity: "prismatic", wr: 52.26, pr: 31.84, rank: 90 },
+  { name: "生机迸发", rarity: "gold", wr: 52.18, pr: 17.11, rank: 91 },
+  { name: "邦！", rarity: "gold", wr: 52.16, pr: 10.38, rank: 92 },
+  { name: "踢踏舞", rarity: "prismatic", wr: 52.12, pr: 13.4, rank: 93 },
+  { name: "史上最大雪球", rarity: "prismatic", wr: 52.06, pr: 22.71, rank: 94 },
+  { name: "穿针引线", rarity: "gold", wr: 52.04, pr: 30.07, rank: 95 },
+  { name: "尊我为王", rarity: "prismatic", wr: 52.04, pr: 7.25, rank: 96 },
+  { name: "面包和奶酪", rarity: "gold", wr: 51.93, pr: 24.22, rank: 97 },
+  { name: "吃过路兵", rarity: "prismatic", wr: 51.89, pr: 11.25, rank: 98 },
+  { name: "关键暴击", rarity: "gold", wr: 51.86, pr: 15.3, rank: 99 },
+  { name: "贪欲束缚", rarity: "gold", wr: 51.85, pr: 21.26, rank: 100 },
+  { name: "急救用具", rarity: "silver", wr: 51.71, pr: 5.64, rank: 101 },
+  { name: "天音爆", rarity: "silver", wr: 51.69, pr: 4.79, rank: 102 },
+  { name: "小小的额外帮助", rarity: "gold", wr: 51.61, pr: 14.29, rank: 104 },
+  { name: "黎明使者的坚决", rarity: "gold", wr: 51.6, pr: 15.93, rank: 105 },
+  { name: "升级：耀光", rarity: "gold", wr: 51.57, pr: 17.24, rank: 106 },
+  { name: "溢流", rarity: "gold", wr: 51.48, pr: 10.97, rank: 107 },
+  { name: "俯冲轰炸", rarity: "silver", wr: 51.46, pr: 23.59, rank: 108 },
+  { name: "属性叠属性叠属性！", rarity: "prismatic", wr: 51.41, pr: 8.61, rank: 109 },
+  { name: "回力ok镖", rarity: "gold", wr: 51.37, pr: 3.37, rank: 110 },
+  { name: "虹吸", rarity: "silver", wr: 51.32, pr: 18.6, rank: 111 },
+  { name: "夺金", rarity: "prismatic", wr: 51.3, pr: 6.94, rank: 112 },
+  { name: "万用瞄准镜", rarity: "silver", wr: 51.24, pr: 19.83, rank: 113 },
+  { name: "终极唤醒", rarity: "prismatic", wr: 51.23, pr: 21.42, rank: 114 },
+  { name: "台风", rarity: "silver", wr: 51.12, pr: 18.83, rank: 115 },
+  { name: "过量延伸者", rarity: "gold", wr: 51.11, pr: 3.36, rank: 116 },
+  { name: "战争交响乐", rarity: "prismatic", wr: 51.0, pr: 12.74, rank: 117 },
+  { name: "高压锅", rarity: "gold", wr: 50.88, pr: 18.56, rank: 118 },
+  { name: "回响施放", rarity: "prismatic", wr: 50.86, pr: 7.05, rank: 119 },
+  { name: "火上浇油", rarity: "gold", wr: 50.79, pr: 13.36, rank: 120 },
+  { name: "吞噬灵魂", rarity: "gold", wr: 50.78, pr: 9.96, rank: 121 },
+  { name: "点亮他们！", rarity: "silver", wr: 50.69, pr: 10.13, rank: 122 },
+  { name: "残忍", rarity: "prismatic", wr: 50.62, pr: 8.87, rank: 123 },
+  { name: "哎哟，我的硬币！", rarity: "gold", wr: 50.55, pr: 10.64, rank: 124 },
+  { name: "海克斯科技龙魂", rarity: "silver", wr: 50.54, pr: 14.72, rank: 125 },
+  { name: "火狐", rarity: "silver", wr: 50.42, pr: 10.62, rank: 126 },
+  { name: "面包和果酱", rarity: "gold", wr: 50.35, pr: 20.81, rank: 127 },
+  { name: "炼狱龙魂", rarity: "silver", wr: 50.33, pr: 16.36, rank: 128 },
+  { name: "全心为你", rarity: "gold", wr: 50.29, pr: 3.6, rank: 129 },
+  { name: "至高天诺言", rarity: "prismatic", wr: 50.23, pr: 1.33, rank: 130 },
+  { name: "全凭身法", rarity: "prismatic", wr: 50.17, pr: 16.11, rank: 131 },
+  { name: "巨像的勇气", rarity: "prismatic", wr: 50.15, pr: 9.03, rank: 132 },
+  { name: "不祥契约", rarity: "prismatic", wr: 50.13, pr: 8.13, rank: 133 },
+  { name: "蛋白粉奶昔", rarity: "prismatic", wr: 50.09, pr: 2.38, rank: 134 },
+  { name: "杀戮时间到了", rarity: "gold", wr: 50.04, pr: 20.38, rank: 135 },
+  { name: "属性！", rarity: "silver", wr: 50.04, pr: 9.52, rank: 136 },
+  { name: "会心治疗", rarity: "gold", wr: 50.04, pr: 3.5, rank: 137 },
+  { name: "物法皆修", rarity: "prismatic", wr: 50.01, pr: 10.87, rank: 138 },
+  { name: "潘朵拉的盒子", rarity: "prismatic", wr: 50.0, pr: 20.02, rank: 139 },
+  { name: "炽烈黎明", rarity: "gold", wr: 49.93, pr: 3.2, rank: 140 },
+  { name: "利刃华尔兹", rarity: "prismatic", wr: 49.85, pr: 10.85, rank: 141 },
+  { name: "尖端发明家", rarity: "gold", wr: 49.81, pr: 14.18, rank: 142 },
+  { name: "双发快射", rarity: "prismatic", wr: 49.76, pr: 18.89, rank: 143 },
+  { name: "信念者的强化", rarity: "prismatic", wr: 49.65, pr: 2.86, rank: 144 },
+  { name: "仆从大师", rarity: "gold", wr: 49.6, pr: 6.35, rank: 145 },
+  { name: "杀意翻涌", rarity: "silver", wr: 49.58, pr: 10.12, rank: 146 },
+  { name: "濒死悟道", rarity: "prismatic", wr: 49.56, pr: 6.15, rank: 147 },
+  { name: "夜狩", rarity: "gold", wr: 49.53, pr: 17.77, rank: 148 },
+  { name: "前进时间到", rarity: "silver", wr: 49.45, pr: 8.8, rank: 149 },
+  { name: "超负荷", rarity: "prismatic", wr: 49.37, pr: 16.01, rank: 150 },
+  { name: "双重防御", rarity: "silver", wr: 49.19, pr: 10.16, rank: 151 },
+  { name: "鲨鱼诱饵", rarity: "gold", wr: 49.15, pr: 6.35, rank: 152 },
+  { name: "终极刷新", rarity: "prismatic", wr: 49.09, pr: 19.26, rank: 153 },
+  { name: "神圣干预", rarity: "gold", wr: 49.09, pr: 11.45, rank: 154 },
+  { name: "三重射击", rarity: "prismatic", wr: 49.07, pr: 4.94, rank: 155 },
+  { name: "可靠武器", rarity: "silver", wr: 49.06, pr: 9.29, rank: 156 },
+  { name: "自适应防护", rarity: "silver", wr: 49.02, pr: 6.12, rank: 157 },
+  { name: "咒语裂变", rarity: "prismatic", wr: 48.99, pr: 8.53, rank: 158 },
+  { name: "精怪魔法", rarity: "prismatic", wr: 48.92, pr: 11.68, rank: 159 },
+  { name: "扳机炼狱", rarity: "prismatic", wr: 48.84, pr: 12.96, rank: 160 },
+  { name: "仁慈打击", rarity: "gold", wr: 48.8, pr: 2.13, rank: 161 },
+  { name: "由暴生急", rarity: "silver", wr: 48.7, pr: 9.99, rank: 162 },
+  { name: "强力护盾", rarity: "silver", wr: 48.66, pr: 3.32, rank: 163 },
+  { name: "自然即是治愈", rarity: "gold", wr: 48.52, pr: 7.92, rank: 164 },
+  { name: "心灵净化", rarity: "gold", wr: 48.46, pr: 11.29, rank: 165 },
+  { name: "终极不可阻挡", rarity: "silver", wr: 48.43, pr: 19.53, rank: 166 },
+  { name: "你摸不到", rarity: "prismatic", wr: 48.39, pr: 11.82, rank: 167 },
+  { name: "缩小射线", rarity: "gold", wr: 48.37, pr: 12.3, rank: 168 },
+  { name: "闪光弹", rarity: "silver", wr: 48.36, pr: 0.66, rank: 169 },
+  { name: "和我一起困在这里", rarity: "prismatic", wr: 48.25, pr: 5.93, rank: 170 },
+  { name: "山脉龙魂", rarity: "silver", wr: 48.13, pr: 4.39, rank: 171 },
+  { name: "不动如山", rarity: "gold", wr: 48.02, pr: 6.06, rank: 172 },
+  { name: "吵闹鬼", rarity: "silver", wr: 47.86, pr: 3.21, rank: 174 },
+  { name: "豪猪", rarity: "gold", wr: 47.8, pr: 9.09, rank: 176 },
+  { name: "快步", rarity: "gold", wr: 47.72, pr: 10.03, rank: 177 },
+  { name: "弹球", rarity: "gold", wr: 47.69, pr: 10.7, rank: 178 },
+  { name: "泰坦的坚决", rarity: "prismatic", wr: 47.66, pr: 15.5, rank: 179 },
+  { name: "鲨鱼暴风", rarity: "gold", wr: 47.52, pr: 7.55, rank: 180 },
+  { name: "下雪天", rarity: "silver", wr: 47.29, pr: 13.14, rank: 181 },
+  { name: "软弹啪叽抓", rarity: "prismatic", wr: 47.26, pr: 3.56, rank: 182 },
+  { name: "舞会女王", rarity: "prismatic", wr: 47.25, pr: 2.98, rank: 183 },
+  { name: "藏身草丛", rarity: "gold", wr: 47.04, pr: 1.73, rank: 184 },
+  { name: "注魔", rarity: "silver", wr: 47.03, pr: 8.05, rank: 185 },
+  { name: "惊惧", rarity: "prismatic", wr: 46.65, pr: 2.58, rank: 186 },
+  { name: "闪闪现现", rarity: "silver", wr: 46.65, pr: 0.61, rank: 187 },
+  { name: "我们的治疗", rarity: "gold", wr: 46.62, pr: 6.13, rank: 188 },
+  { name: "连锁反应", rarity: "gold", wr: 46.61, pr: 7.01, rank: 189 },
+  { name: "多重射击", rarity: "prismatic", wr: 46.56, pr: 6.2, rank: 190 },
+  { name: "神圣雪球", rarity: "prismatic", wr: 46.53, pr: 7.97, rank: 191 },
+  { name: "冰雪爆裂", rarity: "gold", wr: 46.13, pr: 10.13, rank: 192 },
+  { name: "电涌力场", rarity: "prismatic", wr: 46.0, pr: 3.71, rank: 193 },
+  { name: "针插垫", rarity: "prismatic", wr: 45.84, pr: 4.45, rank: 194 },
+  { name: "转得我眩晕了", rarity: "silver", wr: 44.84, pr: 3.3, rank: 195 },
+  { name: "玻璃大炮", rarity: "prismatic", wr: 44.58, pr: 4.53, rank: 196 },
+  { name: "位面转移", rarity: "prismatic", wr: 42.85, pr: 2.0, rank: 197 },
+  { name: "魄罗蛮冲", rarity: "prismatic", wr: 42.62, pr: 1.49, rank: 198 },
 ];
 
 const HEROES = [
-  { id: "teemo", name: "迅捷斥候", alias: "提摩", roles: ["射手","法师"], tier: "S+", wr: 53.5, pr: 13.55, hasBuild: true, rank: 1 },
-  { id: "yasuo", name: "疾风剑豪", alias: "犽宿", roles: ["战士","刺客"], tier: "S+", wr: 56.61, pr: 10.55, hasBuild: true, rank: 2 },
-  { id: "aurelionsol", name: "铸星龙王", alias: "铸星龙王", roles: ["法师"], tier: "S+", wr: 54.39, pr: 12.45, hasBuild: true, rank: 3 },
-  { id: "brand", name: "复仇焰魂", alias: "布蘭德", roles: ["法师","辅助"], tier: "S+", wr: 52.63, pr: 13.87, hasBuild: true, rank: 4 },
+  { id: "teemo", name: "迅捷斥候", alias: "提摩", roles: ["射手","法师"], tier: "S+", wr: 53.5, pr: 13.57, hasBuild: true, rank: 1 },
+  { id: "aurelionsol", name: "铸星龙王", alias: "铸星龙王", roles: ["法师"], tier: "S+", wr: 54.39, pr: 12.49, hasBuild: true, rank: 2 },
+  { id: "yasuo", name: "疾风剑豪", alias: "犽宿", roles: ["战士","刺客"], tier: "S+", wr: 56.6, pr: 10.55, hasBuild: true, rank: 3 },
+  { id: "brand", name: "复仇焰魂", alias: "布蘭德", roles: ["法师","辅助"], tier: "S+", wr: 52.62, pr: 13.9, hasBuild: true, rank: 4 },
   { id: "caitlyn", name: "皮城女警", alias: "凱特琳", roles: ["射手"], tier: "S+", wr: 52.86, pr: 13.18, hasBuild: true, rank: 5 },
-  { id: "morgana", name: "堕落天使", alias: "魔甘娜", roles: ["辅助","法师"], tier: "S+", wr: 55.23, pr: 10.13, hasBuild: true, rank: 6 },
-  { id: "tahmkench", name: "河流之王", alias: "塔姆", roles: ["坦克","辅助"], tier: "S+", wr: 52.54, pr: 13.29, hasBuild: true, rank: 7 },
-  { id: "hecarim", name: "战争之影", alias: "赫克林", roles: ["战士","坦克"], tier: "S", wr: 55.01, pr: 9.98, hasBuild: true, rank: 8 },
-  { id: "kayn", name: "影流之镰", alias: "慨影", roles: ["战士","刺客"], tier: "S", wr: 55.24, pr: 9.49, hasBuild: true, rank: 9 },
-  { id: "twistedfate", name: "卡牌大师", alias: "逆命", roles: ["法师","射手"], tier: "S", wr: 55.78, pr: 9.14, hasBuild: true, rank: 10 },
-  { id: "lillia", name: "含羞蓓蕾", alias: "莉莉亞", roles: ["战士","法师"], tier: "S", wr: 55.86, pr: 8.95, hasBuild: true, rank: 11 },
-  { id: "sett", name: "腕豪", alias: "腕豪", roles: ["战士","坦克"], tier: "S", wr: 52.35, pr: 12.24, hasBuild: true, rank: 12 },
-  { id: "seraphine", name: "星籁歌姬", alias: "瑟菈紛", roles: ["辅助","法师"], tier: "S", wr: 55.14, pr: 9.11, hasBuild: true, rank: 13 },
-  { id: "yone", name: "封魔剑魂", alias: "犽凝", roles: ["战士","刺客"], tier: "S", wr: 55.76, pr: 8.55, hasBuild: true, rank: 14 },
-  { id: "graves", name: "法外狂徒", alias: "葛雷夫", roles: ["射手"], tier: "S", wr: 52.08, pr: 12.0, hasBuild: true, rank: 15 },
-  { id: "vayne", name: "暗夜猎手", alias: "薇恩", roles: ["射手","刺客"], tier: "S", wr: 51.76, pr: 12.21, hasBuild: true, rank: 16 },
-  { id: "jinx", name: "暴走萝莉", alias: "金克丝", roles: ["射手"], tier: "S", wr: 52.36, pr: 10.52, hasBuild: true, rank: 17 },
-  { id: "missfortune", name: "赏金猎人", alias: "好運姐", roles: ["射手","法师"], tier: "S", wr: 51.24, pr: 14.38, hasBuild: true, rank: 18 },
-  { id: "ryze", name: "符文法师", alias: "雷茲", roles: ["法师"], tier: "S", wr: 51.76, pr: 10.8, hasBuild: true, rank: 19 },
-  { id: "smolder", name: "炽炎雏龙", alias: "史矛德", roles: ["射手","法师"], tier: "S", wr: 51.31, pr: 11.38, hasBuild: true, rank: 20 },
-  { id: "masteryi", name: "无极剑圣", alias: "易大師", roles: ["战士","刺客"], tier: "S", wr: 51.75, pr: 9.81, hasBuild: true, rank: 21 },
-  { id: "yunara", name: "不破之誓", alias: "尤娜拉", roles: ["射手"], tier: "S", wr: 53.31, pr: 8.0, hasBuild: true, rank: 22 },
-  { id: "trundle", name: "巨魔之王", alias: "特朗德", roles: ["战士","坦克"], tier: "S", wr: 50.74, pr: 10.9, hasBuild: true, rank: 23 },
-  { id: "kayle", name: "正义天使", alias: "凱爾", roles: ["法师","射手"], tier: "S", wr: 54.83, pr: 7.21, hasBuild: true, rank: 24 },
-  { id: "xinzhao", name: "德邦总管", alias: "趙信", roles: ["战士","坦克"], tier: "S", wr: 52.81, pr: 7.64, hasBuild: true, rank: 25 },
-  { id: "lucian", name: "圣枪游侠", alias: "路西恩", roles: ["射手","刺客"], tier: "S", wr: 49.94, pr: 13.2, hasBuild: true, rank: 26 },
-  { id: "ekko", name: "时间刺客", alias: "艾克", roles: ["刺客","法师"], tier: "A", wr: 53.08, pr: 6.33, hasBuild: true, rank: 27 },
-  { id: "singed", name: "炼金术士", alias: "辛吉德", roles: ["坦克","法师"], tier: "A", wr: 51.63, pr: 7.97, hasBuild: true, rank: 28 },
-  { id: "gangplank", name: "海洋之灾", alias: "普朗克", roles: ["战士"], tier: "A", wr: 50.82, pr: 8.52, hasBuild: true, rank: 29 },
-  { id: "hwei", name: "异画师", alias: "赫威", roles: ["法师","辅助"], tier: "A", wr: 54.75, pr: 5.74, hasBuild: true, rank: 30 },
-  { id: "aurora", name: "双界灵兔", alias: "歐羅拉", roles: ["法师","刺客"], tier: "A", wr: 52.13, pr: 6.82, hasBuild: true, rank: 31 },
-  { id: "corki", name: "英勇投弹手", alias: "庫奇", roles: ["射手","法师"], tier: "A", wr: 50.72, pr: 8.06, hasBuild: true, rank: 32 },
-  { id: "viktor", name: "奥术先驱", alias: "維克特", roles: ["法师"], tier: "A", wr: 53.63, pr: 5.74, hasBuild: true, rank: 33 },
-  { id: "sion", name: "亡灵战神", alias: "賽恩", roles: ["坦克","战士"], tier: "A", wr: 50.32, pr: 8.53, hasBuild: true, rank: 34 },
-  { id: "jhin", name: "戏命师", alias: "戏命师", roles: ["射手","法师"], tier: "A", wr: 49.04, pr: 11.57, hasBuild: true, rank: 35 },
+  { id: "tahmkench", name: "河流之王", alias: "塔姆", roles: ["坦克","辅助"], tier: "S+", wr: 52.55, pr: 13.28, hasBuild: true, rank: 6 },
+  { id: "morgana", name: "堕落天使", alias: "魔甘娜", roles: ["辅助","法师"], tier: "S+", wr: 55.21, pr: 10.16, hasBuild: true, rank: 7 },
+  { id: "hecarim", name: "战争之影", alias: "赫克林", roles: ["战士","坦克"], tier: "S", wr: 55.02, pr: 10.05, hasBuild: true, rank: 8 },
+  { id: "kayn", name: "影流之镰", alias: "慨影", roles: ["战士","刺客"], tier: "S", wr: 55.22, pr: 9.5, hasBuild: true, rank: 9 },
+  { id: "twistedfate", name: "卡牌大师", alias: "逆命", roles: ["法师","射手"], tier: "S", wr: 55.77, pr: 9.19, hasBuild: true, rank: 10 },
+  { id: "lillia", name: "含羞蓓蕾", alias: "莉莉亞", roles: ["战士","法师"], tier: "S", wr: 55.83, pr: 8.97, hasBuild: true, rank: 11 },
+  { id: "sett", name: "腕豪", alias: "腕豪", roles: ["战士","坦克"], tier: "S", wr: 52.33, pr: 12.23, hasBuild: true, rank: 12 },
+  { id: "yone", name: "封魔剑魂", alias: "犽凝", roles: ["战士","刺客"], tier: "S", wr: 55.77, pr: 8.6, hasBuild: true, rank: 13 },
+  { id: "seraphine", name: "星籁歌姬", alias: "瑟菈紛", roles: ["辅助","法师"], tier: "S", wr: 55.12, pr: 9.11, hasBuild: true, rank: 14 },
+  { id: "graves", name: "法外狂徒", alias: "葛雷夫", roles: ["射手"], tier: "S", wr: 52.08, pr: 11.99, hasBuild: true, rank: 15 },
+  { id: "missfortune", name: "赏金猎人", alias: "好運姐", roles: ["射手","法师"], tier: "S", wr: 51.24, pr: 14.39, hasBuild: true, rank: 16 },
+  { id: "vayne", name: "暗夜猎手", alias: "薇恩", roles: ["射手","刺客"], tier: "S", wr: 51.77, pr: 12.15, hasBuild: true, rank: 17 },
+  { id: "jinx", name: "暴走萝莉", alias: "金克丝", roles: ["射手"], tier: "S", wr: 52.33, pr: 10.6, hasBuild: true, rank: 18 },
+  { id: "ryze", name: "符文法师", alias: "雷茲", roles: ["法师"], tier: "S", wr: 51.76, pr: 10.85, hasBuild: true, rank: 19 },
+  { id: "smolder", name: "炽炎雏龙", alias: "史矛德", roles: ["射手","法师"], tier: "S", wr: 51.3, pr: 11.4, hasBuild: true, rank: 20 },
+  { id: "masteryi", name: "无极剑圣", alias: "易大師", roles: ["战士","刺客"], tier: "S", wr: 51.77, pr: 9.82, hasBuild: true, rank: 21 },
+  { id: "yunara", name: "不破之誓", alias: "尤娜拉", roles: ["射手"], tier: "S", wr: 53.3, pr: 7.99, hasBuild: true, rank: 22 },
+  { id: "trundle", name: "巨魔之王", alias: "特朗德", roles: ["战士","坦克"], tier: "S", wr: 50.73, pr: 10.94, hasBuild: true, rank: 23 },
+  { id: "kayle", name: "正义天使", alias: "凱爾", roles: ["法师","射手"], tier: "S", wr: 54.84, pr: 7.2, hasBuild: true, rank: 24 },
+  { id: "lucian", name: "圣枪游侠", alias: "路西恩", roles: ["射手","刺客"], tier: "S", wr: 49.95, pr: 13.21, hasBuild: true, rank: 25 },
+  { id: "xinzhao", name: "德邦总管", alias: "趙信", roles: ["战士","坦克"], tier: "S", wr: 52.79, pr: 7.65, hasBuild: true, rank: 26 },
+  { id: "singed", name: "炼金术士", alias: "辛吉德", roles: ["坦克","法师"], tier: "A", wr: 51.63, pr: 8.07, hasBuild: true, rank: 27 },
+  { id: "ekko", name: "时间刺客", alias: "艾克", roles: ["刺客","法师"], tier: "A", wr: 53.05, pr: 6.32, hasBuild: true, rank: 28 },
+  { id: "gangplank", name: "海洋之灾", alias: "普朗克", roles: ["战士"], tier: "A", wr: 50.84, pr: 8.45, hasBuild: true, rank: 29 },
+  { id: "aurora", name: "双界灵兔", alias: "歐羅拉", roles: ["法师","刺客"], tier: "A", wr: 52.08, pr: 6.89, hasBuild: true, rank: 30 },
+  { id: "hwei", name: "异画师", alias: "赫威", roles: ["法师","辅助"], tier: "A", wr: 54.74, pr: 5.75, hasBuild: true, rank: 31 },
+  { id: "viktor", name: "奥术先驱", alias: "維克特", roles: ["法师"], tier: "A", wr: 53.62, pr: 5.76, hasBuild: true, rank: 32 },
+  { id: "corki", name: "英勇投弹手", alias: "庫奇", roles: ["射手","法师"], tier: "A", wr: 50.71, pr: 8.07, hasBuild: true, rank: 33 },
+  { id: "jhin", name: "戏命师", alias: "戏命师", roles: ["射手","法师"], tier: "A", wr: 49.03, pr: 11.67, hasBuild: true, rank: 34 },
+  { id: "sion", name: "亡灵战神", alias: "賽恩", roles: ["坦克","战士"], tier: "A", wr: 50.31, pr: 8.49, hasBuild: true, rank: 35 },
   { id: "veigar", name: "邪恶小法师", alias: "維迦", roles: ["法师"], tier: "A", wr: 50.44, pr: 7.92, hasBuild: true, rank: 36 },
-  { id: "alistar", name: "牛头酋长", alias: "牛头酋长", roles: ["坦克","辅助"], tier: "A", wr: 51.71, pr: 6.26, hasBuild: true, rank: 37 },
-  { id: "fiora", name: "无双剑姬", alias: "菲歐拉", roles: ["战士","刺客"], tier: "A", wr: 53.71, pr: 4.92, hasBuild: true, rank: 38 },
-  { id: "drmundo", name: "祖安狂人", alias: "祖安狂人", roles: ["坦克","战士"], tier: "A", wr: 48.68, pr: 11.8, hasBuild: true, rank: 39 },
-  { id: "karthus", name: "死亡颂唱者", alias: "卡爾瑟斯", roles: ["法师"], tier: "A", wr: 48.69, pr: 11.36, hasBuild: true, rank: 40 },
-  { id: "tristana", name: "麦林炮手", alias: "麦林炮手", roles: ["射手","刺客"], tier: "A", wr: 49.14, pr: 9.2, hasBuild: true, rank: 41 },
-  { id: "twitch", name: "瘟疫之源", alias: "圖奇", roles: ["射手","刺客"], tier: "A", wr: 49.38, pr: 8.86, hasBuild: true, rank: 42 },
-  { id: "zed", name: "影流之主", alias: "影流之主", roles: ["刺客"], tier: "A", wr: 49.77, pr: 8.22, hasBuild: true, rank: 43 },
-  { id: "malzahar", name: "虚空先知", alias: "虚空先知", roles: ["法师"], tier: "A", wr: 50.45, pr: 6.97, hasBuild: true, rank: 44 },
-  { id: "rell", name: "镕铁少女", alias: "銳兒", roles: ["坦克","辅助"], tier: "A", wr: 51.89, pr: 5.89, hasBuild: true, rank: 45 },
-  { id: "gwen", name: "灵罗娃娃", alias: "格温", roles: ["战士"], tier: "A", wr: 56.37, pr: 3.96, hasBuild: true, rank: 46 },
-  { id: "senna", name: "涤魂圣枪", alias: "姍娜", roles: ["辅助","射手"], tier: "A", wr: 48.77, pr: 9.68, hasBuild: true, rank: 47 },
-  { id: "ambessa", name: "铁血狼母", alias: "安比薩", roles: ["战士","刺客"], tier: "A", wr: 53.65, pr: 4.39, hasBuild: true, rank: 48 },
-  { id: "swain", name: "诺克萨斯统领", alias: "斯溫", roles: ["法师","辅助"], tier: "A", wr: 48.98, pr: 8.88, hasBuild: true, rank: 49 },
-  { id: "ahri", name: "九尾妖狐", alias: "阿璃", roles: ["法师","刺客"], tier: "A", wr: 52.29, pr: 5.21, hasBuild: true, rank: 50 },
-  { id: "galio", name: "正义巨像", alias: "加里歐", roles: ["坦克","法师"], tier: "A", wr: 50.17, pr: 6.7, hasBuild: true, rank: 51 },
-  { id: "fizz", name: "潮汐海灵", alias: "飛斯", roles: ["刺客","战士"], tier: "A", wr: 49.16, pr: 7.89, hasBuild: true, rank: 52 },
-  { id: "shen", name: "暮光之眼", alias: "暮光之眼", roles: ["坦克"], tier: "B", wr: 50.83, pr: 5.66, hasBuild: true, rank: 53 },
-  { id: "syndra", name: "暗黑元首", alias: "星朵拉", roles: ["法师"], tier: "B", wr: 51.63, pr: 5.27, hasBuild: true, rank: 54 },
-  { id: "velkoz", name: "虚空之眼", alias: "威寇茲", roles: ["法师","辅助"], tier: "B", wr: 51.38, pr: 5.33, hasBuild: true, rank: 55 },
-  { id: "zilean", name: "时光守护者", alias: "極靈", roles: ["辅助","法师"], tier: "B", wr: 52.05, pr: 4.83, hasBuild: true, rank: 56 },
-  { id: "belveth", name: "虚空女皇", alias: "虚空女皇", roles: ["战士"], tier: "B", wr: 55.38, pr: 2.94, hasBuild: true, rank: 57 },
-  { id: "rumble", name: "机械公敌", alias: "藍寶", roles: ["战士","法师"], tier: "B", wr: 50.69, pr: 5.72, hasBuild: true, rank: 58 },
-  { id: "xayah", name: "逆羽", alias: "逆羽", roles: ["射手"], tier: "B", wr: 49.71, pr: 6.51, hasBuild: true, rank: 59 },
-  { id: "jax", name: "武器大师", alias: "賈克斯", roles: ["战士"], tier: "B", wr: 51.23, pr: 5.38, hasBuild: true, rank: 60 },
-  { id: "ezreal", name: "探险家", alias: "探险家", roles: ["射手","法师"], tier: "B", wr: 47.72, pr: 11.2, hasBuild: true, rank: 61 },
-  { id: "shyvana", name: "龙血武姬", alias: "希瓦娜", roles: ["战士","法师"], tier: "B", wr: 52.14, pr: 4.17, hasBuild: true, rank: 62 },
-  { id: "maokai", name: "扭曲树精", alias: "茂凱", roles: ["坦克","辅助"], tier: "B", wr: 48.62, pr: 8.49, hasBuild: true, rank: 63 },
-  { id: "xerath", name: "远古巫灵", alias: "齊勒斯", roles: ["法师","辅助"], tier: "B", wr: 49.32, pr: 6.71, hasBuild: true, rank: 64 },
+  { id: "alistar", name: "牛头酋长", alias: "牛头酋长", roles: ["坦克","辅助"], tier: "A", wr: 51.7, pr: 6.24, hasBuild: true, rank: 37 },
+  { id: "drmundo", name: "祖安狂人", alias: "祖安狂人", roles: ["坦克","战士"], tier: "A", wr: 48.68, pr: 11.77, hasBuild: true, rank: 38 },
+  { id: "fiora", name: "无双剑姬", alias: "菲歐拉", roles: ["战士","刺客"], tier: "A", wr: 53.72, pr: 4.91, hasBuild: true, rank: 39 },
+  { id: "zed", name: "影流之主", alias: "影流之主", roles: ["刺客"], tier: "A", wr: 49.76, pr: 8.31, hasBuild: true, rank: 40 },
+  { id: "karthus", name: "死亡颂唱者", alias: "卡爾瑟斯", roles: ["法师"], tier: "A", wr: 48.68, pr: 11.38, hasBuild: true, rank: 41 },
+  { id: "twitch", name: "瘟疫之源", alias: "圖奇", roles: ["射手","刺客"], tier: "A", wr: 49.4, pr: 8.84, hasBuild: true, rank: 42 },
+  { id: "rell", name: "镕铁少女", alias: "銳兒", roles: ["坦克","辅助"], tier: "A", wr: 51.89, pr: 5.83, hasBuild: true, rank: 43 },
+  { id: "malzahar", name: "虚空先知", alias: "虚空先知", roles: ["法师"], tier: "A", wr: 50.43, pr: 6.97, hasBuild: true, rank: 44 },
+  { id: "tristana", name: "麦林炮手", alias: "麦林炮手", roles: ["射手","刺客"], tier: "A", wr: 49.13, pr: 9.18, hasBuild: true, rank: 45 },
+  { id: "gwen", name: "灵罗娃娃", alias: "格温", roles: ["战士"], tier: "A", wr: 56.39, pr: 3.92, hasBuild: true, rank: 46 },
+  { id: "senna", name: "涤魂圣枪", alias: "姍娜", roles: ["辅助","射手"], tier: "A", wr: 48.79, pr: 9.58, hasBuild: true, rank: 47 },
+  { id: "ambessa", name: "铁血狼母", alias: "安比薩", roles: ["战士","刺客"], tier: "A", wr: 53.66, pr: 4.41, hasBuild: true, rank: 48 },
+  { id: "swain", name: "诺克萨斯统领", alias: "斯溫", roles: ["法师","辅助"], tier: "A", wr: 48.94, pr: 8.9, hasBuild: true, rank: 49 },
+  { id: "ahri", name: "九尾妖狐", alias: "阿璃", roles: ["法师","刺客"], tier: "A", wr: 52.27, pr: 5.21, hasBuild: true, rank: 50 },
+  { id: "galio", name: "正义巨像", alias: "加里歐", roles: ["坦克","法师"], tier: "A", wr: 50.15, pr: 6.69, hasBuild: true, rank: 51 },
+  { id: "fizz", name: "潮汐海灵", alias: "飛斯", roles: ["刺客","战士"], tier: "A", wr: 49.17, pr: 7.88, hasBuild: true, rank: 52 },
+  { id: "syndra", name: "暗黑元首", alias: "星朵拉", roles: ["法师"], tier: "B", wr: 51.61, pr: 5.28, hasBuild: true, rank: 53 },
+  { id: "velkoz", name: "虚空之眼", alias: "威寇茲", roles: ["法师","辅助"], tier: "B", wr: 51.36, pr: 5.32, hasBuild: true, rank: 54 },
+  { id: "shen", name: "暮光之眼", alias: "暮光之眼", roles: ["坦克"], tier: "B", wr: 50.82, pr: 5.63, hasBuild: true, rank: 55 },
+  { id: "zilean", name: "时光守护者", alias: "極靈", roles: ["辅助","法师"], tier: "B", wr: 52.04, pr: 4.83, hasBuild: true, rank: 56 },
+  { id: "belveth", name: "虚空女皇", alias: "虚空女皇", roles: ["战士"], tier: "B", wr: 55.43, pr: 2.96, hasBuild: true, rank: 57 },
+  { id: "rumble", name: "机械公敌", alias: "藍寶", roles: ["战士","法师"], tier: "B", wr: 50.66, pr: 5.74, hasBuild: true, rank: 58 },
+  { id: "xayah", name: "逆羽", alias: "逆羽", roles: ["射手"], tier: "B", wr: 49.7, pr: 6.5, hasBuild: true, rank: 59 },
+  { id: "jax", name: "武器大师", alias: "賈克斯", roles: ["战士"], tier: "B", wr: 51.19, pr: 5.43, hasBuild: true, rank: 60 },
+  { id: "ezreal", name: "探险家", alias: "探险家", roles: ["射手","法师"], tier: "B", wr: 47.72, pr: 11.19, hasBuild: true, rank: 61 },
+  { id: "maokai", name: "扭曲树精", alias: "茂凱", roles: ["坦克","辅助"], tier: "B", wr: 48.6, pr: 8.58, hasBuild: true, rank: 62 },
+  { id: "shyvana", name: "龙血武姬", alias: "希瓦娜", roles: ["战士","法师"], tier: "B", wr: 52.09, pr: 4.25, hasBuild: true, rank: 63 },
+  { id: "xerath", name: "远古巫灵", alias: "齊勒斯", roles: ["法师","辅助"], tier: "B", wr: 49.31, pr: 6.71, hasBuild: true, rank: 64 },
   { id: "katarina", name: "不祥之刃", alias: "不祥之刃", roles: ["刺客","法师"], tier: "B", wr: 48.87, pr: 7.42, hasBuild: true, rank: 65 },
-  { id: "nasus", name: "沙漠死神", alias: "納瑟斯", roles: ["战士","坦克"], tier: "B", wr: 49.63, pr: 6.14, hasBuild: true, rank: 66 },
+  { id: "nasus", name: "沙漠死神", alias: "納瑟斯", roles: ["战士","坦克"], tier: "B", wr: 49.61, pr: 6.16, hasBuild: true, rank: 66 },
   { id: "aphelios", name: "残月之肃", alias: "残月之肃", roles: ["射手"], tier: "B", wr: 51.56, pr: 4.36, hasBuild: true, rank: 67 },
-  { id: "sona", name: "琴瑟仙女", alias: "索娜", roles: ["辅助","法师"], tier: "B", wr: 52.58, pr: 3.15, hasBuild: true, rank: 68 },
-  { id: "kaisa", name: "虚空之女", alias: "凱莎", roles: ["射手","法师"], tier: "B", wr: 46.6, pr: 12.57, hasBuild: true, rank: 69 },
-  { id: "tryndamere", name: "蛮族之王", alias: "蛮族之王", roles: ["战士","刺客"], tier: "C", wr: 50.38, pr: 5.15, hasBuild: true, rank: 70 },
-  { id: "lux", name: "光辉女郎", alias: "拉克絲", roles: ["法师","辅助"], tier: "C", wr: 49.18, pr: 6.16, hasBuild: true, rank: 71 },
-  { id: "varus", name: "惩戒之箭", alias: "法洛士", roles: ["射手","法师"], tier: "C", wr: 47.37, pr: 9.56, hasBuild: true, rank: 72 },
-  { id: "malphite", name: "熔岩巨兽", alias: "墨菲特", roles: ["坦克","法师"], tier: "C", wr: 47.28, pr: 10.02, hasBuild: true, rank: 73 },
-  { id: "mel", name: "流光镜影", alias: "梅爾", roles: ["法师","辅助"], tier: "C", wr: 47.89, pr: 8.36, hasBuild: true, rank: 74 },
-  { id: "sylas", name: "解脱者", alias: "解脱者", roles: ["法师","刺客"], tier: "C", wr: 48.49, pr: 7.4, hasBuild: true, rank: 75 },
-  { id: "nautilus", name: "深海泰坦", alias: "深海泰坦", roles: ["坦克","辅助"], tier: "C", wr: 48.52, pr: 7.39, hasBuild: true, rank: 76 },
-  { id: "jarvaniv", name: "德玛西亚皇子", alias: "嘉文四世", roles: ["战士","坦克"], tier: "C", wr: 47.28, pr: 9.12, hasBuild: true, rank: 77 },
-  { id: "zaahen", name: "不落魔锋", alias: "薩亨", roles: ["战士","刺客"], tier: "C", wr: 52.82, pr: 2.56, hasBuild: true, rank: 78 },
-  { id: "briar", name: "狂厄蔷薇", alias: "布蕾爾", roles: ["战士","刺客"], tier: "C", wr: 52.26, pr: 2.72, hasBuild: true, rank: 79 },
-  { id: "viego", name: "破败之王", alias: "維爾戈", roles: ["战士","刺客"], tier: "C", wr: 50.22, pr: 4.46, hasBuild: true, rank: 80 },
-  { id: "darius", name: "诺克萨斯之手", alias: "達瑞斯", roles: ["战士","坦克"], tier: "C", wr: 48.01, pr: 7.58, hasBuild: true, rank: 81 },
-  { id: "chogath", name: "虚空恐惧", alias: "科加斯", roles: ["坦克","法师"], tier: "C", wr: 47.36, pr: 8.5, hasBuild: true, rank: 82 },
-  { id: "illaoi", name: "海兽祭司", alias: "伊羅旖", roles: ["战士","坦克"], tier: "C", wr: 48.29, pr: 6.88, hasBuild: true, rank: 83 },
-  { id: "ziggs", name: "爆破鬼才", alias: "希格斯", roles: ["法师"], tier: "C", wr: 49.14, pr: 5.45, hasBuild: true, rank: 84 },
-  { id: "vladimir", name: "猩红收割者", alias: "猩红收割者", roles: ["法师","战士"], tier: "C", wr: 48.23, pr: 6.55, hasBuild: true, rank: 85 },
-  { id: "draven", name: "荣耀行刑官", alias: "達瑞文", roles: ["射手"], tier: "C", wr: 49.45, pr: 4.87, hasBuild: true, rank: 86 },
-  { id: "udyr", name: "兽灵行者", alias: "烏迪爾", roles: ["战士","坦克"], tier: "C", wr: 48.85, pr: 5.63, hasBuild: true, rank: 87 },
-  { id: "kogmaw", name: "深渊巨口", alias: "寇格魔", roles: ["射手","法师"], tier: "C", wr: 49.7, pr: 4.56, hasBuild: true, rank: 88 },
-  { id: "poppy", name: "圣锤之毅", alias: "波比", roles: ["坦克","战士"], tier: "C", wr: 49.85, pr: 4.4, hasBuild: true, rank: 89 },
-  { id: "sivir", name: "战争女神", alias: "希維爾", roles: ["射手"], tier: "C", wr: 48.14, pr: 6.38, hasBuild: true, rank: 90 },
-  { id: "pantheon", name: "不屈之枪", alias: "潘森", roles: ["战士","刺客"], tier: "C", wr: 49.33, pr: 4.9, hasBuild: true, rank: 91 },
-  { id: "heimerdinger", name: "大发明家", alias: "大发明家", roles: ["法师","辅助"], tier: "C", wr: 50.34, pr: 3.52, hasBuild: true, rank: 92 },
-  { id: "yuumi", name: "魔法猫咪", alias: "悠咪", roles: ["辅助","法师"], tier: "C", wr: 51.34, pr: 2.78, hasBuild: true, rank: 93 },
-  { id: "janna", name: "风暴之怒", alias: "珍娜", roles: ["辅助","法师"], tier: "C", wr: 52.94, pr: 1.89, hasBuild: true, rank: 94 },
-  { id: "leona", name: "曙光女神", alias: "雷歐娜", roles: ["坦克","辅助"], tier: "C", wr: 48.62, pr: 5.96, hasBuild: true, rank: 95 },
-  { id: "amumu", name: "殇之木乃伊", alias: "阿姆姆", roles: ["坦克","辅助"], tier: "C", wr: 48.44, pr: 6.05, hasBuild: true, rank: 96 },
-  { id: "shaco", name: "恶魔小丑", alias: "薩科", roles: ["刺客"], tier: "C", wr: 45.68, pr: 9.29, hasBuild: true, rank: 97 },
-  { id: "soraka", name: "众星之子", alias: "索拉卡", roles: ["辅助","法师"], tier: "C", wr: 49.96, pr: 3.86, hasBuild: true, rank: 98 },
-  { id: "ornn", name: "山隐之焰", alias: "鄂爾", roles: ["坦克"], tier: "C", wr: 47.94, pr: 6.23, hasBuild: true, rank: 99 },
-  { id: "mordekaiser", name: "铁铠冥魂", alias: "铁铠冥魂", roles: ["战士","法师"], tier: "C", wr: 47.07, pr: 7.6, hasBuild: true, rank: 100 },
-  { id: "monkeyking", name: "齐天大圣", alias: "悟空", roles: ["战士","坦克"], tier: "C", wr: 48.97, pr: 4.83, hasBuild: true, rank: 101 },
-  { id: "talon", name: "刀锋之影", alias: "塔隆", roles: ["刺客"], tier: "C", wr: 49.44, pr: 4.04, hasBuild: true, rank: 102 },
-  { id: "jayce", name: "未来守护者", alias: "杰西", roles: ["战士","射手"], tier: "C", wr: 46.89, pr: 7.77, hasBuild: true, rank: 103 },
+  { id: "sona", name: "琴瑟仙女", alias: "索娜", roles: ["辅助","法师"], tier: "B", wr: 52.53, pr: 3.16, hasBuild: true, rank: 68 },
+  { id: "kaisa", name: "虚空之女", alias: "凱莎", roles: ["射手","法师"], tier: "B", wr: 46.59, pr: 12.54, hasBuild: true, rank: 69 },
+  { id: "tryndamere", name: "蛮族之王", alias: "蛮族之王", roles: ["战士","刺客"], tier: "C", wr: 50.4, pr: 5.17, hasBuild: true, rank: 70 },
+  { id: "malphite", name: "熔岩巨兽", alias: "墨菲特", roles: ["坦克","法师"], tier: "C", wr: 47.26, pr: 10.02, hasBuild: true, rank: 71 },
+  { id: "varus", name: "惩戒之箭", alias: "法洛士", roles: ["射手","法师"], tier: "C", wr: 47.37, pr: 9.43, hasBuild: true, rank: 72 },
+  { id: "lux", name: "光辉女郎", alias: "拉克絲", roles: ["法师","辅助"], tier: "C", wr: 49.16, pr: 6.15, hasBuild: true, rank: 73 },
+  { id: "mel", name: "流光镜影", alias: "梅爾", roles: ["法师","辅助"], tier: "C", wr: 47.9, pr: 8.24, hasBuild: true, rank: 74 },
+  { id: "sylas", name: "解脱者", alias: "解脱者", roles: ["法师","刺客"], tier: "C", wr: 48.47, pr: 7.41, hasBuild: true, rank: 75 },
+  { id: "nautilus", name: "深海泰坦", alias: "深海泰坦", roles: ["坦克","辅助"], tier: "C", wr: 48.51, pr: 7.35, hasBuild: true, rank: 76 },
+  { id: "jarvaniv", name: "德玛西亚皇子", alias: "嘉文四世", roles: ["战士","坦克"], tier: "C", wr: 47.26, pr: 9.21, hasBuild: true, rank: 77 },
+  { id: "zaahen", name: "不落魔锋", alias: "薩亨", roles: ["战士","刺客"], tier: "C", wr: 52.8, pr: 2.56, hasBuild: true, rank: 78 },
+  { id: "briar", name: "狂厄蔷薇", alias: "布蕾爾", roles: ["战士","刺客"], tier: "C", wr: 52.33, pr: 2.67, hasBuild: true, rank: 79 },
+  { id: "darius", name: "诺克萨斯之手", alias: "達瑞斯", roles: ["战士","坦克"], tier: "C", wr: 48.01, pr: 7.61, hasBuild: true, rank: 80 },
+  { id: "chogath", name: "虚空恐惧", alias: "科加斯", roles: ["坦克","法师"], tier: "C", wr: 47.36, pr: 8.5, hasBuild: true, rank: 81 },
+  { id: "viego", name: "破败之王", alias: "維爾戈", roles: ["战士","刺客"], tier: "C", wr: 50.24, pr: 4.45, hasBuild: true, rank: 82 },
+  { id: "illaoi", name: "海兽祭司", alias: "伊羅旖", roles: ["战士","坦克"], tier: "C", wr: 48.29, pr: 6.85, hasBuild: true, rank: 83 },
+  { id: "vladimir", name: "猩红收割者", alias: "猩红收割者", roles: ["法师","战士"], tier: "C", wr: 48.21, pr: 6.56, hasBuild: true, rank: 84 },
+  { id: "ziggs", name: "爆破鬼才", alias: "希格斯", roles: ["法师"], tier: "C", wr: 49.12, pr: 5.44, hasBuild: true, rank: 85 },
+  { id: "udyr", name: "兽灵行者", alias: "烏迪爾", roles: ["战士","坦克"], tier: "C", wr: 48.84, pr: 5.64, hasBuild: true, rank: 86 },
+  { id: "draven", name: "荣耀行刑官", alias: "達瑞文", roles: ["射手"], tier: "C", wr: 49.46, pr: 4.87, hasBuild: true, rank: 87 },
+  { id: "kogmaw", name: "深渊巨口", alias: "寇格魔", roles: ["射手","法师"], tier: "C", wr: 49.69, pr: 4.55, hasBuild: true, rank: 88 },
+  { id: "poppy", name: "圣锤之毅", alias: "波比", roles: ["坦克","战士"], tier: "C", wr: 49.81, pr: 4.42, hasBuild: true, rank: 89 },
+  { id: "yuumi", name: "魔法猫咪", alias: "悠咪", roles: ["辅助","法师"], tier: "C", wr: 51.34, pr: 2.77, hasBuild: true, rank: 90 },
+  { id: "pantheon", name: "不屈之枪", alias: "潘森", roles: ["战士","刺客"], tier: "C", wr: 49.34, pr: 4.91, hasBuild: true, rank: 91 },
+  { id: "heimerdinger", name: "大发明家", alias: "大发明家", roles: ["法师","辅助"], tier: "C", wr: 50.33, pr: 3.53, hasBuild: true, rank: 92 },
+  { id: "janna", name: "风暴之怒", alias: "珍娜", roles: ["辅助","法师"], tier: "C", wr: 52.93, pr: 1.89, hasBuild: true, rank: 93 },
+  { id: "leona", name: "曙光女神", alias: "雷歐娜", roles: ["坦克","辅助"], tier: "C", wr: 48.62, pr: 5.93, hasBuild: true, rank: 94 },
+  { id: "sivir", name: "战争女神", alias: "希維爾", roles: ["射手"], tier: "C", wr: 48.14, pr: 6.31, hasBuild: true, rank: 95 },
+  { id: "amumu", name: "殇之木乃伊", alias: "阿姆姆", roles: ["坦克","辅助"], tier: "C", wr: 48.42, pr: 6.05, hasBuild: true, rank: 96 },
+  { id: "shaco", name: "恶魔小丑", alias: "薩科", roles: ["刺客"], tier: "C", wr: 45.68, pr: 9.31, hasBuild: true, rank: 97 },
+  { id: "soraka", name: "众星之子", alias: "索拉卡", roles: ["辅助","法师"], tier: "C", wr: 49.9, pr: 3.87, hasBuild: true, rank: 98 },
+  { id: "ornn", name: "山隐之焰", alias: "鄂爾", roles: ["坦克"], tier: "C", wr: 47.93, pr: 6.21, hasBuild: true, rank: 99 },
+  { id: "monkeyking", name: "齐天大圣", alias: "悟空", roles: ["战士","坦克"], tier: "C", wr: 48.98, pr: 4.84, hasBuild: true, rank: 100 },
+  { id: "talon", name: "刀锋之影", alias: "塔隆", roles: ["刺客"], tier: "C", wr: 49.48, pr: 4.06, hasBuild: true, rank: 101 },
+  { id: "mordekaiser", name: "铁铠冥魂", alias: "铁铠冥魂", roles: ["战士","法师"], tier: "C", wr: 47.05, pr: 7.61, hasBuild: true, rank: 102 },
+  { id: "jayce", name: "未来守护者", alias: "杰西", roles: ["战士","射手"], tier: "C", wr: 46.9, pr: 7.79, hasBuild: true, rank: 103 },
   { id: "kassadin", name: "虚空行者", alias: "卡薩丁", roles: ["刺客","法师"], tier: "C", wr: 50.32, pr: 2.71, hasBuild: true, rank: 104 },
-  { id: "sejuani", name: "北地之怒", alias: "史瓦妮", roles: ["坦克"], tier: "C", wr: 47.8, pr: 5.91, hasBuild: true, rank: 105 },
-  { id: "samira", name: "沙漠玫瑰", alias: "煞蜜拉", roles: ["射手","刺客"], tier: "C", wr: 48.06, pr: 5.6, hasBuild: true, rank: 106 },
-  { id: "garen", name: "德玛西亚之力", alias: "蓋倫", roles: ["战士","坦克"], tier: "C", wr: 45.36, pr: 8.18, hasBuild: true, rank: 107 },
-  { id: "fiddlesticks", name: "远古恐惧", alias: "远古恐惧", roles: ["法师","辅助"], tier: "C", wr: 48.76, pr: 4.44, hasBuild: true, rank: 108 },
-  { id: "milio", name: "明烛", alias: "明烛", roles: ["辅助","法师"], tier: "C", wr: 50.57, pr: 2.2, hasBuild: true, rank: 109 },
-  { id: "renata", name: "炼金男爵", alias: "炼金男爵", roles: ["辅助","法师"], tier: "C", wr: 51.25, pr: 1.84, hasBuild: true, rank: 110 },
-  { id: "blitzcrank", name: "蒸汽机器人", alias: "布里茨", roles: ["坦克","辅助"], tier: "C", wr: 46.2, pr: 7.39, hasBuild: true, rank: 111 },
-  { id: "zyra", name: "荆棘之兴", alias: "枷蘿", roles: ["法师","辅助"], tier: "C", wr: 47.77, pr: 5.46, hasBuild: true, rank: 112 },
-  { id: "volibear", name: "不灭狂雷", alias: "不灭狂雷", roles: ["战士","坦克"], tier: "C", wr: 48.67, pr: 4.31, hasBuild: true, rank: 113 },
-  { id: "kalista", name: "复仇之矛", alias: "复仇之矛", roles: ["射手"], tier: "C", wr: 50.04, pr: 2.55, hasBuild: true, rank: 114 },
-  { id: "nidalee", name: "狂野女猎手", alias: "奈德麗", roles: ["刺客","法师"], tier: "C", wr: 47.17, pr: 5.95, hasBuild: true, rank: 115 },
-  { id: "rengar", name: "傲之追猎者", alias: "雷葛爾", roles: ["刺客","战士"], tier: "C", wr: 47.83, pr: 4.94, hasBuild: true, rank: 116 },
-  { id: "gragas", name: "酒桶", alias: "酒桶", roles: ["战士","法师"], tier: "C", wr: 48.57, pr: 4.03, hasBuild: true, rank: 117 },
-  { id: "khazix", name: "虚空掠夺者", alias: "卡力斯", roles: ["刺客"], tier: "C", wr: 47.1, pr: 5.57, hasBuild: true, rank: 118 },
+  { id: "sejuani", name: "北地之怒", alias: "史瓦妮", roles: ["坦克"], tier: "C", wr: 47.78, pr: 5.87, hasBuild: true, rank: 105 },
+  { id: "samira", name: "沙漠玫瑰", alias: "煞蜜拉", roles: ["射手","刺客"], tier: "C", wr: 48.06, pr: 5.58, hasBuild: true, rank: 106 },
+  { id: "fiddlesticks", name: "远古恐惧", alias: "远古恐惧", roles: ["法师","辅助"], tier: "C", wr: 48.69, pr: 4.5, hasBuild: true, rank: 107 },
+  { id: "garen", name: "德玛西亚之力", alias: "蓋倫", roles: ["战士","坦克"], tier: "C", wr: 45.37, pr: 8.17, hasBuild: true, rank: 108 },
+  { id: "blitzcrank", name: "蒸汽机器人", alias: "布里茨", roles: ["坦克","辅助"], tier: "C", wr: 46.19, pr: 7.38, hasBuild: true, rank: 109 },
+  { id: "milio", name: "明烛", alias: "明烛", roles: ["辅助","法师"], tier: "C", wr: 50.55, pr: 2.2, hasBuild: true, rank: 110 },
+  { id: "renata", name: "炼金男爵", alias: "炼金男爵", roles: ["辅助","法师"], tier: "C", wr: 51.21, pr: 1.84, hasBuild: true, rank: 111 },
+  { id: "kalista", name: "复仇之矛", alias: "复仇之矛", roles: ["射手"], tier: "C", wr: 50.03, pr: 2.55, hasBuild: true, rank: 112 },
+  { id: "zyra", name: "荆棘之兴", alias: "枷蘿", roles: ["法师","辅助"], tier: "C", wr: 47.74, pr: 5.46, hasBuild: true, rank: 113 },
+  { id: "volibear", name: "不灭狂雷", alias: "不灭狂雷", roles: ["战士","坦克"], tier: "C", wr: 48.66, pr: 4.31, hasBuild: true, rank: 114 },
+  { id: "nidalee", name: "狂野女猎手", alias: "奈德麗", roles: ["刺客","法师"], tier: "C", wr: 47.17, pr: 5.98, hasBuild: true, rank: 115 },
+  { id: "rengar", name: "傲之追猎者", alias: "雷葛爾", roles: ["刺客","战士"], tier: "C", wr: 47.86, pr: 4.97, hasBuild: true, rank: 116 },
+  { id: "gragas", name: "酒桶", alias: "酒桶", roles: ["战士","法师"], tier: "C", wr: 48.59, pr: 4.06, hasBuild: true, rank: 117 },
+  { id: "khazix", name: "虚空掠夺者", alias: "卡力斯", roles: ["刺客"], tier: "C", wr: 47.14, pr: 5.51, hasBuild: true, rank: 118 },
   { id: "karma", name: "天启者", alias: "卡瑪", roles: ["法师","辅助"], tier: "C", wr: 48.38, pr: 4.02, hasBuild: true, rank: 119 },
-  { id: "vex", name: "愁云使者", alias: "薇可絲", roles: ["法师"], tier: "C", wr: 49.98, pr: 2.04, hasBuild: true, rank: 120 },
-  { id: "aatrox", name: "暗裔剑魔", alias: "厄薩斯", roles: ["战士"], tier: "C", wr: 46.17, pr: 6.07, hasBuild: true, rank: 121 },
-  { id: "nami", name: "唤潮鲛姬", alias: "娜米", roles: ["辅助","法师"], tier: "C", wr: 50.28, pr: 1.59, hasBuild: true, rank: 122 },
-  { id: "nocturne", name: "永恒梦魇", alias: "夜曲", roles: ["战士","刺客"], tier: "C", wr: 48.42, pr: 3.66, hasBuild: true, rank: 123 },
-  { id: "pyke", name: "血港鬼影", alias: "派克", roles: ["辅助","刺客"], tier: "C", wr: 47.08, pr: 5.26, hasBuild: true, rank: 124 },
-  { id: "nilah", name: "不羁之悦", alias: "淣菈", roles: ["战士","刺客"], tier: "C", wr: 50.12, pr: 1.04, hasBuild: true, rank: 125 },
-  { id: "kindred", name: "永猎双子", alias: "鏡爪", roles: ["射手"], tier: "C", wr: 47.67, pr: 4.14, hasBuild: true, rank: 126 },
-  { id: "orianna", name: "发条魔灵", alias: "发条魔灵", roles: ["法师","辅助"], tier: "C", wr: 48.11, pr: 3.21, hasBuild: true, rank: 127 },
-  { id: "thresh", name: "魂锁典狱长", alias: "锤石", roles: ["辅助","坦克"], tier: "C", wr: 44.04, pr: 6.29, hasBuild: true, rank: 128 },
-  { id: "annie", name: "黑暗之女", alias: "安妮", roles: ["法师","辅助"], tier: "C", wr: 48.95, pr: 2.17, hasBuild: true, rank: 129 },
-  { id: "ivern", name: "翠神", alias: "翠神", roles: ["辅助","法师"], tier: "C", wr: 49.97, pr: 0.7, hasBuild: true, rank: 130 },
-  { id: "taric", name: "瓦洛兰之盾", alias: "塔里克", roles: ["辅助","坦克"], tier: "C", wr: 49.62, pr: 1.21, hasBuild: true, rank: 131 },
-  { id: "zeri", name: "祖安花火", alias: "婕莉", roles: ["射手"], tier: "C", wr: 48.76, pr: 2.29, hasBuild: true, rank: 132 },
-  { id: "taliyah", name: "岩雀", alias: "岩雀", roles: ["法师","辅助"], tier: "C", wr: 49.13, pr: 1.84, hasBuild: true, rank: 133 },
+  { id: "aatrox", name: "暗裔剑魔", alias: "厄薩斯", roles: ["战士"], tier: "C", wr: 46.16, pr: 6.07, hasBuild: true, rank: 120 },
+  { id: "vex", name: "愁云使者", alias: "薇可絲", roles: ["法师"], tier: "C", wr: 49.95, pr: 2.04, hasBuild: true, rank: 121 },
+  { id: "nami", name: "唤潮鲛姬", alias: "娜米", roles: ["辅助","法师"], tier: "C", wr: 50.24, pr: 1.58, hasBuild: true, rank: 122 },
+  { id: "nocturne", name: "永恒梦魇", alias: "夜曲", roles: ["战士","刺客"], tier: "C", wr: 48.42, pr: 3.68, hasBuild: true, rank: 123 },
+  { id: "pyke", name: "血港鬼影", alias: "派克", roles: ["辅助","刺客"], tier: "C", wr: 47.06, pr: 5.25, hasBuild: true, rank: 124 },
+  { id: "nilah", name: "不羁之悦", alias: "淣菈", roles: ["战士","刺客"], tier: "C", wr: 50.09, pr: 1.04, hasBuild: true, rank: 125 },
+  { id: "kindred", name: "永猎双子", alias: "鏡爪", roles: ["射手"], tier: "C", wr: 47.68, pr: 4.12, hasBuild: true, rank: 126 },
+  { id: "orianna", name: "发条魔灵", alias: "发条魔灵", roles: ["法师","辅助"], tier: "C", wr: 48.16, pr: 3.15, hasBuild: true, rank: 127 },
+  { id: "thresh", name: "魂锁典狱长", alias: "锤石", roles: ["辅助","坦克"], tier: "C", wr: 44.04, pr: 6.27, hasBuild: true, rank: 128 },
+  { id: "ivern", name: "翠神", alias: "翠神", roles: ["辅助","法师"], tier: "C", wr: 49.96, pr: 0.69, hasBuild: true, rank: 129 },
+  { id: "annie", name: "黑暗之女", alias: "安妮", roles: ["法师","辅助"], tier: "C", wr: 48.91, pr: 2.19, hasBuild: true, rank: 130 },
+  { id: "zeri", name: "祖安花火", alias: "婕莉", roles: ["射手"], tier: "C", wr: 48.75, pr: 2.29, hasBuild: true, rank: 131 },
+  { id: "taliyah", name: "岩雀", alias: "岩雀", roles: ["法师","辅助"], tier: "C", wr: 49.15, pr: 1.84, hasBuild: true, rank: 132 },
+  { id: "taric", name: "瓦洛兰之盾", alias: "塔里克", roles: ["辅助","坦克"], tier: "C", wr: 49.6, pr: 1.2, hasBuild: true, rank: 133 },
   { id: "leesin", name: "盲僧", alias: "盲僧", roles: ["战士","刺客"], tier: "C", wr: 42.28, pr: 6.01, hasBuild: true, rank: 134 },
-  { id: "azir", name: "沙漠皇帝", alias: "阿祈爾", roles: ["法师","射手"], tier: "C", wr: 47.91, pr: 2.8, hasBuild: true, rank: 135 },
-  { id: "akshan", name: "影哨", alias: "影哨", roles: ["射手","刺客"], tier: "C", wr: 46.16, pr: 4.69, hasBuild: true, rank: 136 },
-  { id: "lulu", name: "仙灵女巫", alias: "露璐", roles: ["辅助","法师"], tier: "C", wr: 48.85, pr: 1.56, hasBuild: true, rank: 137 },
-  { id: "urgot", name: "无畏战车", alias: "厄加特", roles: ["战士","坦克"], tier: "C", wr: 46.44, pr: 3.79, hasBuild: true, rank: 138 },
-  { id: "quinn", name: "德玛西亚之翼", alias: "葵恩", roles: ["射手","刺客"], tier: "C", wr: 47.45, pr: 2.67, hasBuild: true, rank: 139 },
-  { id: "gnar", name: "迷失之牙", alias: "吶兒", roles: ["战士","坦克"], tier: "C", wr: 47.28, pr: 2.74, hasBuild: true, rank: 140 },
-  { id: "skarner", name: "上古领主", alias: "史加納", roles: ["坦克","战士"], tier: "C", wr: 47.77, pr: 2.53, hasBuild: true, rank: 141 },
-  { id: "riven", name: "放逐之刃", alias: "雷玟", roles: ["战士","刺客"], tier: "C", wr: 46.92, pr: 3.06, hasBuild: true, rank: 142 },
-  { id: "reksai", name: "虚空遁地兽", alias: "雷珂煞", roles: ["战士","坦克"], tier: "C", wr: 48.8, pr: 0.81, hasBuild: true, rank: 143 },
-  { id: "qiyana", name: "元素女皇", alias: "姬亞娜", roles: ["刺客"], tier: "C", wr: 46.43, pr: 3.26, hasBuild: true, rank: 144 },
-  { id: "vi", name: "皮城执法官", alias: "菲艾", roles: ["战士","刺客"], tier: "C", wr: 46.81, pr: 2.85, hasBuild: true, rank: 145 },
-  { id: "diana", name: "皎月女神", alias: "黛安娜", roles: ["战士","刺客"], tier: "C", wr: 46.25, pr: 3.01, hasBuild: true, rank: 146 },
-  { id: "anivia", name: "冰晶凤凰", alias: "冰晶凤凰", roles: ["法师"], tier: "C", wr: 45.39, pr: 3.48, hasBuild: true, rank: 147 },
-  { id: "lissandra", name: "冰霜女巫", alias: "麗珊卓", roles: ["法师"], tier: "C", wr: 45.17, pr: 3.3, hasBuild: true, rank: 148 },
-  { id: "naafiri", name: "百裂冥犬", alias: "娜菲芮", roles: ["刺客","战士"], tier: "C", wr: 44.18, pr: 3.52, hasBuild: true, rank: 149 },
-  { id: "irelia", name: "刀锋舞者", alias: "刀锋舞者", roles: ["战士","刺客"], tier: "C", wr: 47.48, pr: 1.55, hasBuild: true, rank: 150 },
-  { id: "neeko", name: "万花通灵", alias: "妮可", roles: ["法师","辅助"], tier: "C", wr: 45.3, pr: 2.85, hasBuild: true, rank: 151 },
-  { id: "zoe", name: "暮光星灵", alias: "柔依", roles: ["法师"], tier: "C", wr: 47.08, pr: 2.08, hasBuild: true, rank: 152 },
-  { id: "rammus", name: "披甲龙龟", alias: "拉姆斯", roles: ["坦克"], tier: "C", wr: 44.26, pr: 3.2, hasBuild: true, rank: 153 },
+  { id: "azir", name: "沙漠皇帝", alias: "阿祈爾", roles: ["法师","射手"], tier: "C", wr: 47.95, pr: 2.73, hasBuild: true, rank: 135 },
+  { id: "akshan", name: "影哨", alias: "影哨", roles: ["射手","刺客"], tier: "C", wr: 46.18, pr: 4.66, hasBuild: true, rank: 136 },
+  { id: "lulu", name: "仙灵女巫", alias: "露璐", roles: ["辅助","法师"], tier: "C", wr: 48.84, pr: 1.56, hasBuild: true, rank: 137 },
+  { id: "quinn", name: "德玛西亚之翼", alias: "葵恩", roles: ["射手","刺客"], tier: "C", wr: 47.49, pr: 2.67, hasBuild: true, rank: 138 },
+  { id: "urgot", name: "无畏战车", alias: "厄加特", roles: ["战士","坦克"], tier: "C", wr: 46.46, pr: 3.79, hasBuild: true, rank: 139 },
+  { id: "skarner", name: "上古领主", alias: "史加納", roles: ["坦克","战士"], tier: "C", wr: 47.76, pr: 2.51, hasBuild: true, rank: 140 },
+  { id: "gnar", name: "迷失之牙", alias: "吶兒", roles: ["战士","坦克"], tier: "C", wr: 47.27, pr: 2.73, hasBuild: true, rank: 141 },
+  { id: "riven", name: "放逐之刃", alias: "雷玟", roles: ["战士","刺客"], tier: "C", wr: 46.93, pr: 3.06, hasBuild: true, rank: 142 },
+  { id: "reksai", name: "虚空遁地兽", alias: "雷珂煞", roles: ["战士","坦克"], tier: "C", wr: 48.7, pr: 0.84, hasBuild: true, rank: 143 },
+  { id: "qiyana", name: "元素女皇", alias: "姬亞娜", roles: ["刺客"], tier: "C", wr: 46.44, pr: 3.29, hasBuild: true, rank: 144 },
+  { id: "vi", name: "皮城执法官", alias: "菲艾", roles: ["战士","刺客"], tier: "C", wr: 46.83, pr: 2.85, hasBuild: true, rank: 145 },
+  { id: "diana", name: "皎月女神", alias: "黛安娜", roles: ["战士","刺客"], tier: "C", wr: 46.24, pr: 3.0, hasBuild: true, rank: 146 },
+  { id: "anivia", name: "冰晶凤凰", alias: "冰晶凤凰", roles: ["法师"], tier: "C", wr: 45.38, pr: 3.5, hasBuild: true, rank: 147 },
+  { id: "lissandra", name: "冰霜女巫", alias: "麗珊卓", roles: ["法师"], tier: "C", wr: 45.15, pr: 3.31, hasBuild: true, rank: 148 },
+  { id: "naafiri", name: "百裂冥犬", alias: "娜菲芮", roles: ["刺客","战士"], tier: "C", wr: 44.22, pr: 3.47, hasBuild: true, rank: 149 },
+  { id: "neeko", name: "万花通灵", alias: "妮可", roles: ["法师","辅助"], tier: "C", wr: 45.31, pr: 2.83, hasBuild: true, rank: 150 },
+  { id: "irelia", name: "刀锋舞者", alias: "刀锋舞者", roles: ["战士","刺客"], tier: "C", wr: 47.49, pr: 1.56, hasBuild: true, rank: 151 },
+  { id: "zoe", name: "暮光星灵", alias: "柔依", roles: ["法师"], tier: "C", wr: 47.01, pr: 2.13, hasBuild: true, rank: 152 },
+  { id: "rammus", name: "披甲龙龟", alias: "拉姆斯", roles: ["坦克"], tier: "C", wr: 44.28, pr: 3.12, hasBuild: true, rank: 153 },
   { id: "warwick", name: "祖安怒兽", alias: "沃維克", roles: ["战士","坦克"], tier: "C", wr: 46.95, pr: 2.08, hasBuild: true, rank: 154 },
-  { id: "kled", name: "暴怒骑士", alias: "克烈", roles: ["战士"], tier: "C", wr: 47.4, pr: 1.18, hasBuild: true, rank: 155 },
-  { id: "nunu", name: "雪原双子", alias: "雪原双子", roles: ["坦克","法师"], tier: "C", wr: 45.12, pr: 2.6, hasBuild: true, rank: 156 },
-  { id: "cassiopeia", name: "魔蛇之拥", alias: "魔蛇之拥", roles: ["法师"], tier: "C", wr: 46.03, pr: 2.28, hasBuild: true, rank: 157 },
-  { id: "kennen", name: "狂暴之心", alias: "凱能", roles: ["法师"], tier: "C", wr: 44.86, pr: 2.59, hasBuild: true, rank: 158 },
-  { id: "evelynn", name: "痛苦之拥", alias: "伊芙琳", roles: ["刺客","法师"], tier: "C", wr: 47.35, pr: 0.65, hasBuild: true, rank: 159 },
-  { id: "olaf", name: "狂战士", alias: "狂战士", roles: ["战士","坦克"], tier: "C", wr: 46.7, pr: 1.66, hasBuild: true, rank: 160 },
-  { id: "leblanc", name: "诡术妖姬", alias: "勒布朗", roles: ["刺客","法师"], tier: "C", wr: 44.06, pr: 2.64, hasBuild: true, rank: 161 },
-  { id: "renekton", name: "荒漠屠夫", alias: "雷克顿", roles: ["战士","坦克"], tier: "C", wr: 45.17, pr: 2.3, hasBuild: true, rank: 162 },
-  { id: "camille", name: "青钢影", alias: "青钢影", roles: ["战士","刺客"], tier: "C", wr: 46.75, pr: 1.4, hasBuild: true, rank: 163 },
-  { id: "braum", name: "弗雷尔卓德之心", alias: "布隆", roles: ["坦克","辅助"], tier: "C", wr: 45.98, pr: 1.95, hasBuild: true, rank: 164 },
-  { id: "zac", name: "生化魔人", alias: "札克", roles: ["坦克","战士"], tier: "C", wr: 44.84, pr: 2.31, hasBuild: true, rank: 165 },
-  { id: "ksante", name: "纳祖芒荣耀", alias: "卡桑帝", roles: ["坦克","战士"], tier: "C", wr: 40.62, pr: 2.58, hasBuild: true, rank: 166 },
-  { id: "locke", name: "灰烬驱魔人", alias: "洛克", roles: ["刺客","法师"], tier: "C", wr: 43.03, pr: 2.45, hasBuild: true, rank: 167 },
-  { id: "rakan", name: "幻翎", alias: "幻翎", roles: ["辅助"], tier: "C", wr: 45.39, pr: 1.76, hasBuild: true, rank: 168 },
-  { id: "akali", name: "离群之刺", alias: "阿卡莉", roles: ["刺客"], tier: "C", wr: 43.36, pr: 2.15, hasBuild: true, rank: 169 },
-  { id: "elise", name: "蜘蛛女皇", alias: "伊莉絲", roles: ["刺客","法师"], tier: "C", wr: 45.87, pr: 0.86, hasBuild: true, rank: 170 },
-  { id: "yorick", name: "牧魂人", alias: "牧魂人", roles: ["战士","坦克"], tier: "C", wr: 44.52, pr: 0.96, hasBuild: true, rank: 171 },
-  { id: "bard", name: "星界游神", alias: "巴德", roles: ["辅助","法师"], tier: "C", wr: 40.72, pr: 0.96, hasBuild: true, rank: 172 },
+  { id: "kled", name: "暴怒骑士", alias: "克烈", roles: ["战士"], tier: "C", wr: 47.45, pr: 1.21, hasBuild: true, rank: 155 },
+  { id: "nunu", name: "雪原双子", alias: "雪原双子", roles: ["坦克","法师"], tier: "C", wr: 45.14, pr: 2.58, hasBuild: true, rank: 156 },
+  { id: "cassiopeia", name: "魔蛇之拥", alias: "魔蛇之拥", roles: ["法师"], tier: "C", wr: 46.01, pr: 2.28, hasBuild: true, rank: 157 },
+  { id: "evelynn", name: "痛苦之拥", alias: "伊芙琳", roles: ["刺客","法师"], tier: "C", wr: 47.33, pr: 0.65, hasBuild: true, rank: 158 },
+  { id: "kennen", name: "狂暴之心", alias: "凱能", roles: ["法师"], tier: "C", wr: 44.89, pr: 2.53, hasBuild: true, rank: 159 },
+  { id: "olaf", name: "狂战士", alias: "狂战士", roles: ["战士","坦克"], tier: "C", wr: 46.7, pr: 1.67, hasBuild: true, rank: 160 },
+  { id: "leblanc", name: "诡术妖姬", alias: "勒布朗", roles: ["刺客","法师"], tier: "C", wr: 44.05, pr: 2.65, hasBuild: true, rank: 161 },
+  { id: "renekton", name: "荒漠屠夫", alias: "雷克顿", roles: ["战士","坦克"], tier: "C", wr: 45.15, pr: 2.3, hasBuild: true, rank: 162 },
+  { id: "camille", name: "青钢影", alias: "青钢影", roles: ["战士","刺客"], tier: "C", wr: 46.73, pr: 1.41, hasBuild: true, rank: 163 },
+  { id: "braum", name: "弗雷尔卓德之心", alias: "布隆", roles: ["坦克","辅助"], tier: "C", wr: 45.95, pr: 1.94, hasBuild: true, rank: 164 },
+  { id: "zac", name: "生化魔人", alias: "札克", roles: ["坦克","战士"], tier: "C", wr: 44.85, pr: 2.3, hasBuild: true, rank: 165 },
+  { id: "locke", name: "灰烬驱魔人", alias: "洛克", roles: ["刺客","法师"], tier: "C", wr: 43.04, pr: 2.47, hasBuild: true, rank: 166 },
+  { id: "rakan", name: "幻翎", alias: "幻翎", roles: ["辅助"], tier: "C", wr: 45.39, pr: 1.76, hasBuild: true, rank: 167 },
+  { id: "ksante", name: "纳祖芒荣耀", alias: "卡桑帝", roles: ["坦克","战士"], tier: "C", wr: 40.66, pr: 2.51, hasBuild: true, rank: 168 },
+  { id: "akali", name: "离群之刺", alias: "阿卡莉", roles: ["刺客"], tier: "C", wr: 43.3, pr: 2.19, hasBuild: true, rank: 169 },
+  { id: "elise", name: "蜘蛛女皇", alias: "伊莉絲", roles: ["刺客","法师"], tier: "C", wr: 45.86, pr: 0.86, hasBuild: true, rank: 170 },
+  { id: "yorick", name: "牧魂人", alias: "牧魂人", roles: ["战士","坦克"], tier: "C", wr: 44.44, pr: 0.96, hasBuild: true, rank: 171 },
+  { id: "bard", name: "星界游神", alias: "巴德", roles: ["辅助","法师"], tier: "C", wr: 40.77, pr: 0.93, hasBuild: true, rank: 172 },
 ];
 
 const BUILDS = {
@@ -607,6 +607,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- aurelionsol ---------- */
+  "aurelionsol": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 52.03, pr: 39.36, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 51.81, pr: 25.35 },
+        { order: ["E","Q","W"], wr: 51.54, pr: 13.22 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "时光之杖", pr: null, wr: null },
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- yasuo ---------- */
   "yasuo": {
     skill: {
@@ -633,43 +670,6 @@ const BUILDS = {
       { items: [{ id: 64, name: "毁坏仪式" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
       { items: [{ id: 64, name: "毁坏仪式" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "毁坏仪式" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "破败王者之刃" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- aurelionsol ---------- */
-  "aurelionsol": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 52.03, pr: 39.36, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 51.81, pr: 25.35 },
-        { order: ["E","Q","W"], wr: 51.54, pr: 13.22 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "时光之杖", pr: null, wr: null },
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -737,50 +737,13 @@ const BUILDS = {
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "疾射火炮" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "疾射火炮" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- morgana ---------- */
-  "morgana": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 51.87, pr: 34.83, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 52.11, pr: 26.5 },
-        { order: ["W","Q","E"], wr: 52.69, pr: 15.0 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
-      { id: 64, name: "中娅沙漏", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -818,6 +781,43 @@ const BUILDS = {
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- morgana ---------- */
+  "morgana": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 51.87, pr: 34.83, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 52.11, pr: 26.5 },
+        { order: ["W","Q","E"], wr: 52.69, pr: 15.0 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
+      { id: 64, name: "中娅沙漏", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -958,9 +958,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
@@ -994,8 +994,8 @@ const BUILDS = {
       { id: 64, name: "公理圆弧", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
@@ -1003,43 +1003,6 @@ const BUILDS = {
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "霸王血铠" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- seraphine ---------- */
-  "seraphine": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 55.52, pr: 38.85, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 55.24, pr: 25.35 },
-        { order: ["E","Q","W"], wr: 55.08, pr: 13.24 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "残疫", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1087,6 +1050,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- seraphine ---------- */
+  "seraphine": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 55.52, pr: 38.85, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 55.24, pr: 25.35 },
+        { order: ["E","Q","W"], wr: 55.08, pr: 13.24 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- graves ---------- */
   "graves": {
     skill: {
@@ -1106,13 +1106,50 @@ const BUILDS = {
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- missfortune ---------- */
+  "missfortune": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 48.82, pr: 35.54, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 48.87, pr: 24.85 },
+        { order: ["E","Q","W"], wr: 49.32, pr: 16.03 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "收集者", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "无尽之刃", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1142,9 +1179,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" },{ id: 64, name: "界弓" }], pr: null, wr: null },
@@ -1187,43 +1224,6 @@ const BUILDS = {
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "育恩塔尔荒野箭" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- missfortune ---------- */
-  "missfortune": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 48.82, pr: 35.54, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 48.87, pr: 24.85 },
-        { order: ["E","Q","W"], wr: 49.32, pr: 16.03 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "收集者", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "无尽之刃", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1290,8 +1290,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
@@ -1457,43 +1457,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- xinzhao ---------- */
-  "xinzhao": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 51.79, pr: 34.7, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 51.84, pr: 24.37 },
-        { order: ["E","Q","W"], wr: 52.22, pr: 12.27 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "黄昏与黎明", pr: null, wr: null },
-      { id: 64, name: "斯塔缇克电刃", pr: null, wr: null },
-      { id: 64, name: "死亡之舞", pr: null, wr: null },
-      { id: 64, name: "振奋盔甲", pr: null, wr: null },
-      { id: 64, name: "心之钢", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "黄昏与黎明" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- lucian ---------- */
   "lucian": {
     skill: {
@@ -1511,8 +1474,8 @@ const BUILDS = {
       { id: 64, name: "夺萃之镰", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
@@ -1531,32 +1494,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- ekko ---------- */
-  "ekko": {
+  /* ---------- xinzhao ---------- */
+  "xinzhao": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.24, pr: 39.69, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.79, pr: 34.7, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.92, pr: 25.09 },
-        { order: ["E","Q","W"], wr: 51.03, pr: 12.96 },
+        { order: ["Q","W","E"], wr: 51.84, pr: 24.37 },
+        { order: ["E","Q","W"], wr: 52.22, pr: 12.27 },
       ],
     },
     starting: [
       { id: 64, name: "黄昏与黎明", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "虚空之杖", pr: null, wr: null },
-      { id: 64, name: "风暴狂涌", pr: null, wr: null },
+      { id: 64, name: "斯塔缇克电刃", pr: null, wr: null },
+      { id: 64, name: "死亡之舞", pr: null, wr: null },
+      { id: 64, name: "振奋盔甲", pr: null, wr: null },
+      { id: 64, name: "心之钢", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "黄昏与黎明" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1588,12 +1551,49 @@ const BUILDS = {
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
       { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
       { items: [{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "凛冬之临" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- ekko ---------- */
+  "ekko": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 51.24, pr: 39.69, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 50.92, pr: 25.09 },
+        { order: ["E","Q","W"], wr: 51.03, pr: 12.96 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "黄昏与黎明", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "虚空之杖", pr: null, wr: null },
+      { id: 64, name: "风暴狂涌", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1642,43 +1642,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- hwei ---------- */
-  "hwei": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 52.28, pr: 40.03, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 51.92, pr: 25.38 },
-        { order: ["E","Q","W"], wr: 51.48, pr: 12.33 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "虚空之杖", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- aurora ---------- */
   "aurora": {
     skill: {
@@ -1716,32 +1679,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- corki ---------- */
-  "corki": {
+  /* ---------- hwei ---------- */
+  "hwei": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.42, pr: 37.78, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.28, pr: 40.03, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.1, pr: 24.23 },
-        { order: ["E","Q","W"], wr: 50.82, pr: 15.17 },
+        { order: ["Q","W","E"], wr: 51.92, pr: 25.38 },
+        { order: ["E","Q","W"], wr: 51.48, pr: 12.33 },
       ],
     },
     starting: [
-      { id: 64, name: "无尽之刃", pr: null, wr: null },
-      { id: 64, name: "收集者", pr: null, wr: null },
-      { id: 64, name: "多米尼克领主的致意", pr: null, wr: null },
-      { id: 64, name: "饮血剑", pr: null, wr: null },
-      { id: 64, name: "夺萃之镰", pr: null, wr: null },
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "虚空之杖", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "夺萃之镰" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "凡性的提醒" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1790,32 +1753,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- sion ---------- */
-  "sion": {
+  /* ---------- corki ---------- */
+  "corki": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.62, pr: 36.45, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.42, pr: 37.78, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.87, pr: 29.19 },
-        { order: ["E","Q","W"], wr: 51.58, pr: 11.75 },
+        { order: ["Q","W","E"], wr: 50.1, pr: 24.23 },
+        { order: ["E","Q","W"], wr: 50.82, pr: 15.17 },
       ],
     },
     starting: [
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "无终恨意", pr: null, wr: null },
-      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
-      { id: 64, name: "荆棘之甲", pr: null, wr: null },
-      { id: 64, name: "霸王血铠", pr: null, wr: null },
+      { id: 64, name: "无尽之刃", pr: null, wr: null },
+      { id: 64, name: "收集者", pr: null, wr: null },
+      { id: 64, name: "多米尼克领主的致意", pr: null, wr: null },
+      { id: 64, name: "饮血剑", pr: null, wr: null },
+      { id: 64, name: "夺萃之镰", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "荆棘之甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "夺萃之镰" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "凡性的提醒" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1864,6 +1827,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- sion ---------- */
+  "sion": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 51.62, pr: 36.45, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 51.87, pr: 29.19 },
+        { order: ["E","Q","W"], wr: 51.58, pr: 11.75 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "无终恨意", pr: null, wr: null },
+      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
+      { id: 64, name: "荆棘之甲", pr: null, wr: null },
+      { id: 64, name: "霸王血铠", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "荆棘之甲" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- veigar ---------- */
   "veigar": {
     skill: {
@@ -1883,8 +1883,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "大天使之杖" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -1921,49 +1921,12 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "荆棘之甲" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- fiora ---------- */
-  "fiora": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 52.79, pr: 39.54, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 52.52, pr: 26.05 },
-        { order: ["E","Q","W"], wr: 52.38, pr: 12.23 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "贪欲九头蛇", pr: null, wr: null },
-      { id: 64, name: "死亡之舞", pr: null, wr: null },
-      { id: 64, name: "三相之力", pr: null, wr: null },
-      { id: 64, name: "焚天", pr: null, wr: null },
-      { id: 64, name: "心之钢", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "三相之力" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2012,105 +1975,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- karthus ---------- */
-  "karthus": {
+  /* ---------- fiora ---------- */
+  "fiora": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.39, pr: 37.89, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.79, pr: 39.54, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.3, pr: 24.64 },
-        { order: ["E","Q","W"], wr: 51.67, pr: 15.28 },
+        { order: ["Q","W","E"], wr: 52.52, pr: 26.05 },
+        { order: ["E","Q","W"], wr: 52.38, pr: 12.23 },
       ],
     },
     starting: [
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "贪欲九头蛇", pr: null, wr: null },
+      { id: 64, name: "死亡之舞", pr: null, wr: null },
+      { id: 64, name: "三相之力", pr: null, wr: null },
+      { id: 64, name: "焚天", pr: null, wr: null },
+      { id: 64, name: "心之钢", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- tristana ---------- */
-  "tristana": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 52.47, pr: 36.73, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 52.22, pr: 23.75 },
-        { order: ["E","Q","W"], wr: 53.38, pr: 18.0 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "无尽之刃", pr: null, wr: null },
-      { id: 64, name: "收集者", pr: null, wr: null },
-      { id: 64, name: "纳沃利烁刃", pr: null, wr: null },
-      { id: 64, name: "破败王者之刃", pr: null, wr: null },
-      { id: 64, name: "多米尼克领主的致意", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "纳沃利烁刃" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- twitch ---------- */
-  "twitch": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 51.3, pr: 35.35, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 51.19, pr: 23.54 },
-        { order: ["E","Q","W"], wr: 52.38, pr: 18.18 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "卢安娜的飓风", pr: null, wr: null },
-      { id: 64, name: "无尽之刃", pr: null, wr: null },
-      { id: 64, name: "收集者", pr: null, wr: null },
-      { id: 64, name: "破败王者之刃", pr: null, wr: null },
-      { id: 64, name: "猎魔人弩箭", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "猎魔人弩箭" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "破败王者之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "三相之力" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2159,32 +2049,68 @@ const BUILDS = {
     },
   },
 
-  /* ---------- malzahar ---------- */
-  "malzahar": {
+  /* ---------- karthus ---------- */
+  "karthus": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.94, pr: 35.01, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.39, pr: 37.89, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.64, pr: 23.73 },
-        { order: ["E","Q","W"], wr: 53.64, pr: 18.38 },
+        { order: ["Q","W","E"], wr: 51.3, pr: 24.64 },
+        { order: ["E","Q","W"], wr: 51.67, pr: 15.28 },
       ],
     },
     starting: [
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
       { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
       { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "残疫", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- twitch ---------- */
+  "twitch": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 51.3, pr: 35.35, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 51.19, pr: 23.54 },
+        { order: ["E","Q","W"], wr: 52.38, pr: 18.18 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "卢安娜的飓风", pr: null, wr: null },
+      { id: 64, name: "无尽之刃", pr: null, wr: null },
+      { id: 64, name: "收集者", pr: null, wr: null },
+      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+      { id: 64, name: "猎魔人弩箭", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "猎魔人弩箭" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "破败王者之刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2233,6 +2159,80 @@ const BUILDS = {
     },
   },
 
+  /* ---------- malzahar ---------- */
+  "malzahar": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 52.94, pr: 35.01, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 52.64, pr: 23.73 },
+        { order: ["E","Q","W"], wr: 53.64, pr: 18.38 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- tristana ---------- */
+  "tristana": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 52.47, pr: 36.73, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 52.22, pr: 23.75 },
+        { order: ["E","Q","W"], wr: 53.38, pr: 18.0 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "无尽之刃", pr: null, wr: null },
+      { id: 64, name: "收集者", pr: null, wr: null },
+      { id: 64, name: "纳沃利烁刃", pr: null, wr: null },
+      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+      { id: 64, name: "多米尼克领主的致意", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "纳沃利烁刃" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- gwen ---------- */
   "gwen": {
     skill: {
@@ -2250,10 +2250,10 @@ const BUILDS = {
       { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "纳什之牙" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
@@ -2287,9 +2287,9 @@ const BUILDS = {
       { id: 64, name: "疾射火炮", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
@@ -2364,7 +2364,7 @@ const BUILDS = {
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -2400,8 +2400,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -2435,10 +2435,10 @@ const BUILDS = {
       { id: 64, name: "璀璨回响", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -2492,43 +2492,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- shen ---------- */
-  "shen": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 51.18, pr: 39.29, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 50.77, pr: 24.99 },
-        { order: ["E","Q","W"], wr: 51.25, pr: 13.78 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "无终恨意", pr: null, wr: null },
-      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
-      { id: 64, name: "荆棘之甲", pr: null, wr: null },
-      { id: 64, name: "巨型九头蛇", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "荆棘之甲" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- syndra ---------- */
   "syndra": {
     skill: {
@@ -2548,7 +2511,7 @@ const BUILDS = {
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -2584,14 +2547,51 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- shen ---------- */
+  "shen": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 51.18, pr: 39.29, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 50.77, pr: 24.99 },
+        { order: ["E","Q","W"], wr: 51.25, pr: 13.78 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "无终恨意", pr: null, wr: null },
+      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
+      { id: 64, name: "荆棘之甲", pr: null, wr: null },
+      { id: 64, name: "巨型九头蛇", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "荆棘之甲" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2620,9 +2620,9 @@ const BUILDS = {
       { id: 64, name: "残疫", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
@@ -2732,9 +2732,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -2768,10 +2768,10 @@ const BUILDS = {
       { id: 64, name: "三相之力", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
@@ -2825,43 +2825,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- shyvana ---------- */
-  "shyvana": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 52.97, pr: 37.19, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 53.19, pr: 27.31 },
-        { order: ["E","Q","W"], wr: 52.97, pr: 13.36 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "黄昏与黎明", pr: null, wr: null },
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "裂隙制造者", pr: null, wr: null },
-      { id: 64, name: "焚天", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- maokai ---------- */
   "maokai": {
     skill: {
@@ -2888,6 +2851,43 @@ const BUILDS = {
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- shyvana ---------- */
+  "shyvana": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 52.97, pr: 37.19, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 53.19, pr: 27.31 },
+        { order: ["E","Q","W"], wr: 52.97, pr: 13.36 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "黄昏与黎明", pr: null, wr: null },
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "裂隙制造者", pr: null, wr: null },
+      { id: 64, name: "焚天", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3029,8 +3029,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -3104,7 +3104,7 @@ const BUILDS = {
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "海妖杀手" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" }], pr: null, wr: null },
@@ -3158,32 +3158,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- lux ---------- */
-  "lux": {
+  /* ---------- malphite ---------- */
+  "malphite": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.39, pr: 35.92, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.8, pr: 38.66, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.29, pr: 23.71 },
-        { order: ["E","Q","W"], wr: 49.1, pr: 18.67 },
+        { order: ["Q","W","E"], wr: 47.65, pr: 25.18 },
+        { order: ["E","Q","W"], wr: 47.8, pr: 12.75 },
       ],
     },
     starting: [
-      { id: 64, name: "卢登的回声", pr: null, wr: null },
+      { id: 64, name: "残疫", pr: null, wr: null },
       { id: 64, name: "影焰", pr: null, wr: null },
       { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "心之钢", pr: null, wr: null },
       { id: 64, name: "风暴狂涌", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3213,9 +3213,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
@@ -3232,32 +3232,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- malphite ---------- */
-  "malphite": {
+  /* ---------- lux ---------- */
+  "lux": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.8, pr: 38.66, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.39, pr: 35.92, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.65, pr: 25.18 },
-        { order: ["E","Q","W"], wr: 47.8, pr: 12.75 },
+        { order: ["Q","W","E"], wr: 48.29, pr: 23.71 },
+        { order: ["E","Q","W"], wr: 49.1, pr: 18.67 },
       ],
     },
     starting: [
-      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "卢登的回声", pr: null, wr: null },
       { id: 64, name: "影焰", pr: null, wr: null },
       { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "残疫", pr: null, wr: null },
       { id: 64, name: "风暴狂涌", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3323,10 +3323,10 @@ const BUILDS = {
       { id: 64, name: "心之钢", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "时光之杖" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
@@ -3361,8 +3361,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
@@ -3434,10 +3434,10 @@ const BUILDS = {
       { id: 64, name: "朔极之矛", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
@@ -3471,50 +3471,13 @@ const BUILDS = {
       { id: 64, name: "无尽之刃", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- viego ---------- */
-  "viego": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 50.61, pr: 38.31, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 50.39, pr: 26.06 },
-        { order: ["E","Q","W"], wr: 50.42, pr: 12.28 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "收集者", pr: null, wr: null },
-      { id: 64, name: "无尽之刃", pr: null, wr: null },
-      { id: 64, name: "死亡之舞", pr: null, wr: null },
-      { id: 64, name: "多米尼克领主的致意", pr: null, wr: null },
-      { id: 64, name: "狂妄", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
     ],
@@ -3546,8 +3509,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
@@ -3602,6 +3565,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- viego ---------- */
+  "viego": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 50.61, pr: 38.31, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 50.39, pr: 26.06 },
+        { order: ["E","Q","W"], wr: 50.42, pr: 12.28 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "收集者", pr: null, wr: null },
+      { id: 64, name: "无尽之刃", pr: null, wr: null },
+      { id: 64, name: "死亡之舞", pr: null, wr: null },
+      { id: 64, name: "多米尼克领主的致意", pr: null, wr: null },
+      { id: 64, name: "狂妄", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- illaoi ---------- */
   "illaoi": {
     skill: {
@@ -3619,52 +3619,15 @@ const BUILDS = {
       { id: 64, name: "霸王血铠", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "焚天" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- ziggs ---------- */
-  "ziggs": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 49.49, pr: 40.12, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 49.22, pr: 25.42 },
-        { order: ["E","Q","W"], wr: 48.85, pr: 12.55 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "黯炎火炬", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "卢登的回声", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3693,15 +3656,89 @@ const BUILDS = {
       { id: 64, name: "影焰", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "裂隙制造者" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "裂隙制造者" },{ id: 64, name: "星界驱驰" }], pr: null, wr: null },
       { items: [{ id: 64, name: "裂隙制造者" },{ id: 64, name: "星界驱驰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- ziggs ---------- */
+  "ziggs": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 49.49, pr: 40.12, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 49.22, pr: 25.42 },
+        { order: ["E","Q","W"], wr: 48.85, pr: 12.55 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "黯炎火炬", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "卢登的回声", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- udyr ---------- */
+  "udyr": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 47.45, pr: 34.72, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 47.63, pr: 25.44 },
+        { order: ["E","Q","W"], wr: 47.48, pr: 13.56 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "狂妄", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3732,50 +3769,13 @@ const BUILDS = {
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- udyr ---------- */
-  "udyr": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 47.45, pr: 34.72, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 47.63, pr: 25.44 },
-        { order: ["E","Q","W"], wr: 47.48, pr: 13.56 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "残疫", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "狂妄", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3861,32 +3861,31 @@ const BUILDS = {
     },
   },
 
-  /* ---------- sivir ---------- */
-  "sivir": {
+  /* ---------- yuumi ---------- */
+  "yuumi": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.52, pr: 36.01, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.33, pr: 34.94, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.0, pr: 28.96 },
-        { order: ["E","Q","W"], wr: 48.15, pr: 11.74 },
+        { order: ["Q","W","E"], wr: 50.34, pr: 23.59 },
+        { order: ["E","Q","W"], wr: 51.15, pr: 13.7 },
       ],
     },
     starting: [
-      { id: 64, name: "无尽之刃", pr: null, wr: null },
-      { id: 64, name: "纳沃利烁刃", pr: null, wr: null },
-      { id: 64, name: "收集者", pr: null, wr: null },
-      { id: 64, name: "育恩塔尔荒野箭", pr: null, wr: null },
-      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+      { id: 64, name: "月石再生器", pr: null, wr: null },
+      { id: 64, name: "歌之权冠", pr: null, wr: null },
+      { id: 64, name: "炽热香炉", pr: null, wr: null },
+      { id: 64, name: "米凯尔的祝福", pr: null, wr: null },
+      { id: 64, name: "黎明核心", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "育恩塔尔荒野箭" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "月石再生器" },{ id: 64, name: "耳语头环" },{ id: 64, name: "炽热香炉" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "耳语头环" },{ id: 64, name: "月石再生器" },{ id: 64, name: "炽热香炉" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "月石再生器" },{ id: 64, name: "炽热香炉" },{ id: 64, name: "耳语头环" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3915,9 +3914,9 @@ const BUILDS = {
       { id: 64, name: "焚天", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
@@ -3961,42 +3960,6 @@ const BUILDS = {
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- yuumi ---------- */
-  "yuumi": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 50.33, pr: 34.94, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 50.34, pr: 23.59 },
-        { order: ["E","Q","W"], wr: 51.15, pr: 13.7 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "月石再生器", pr: null, wr: null },
-      { id: 64, name: "歌之权冠", pr: null, wr: null },
-      { id: 64, name: "炽热香炉", pr: null, wr: null },
-      { id: 64, name: "米凯尔的祝福", pr: null, wr: null },
-      { id: 64, name: "黎明核心", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "月石再生器" },{ id: 64, name: "耳语头环" },{ id: 64, name: "炽热香炉" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "耳语头环" },{ id: 64, name: "月石再生器" },{ id: 64, name: "炽热香炉" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "月石再生器" },{ id: 64, name: "炽热香炉" },{ id: 64, name: "耳语头环" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4062,15 +4025,52 @@ const BUILDS = {
       { id: 64, name: "千变者贾修", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "荆棘之甲" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- sivir ---------- */
+  "sivir": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 48.52, pr: 36.01, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 49.0, pr: 28.96 },
+        { order: ["E","Q","W"], wr: 48.15, pr: 11.74 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "无尽之刃", pr: null, wr: null },
+      { id: 64, name: "纳沃利烁刃", pr: null, wr: null },
+      { id: 64, name: "收集者", pr: null, wr: null },
+      { id: 64, name: "育恩塔尔荒野箭", pr: null, wr: null },
+      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "育恩塔尔荒野箭" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "斯塔缇克电刃" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4230,43 +4230,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- mordekaiser ---------- */
-  "mordekaiser": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 48.4, pr: 39.26, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 48.24, pr: 26.63 },
-        { order: ["E","Q","W"], wr: 47.83, pr: 12.07 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "裂隙制造者", pr: null, wr: null },
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "振奋盔甲", pr: null, wr: null },
-      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
-      { id: 64, name: "无终恨意", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "裂隙制造者" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "裂隙制造者" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- monkeyking ---------- */
   "monkeyking": {
     skill: {
@@ -4284,10 +4247,10 @@ const BUILDS = {
       { id: 64, name: "狂徒铠甲", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
@@ -4330,6 +4293,43 @@ const BUILDS = {
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- mordekaiser ---------- */
+  "mordekaiser": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 48.4, pr: 39.26, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 48.24, pr: 26.63 },
+        { order: ["E","Q","W"], wr: 47.83, pr: 12.07 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "裂隙制造者", pr: null, wr: null },
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "振奋盔甲", pr: null, wr: null },
+      { id: 64, name: "瑞莱的冰晶节杖", pr: null, wr: null },
+      { id: 64, name: "无终恨意", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "裂隙制造者" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "裂隙制造者" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4489,6 +4489,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- fiddlesticks ---------- */
+  "fiddlesticks": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 47.77, pr: 34.24, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 47.68, pr: 23.75 },
+        { order: ["W","Q","E"], wr: 48.81, pr: 16.44 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "中娅沙漏", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "中娅沙漏" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "中娅沙漏" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- garen ---------- */
   "garen": {
     skill: {
@@ -4526,32 +4563,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- fiddlesticks ---------- */
-  "fiddlesticks": {
+  /* ---------- blitzcrank ---------- */
+  "blitzcrank": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.77, pr: 34.24, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.14, pr: 39.68, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.68, pr: 23.75 },
-        { order: ["W","Q","E"], wr: 48.81, pr: 16.44 },
+        { order: ["Q","W","E"], wr: 46.89, pr: 25.73 },
+        { order: ["E","Q","W"], wr: 46.88, pr: 12.53 },
       ],
     },
     starting: [
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
+      { id: 64, name: "末日寒冬", pr: null, wr: null },
       { id: 64, name: "残疫", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "中娅沙漏", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "荆棘之甲", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "中娅沙漏" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "中娅沙漏" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "凛冬之临" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4580,10 +4617,10 @@ const BUILDS = {
       { id: 64, name: "影焰", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "月石再生器" },{ id: 64, name: "耳语头环" },{ id: 64, name: "炽热香炉" }], pr: null, wr: null },
@@ -4619,8 +4656,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "帝国指令" },{ id: 64, name: "舒瑞娅的战歌" }], pr: null, wr: null },
@@ -4637,32 +4674,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- blitzcrank ---------- */
-  "blitzcrank": {
+  /* ---------- kalista ---------- */
+  "kalista": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.14, pr: 39.68, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.36, pr: 35.81, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.89, pr: 25.73 },
-        { order: ["E","Q","W"], wr: 46.88, pr: 12.53 },
+        { order: ["Q","W","E"], wr: 53.08, pr: 23.31 },
+        { order: ["E","Q","W"], wr: 54.66, pr: 19.58 },
       ],
     },
     starting: [
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
-      { id: 64, name: "末日寒冬", pr: null, wr: null },
-      { id: 64, name: "残疫", pr: null, wr: null },
-      { id: 64, name: "荆棘之甲", pr: null, wr: null },
+      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+      { id: 64, name: "卢安娜的飓风", pr: null, wr: null },
+      { id: 64, name: "鬼索的狂暴之刃", pr: null, wr: null },
+      { id: 64, name: "界弓", pr: null, wr: null },
+      { id: 64, name: "收集者", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "凛冬之临" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" },{ id: 64, name: "卢安娜的飓风" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "鬼索的狂暴之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "界弓" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4728,52 +4765,15 @@ const BUILDS = {
       { id: 64, name: "荆棘之甲", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- kalista ---------- */
-  "kalista": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 53.36, pr: 35.81, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 53.08, pr: 23.31 },
-        { order: ["E","Q","W"], wr: 54.66, pr: 19.58 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "破败王者之刃", pr: null, wr: null },
-      { id: 64, name: "卢安娜的飓风", pr: null, wr: null },
-      { id: 64, name: "鬼索的狂暴之刃", pr: null, wr: null },
-      { id: 64, name: "界弓", pr: null, wr: null },
-      { id: 64, name: "收集者", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" },{ id: 64, name: "卢安娜的飓风" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "鬼索的狂暴之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "界弓" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4914,9 +4914,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
@@ -4950,8 +4950,8 @@ const BUILDS = {
       { id: 64, name: "兰德里的折磨", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
@@ -4959,6 +4959,43 @@ const BUILDS = {
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" }], pr: null, wr: null },
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "残疫" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- aatrox ---------- */
+  "aatrox": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 46.05, pr: 39.7, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 45.62, pr: 25.47 },
+        { order: ["E","Q","W"], wr: 45.66, pr: 12.37 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "狂妄", pr: null, wr: null },
+      { id: 64, name: "死亡之舞", pr: null, wr: null },
+      { id: 64, name: "焚天", pr: null, wr: null },
+      { id: 64, name: "无穷饥渴", pr: null, wr: null },
+      { id: 64, name: "星蚀", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "无穷饥渴" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "无穷饥渴" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4990,49 +5027,12 @@ const BUILDS = {
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- aatrox ---------- */
-  "aatrox": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 46.05, pr: 39.7, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 45.62, pr: 25.47 },
-        { order: ["E","Q","W"], wr: 45.66, pr: 12.37 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "狂妄", pr: null, wr: null },
-      { id: 64, name: "死亡之舞", pr: null, wr: null },
-      { id: 64, name: "焚天", pr: null, wr: null },
-      { id: 64, name: "无穷饥渴", pr: null, wr: null },
-      { id: 64, name: "星蚀", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "无穷饥渴" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "无穷饥渴" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5064,7 +5064,7 @@ const BUILDS = {
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "帝国指令" },{ id: 64, name: "耳语头环" },{ id: 64, name: "月石再生器" }], pr: null, wr: null },
@@ -5098,9 +5098,9 @@ const BUILDS = {
       { id: 64, name: "无尽之刃", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
@@ -5135,8 +5135,8 @@ const BUILDS = {
       { id: 64, name: "幽梦之灵", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
@@ -5174,8 +5174,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -5210,8 +5210,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -5248,8 +5248,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -5285,50 +5285,13 @@ const BUILDS = {
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- annie ---------- */
-  "annie": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 50.59, pr: 36.29, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 51.02, pr: 28.33 },
-        { order: ["E","Q","W"], wr: 50.49, pr: 11.85 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "残疫", pr: null, wr: null },
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
-      { id: 64, name: "风暴狂涌", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5377,32 +5340,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- taric ---------- */
-  "taric": {
+  /* ---------- annie ---------- */
+  "annie": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.07, pr: 37.3, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.59, pr: 36.29, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.9, pr: 24.82 },
-        { order: ["E","Q","W"], wr: 50.87, pr: 16.0 },
+        { order: ["Q","W","E"], wr: 51.02, pr: 28.33 },
+        { order: ["E","Q","W"], wr: 50.49, pr: 11.85 },
       ],
     },
     starting: [
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "无终恨意", pr: null, wr: null },
-      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
-      { id: 64, name: "末日寒冬", pr: null, wr: null },
-      { id: 64, name: "振奋盔甲", pr: null, wr: null },
+      { id: 64, name: "残疫", pr: null, wr: null },
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "兰德里的折磨", pr: null, wr: null },
+      { id: 64, name: "风暴狂涌", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5469,14 +5432,51 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- taric ---------- */
+  "taric": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 50.07, pr: 37.3, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 49.9, pr: 24.82 },
+        { order: ["E","Q","W"], wr: 50.87, pr: 16.0 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "无终恨意", pr: null, wr: null },
+      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
+      { id: 64, name: "末日寒冬", pr: null, wr: null },
+      { id: 64, name: "振奋盔甲", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5543,9 +5543,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "纳什之牙" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -5636,43 +5636,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- urgot ---------- */
-  "urgot": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 46.44, pr: 34.27, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 46.29, pr: 23.81 },
-        { order: ["W","E","Q"], wr: 48.05, pr: 13.04 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "巨型九头蛇", pr: null, wr: null },
-      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
-      { id: 64, name: "霸王血铠", pr: null, wr: null },
-      { id: 64, name: "黑色切割者", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "黑色切割者" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- quinn ---------- */
   "quinn": {
     skill: {
@@ -5710,32 +5673,32 @@ const BUILDS = {
     },
   },
 
-  /* ---------- gnar ---------- */
-  "gnar": {
+  /* ---------- urgot ---------- */
+  "urgot": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.5, pr: 35.89, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.44, pr: 34.27, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.94, pr: 28.76 },
-        { order: ["E","Q","W"], wr: 45.27, pr: 11.78 },
+        { order: ["Q","W","E"], wr: 46.29, pr: 23.81 },
+        { order: ["W","E","Q"], wr: 48.05, pr: 13.04 },
       ],
     },
     starting: [
       { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "三相之力", pr: null, wr: null },
-      { id: 64, name: "破败王者之刃", pr: null, wr: null },
-      { id: 64, name: "智慧末刃", pr: null, wr: null },
+      { id: 64, name: "巨型九头蛇", pr: null, wr: null },
+      { id: 64, name: "狂徒铠甲", pr: null, wr: null },
+      { id: 64, name: "霸王血铠", pr: null, wr: null },
       { id: 64, name: "黑色切割者", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "三相之力" },{ id: 64, name: "黑色切割者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "黑色切割者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "黑色切割者" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5765,14 +5728,51 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- gnar ---------- */
+  "gnar": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 45.5, pr: 35.89, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 45.94, pr: 28.76 },
+        { order: ["E","Q","W"], wr: 45.27, pr: 11.78 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "三相之力", pr: null, wr: null },
+      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+      { id: 64, name: "智慧末刃", pr: null, wr: null },
+      { id: 64, name: "黑色切割者", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "三相之力" },{ id: 64, name: "黑色切割者" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "黑色切割者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5875,10 +5875,10 @@ const BUILDS = {
       { id: 64, name: "亵渎九头蛇", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
@@ -5913,9 +5913,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -5987,9 +5987,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "大天使之杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
@@ -6023,10 +6023,10 @@ const BUILDS = {
       { id: 64, name: "兰德里的折磨", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "中娅沙漏" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -6061,51 +6061,14 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
       { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "星蚀" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
-  /* ---------- irelia ---------- */
-  "irelia": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 44.29, pr: 39.26, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 44.18, pr: 26.38 },
-        { order: ["E","Q","W"], wr: 43.99, pr: 12.08 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "破败王者之刃", pr: null, wr: null },
-      { id: 64, name: "死亡之舞", pr: null, wr: null },
-      { id: 64, name: "焚天", pr: null, wr: null },
-      { id: 64, name: "智慧末刃", pr: null, wr: null },
-      { id: 64, name: "三相之力", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "焚天" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "焚天" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6154,6 +6117,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- irelia ---------- */
+  "irelia": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 44.29, pr: 39.26, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 44.18, pr: 26.38 },
+        { order: ["E","Q","W"], wr: 43.99, pr: 12.08 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "破败王者之刃", pr: null, wr: null },
+      { id: 64, name: "死亡之舞", pr: null, wr: null },
+      { id: 64, name: "焚天", pr: null, wr: null },
+      { id: 64, name: "智慧末刃", pr: null, wr: null },
+      { id: 64, name: "三相之力", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "焚天" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "焚天" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- zoe ---------- */
   "zoe": {
     skill: {
@@ -6172,9 +6172,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -6211,7 +6211,7 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "荆棘之甲" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
@@ -6245,9 +6245,9 @@ const BUILDS = {
       { id: 64, name: "死亡之舞", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -6284,7 +6284,7 @@ const BUILDS = {
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -6319,9 +6319,9 @@ const BUILDS = {
       { id: 64, name: "心之钢", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
@@ -6376,43 +6376,6 @@ const BUILDS = {
     },
   },
 
-  /* ---------- kennen ---------- */
-  "kennen": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 46.29, pr: 37.01, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 46.63, pr: 28.55 },
-        { order: ["E","Q","W"], wr: 46.11, pr: 11.9 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "影焰", pr: null, wr: null },
-      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
-      { id: 64, name: "海克斯科技火箭腰带", pr: null, wr: null },
-      { id: 64, name: "风暴狂涌", pr: null, wr: null },
-      { id: 64, name: "中娅沙漏", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "海克斯科技火箭腰带" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "海克斯科技火箭腰带" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "海克斯科技火箭腰带" },{ id: 64, name: "中娅沙漏" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- evelynn ---------- */
   "evelynn": {
     skill: {
@@ -6450,6 +6413,43 @@ const BUILDS = {
     },
   },
 
+  /* ---------- kennen ---------- */
+  "kennen": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 46.29, pr: 37.01, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 46.63, pr: 28.55 },
+        { order: ["E","Q","W"], wr: 46.11, pr: 11.9 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "影焰", pr: null, wr: null },
+      { id: 64, name: "灭世者的死亡之帽", pr: null, wr: null },
+      { id: 64, name: "海克斯科技火箭腰带", pr: null, wr: null },
+      { id: 64, name: "风暴狂涌", pr: null, wr: null },
+      { id: 64, name: "中娅沙漏", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "海克斯科技火箭腰带" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "海克斯科技火箭腰带" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "海克斯科技火箭腰带" },{ id: 64, name: "中娅沙漏" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
   /* ---------- olaf ---------- */
   "olaf": {
     skill: {
@@ -6467,8 +6467,8 @@ const BUILDS = {
       { id: 64, name: "破败王者之刃", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
@@ -6505,9 +6505,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -6541,10 +6541,10 @@ const BUILDS = {
       { id: 64, name: "朔极之矛", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "焚天" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
@@ -6579,9 +6579,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
@@ -6615,10 +6615,10 @@ const BUILDS = {
       { id: 64, name: "败魔", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -6653,9 +6653,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "振奋盔甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -6672,50 +6672,13 @@ const BUILDS = {
     },
   },
 
-  /* ---------- ksante ---------- */
-  "ksante": {
-    skill: {
-      main: { order: ["Q","E","W"], wr: 43.17, pr: 38.2, label: "最常见加点" },
-      alternates: [
-        { order: ["Q","W","E"], wr: 43.33, pr: 28.1 },
-        { order: ["E","Q","W"], wr: 42.99, pr: 11.94 },
-      ],
-    },
-    starting: [
-      { id: 64, name: "心之钢", pr: null, wr: null },
-      { id: 64, name: "无终恨意", pr: null, wr: null },
-      { id: 64, name: "冰脉护手", pr: null, wr: null },
-      { id: 64, name: "千变者贾修", pr: null, wr: null },
-      { id: 64, name: "荆棘之甲", pr: null, wr: null },
-    ],
-    boots: [
-      { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-    ],
-    core: [
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "冰脉护手" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "千变者贾修" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "冰脉护手" },{ id: 64, name: "千变者贾修" }], pr: null, wr: null },
-    ],
-    runes: {
-      prismatic: [
-      ],
-      gold: [
-      ],
-      silver: [
-      ],
-    },
-  },
-
   /* ---------- locke ---------- */
   "locke": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 43.55, pr: 39.65, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 43.57, pr: 39.69, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 43.53, pr: 25.14 },
-        { order: ["E","Q","W"], wr: 43.59, pr: 12.71 },
+        { order: ["Q","W","E"], wr: 43.54, pr: 25.14 },
+        { order: ["E","Q","W"], wr: 43.61, pr: 12.72 },
       ],
     },
     starting: [
@@ -6727,9 +6690,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "巫妖之祸" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -6763,8 +6726,8 @@ const BUILDS = {
       { id: 64, name: "荆棘之甲", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
@@ -6772,6 +6735,43 @@ const BUILDS = {
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "凛冬之临" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
+    ],
+    runes: {
+      prismatic: [
+      ],
+      gold: [
+      ],
+      silver: [
+      ],
+    },
+  },
+
+  /* ---------- ksante ---------- */
+  "ksante": {
+    skill: {
+      main: { order: ["Q","E","W"], wr: 43.17, pr: 38.2, label: "最常见加点" },
+      alternates: [
+        { order: ["Q","W","E"], wr: 43.33, pr: 28.1 },
+        { order: ["E","Q","W"], wr: 42.99, pr: 11.94 },
+      ],
+    },
+    starting: [
+      { id: 64, name: "心之钢", pr: null, wr: null },
+      { id: 64, name: "无终恨意", pr: null, wr: null },
+      { id: 64, name: "冰脉护手", pr: null, wr: null },
+      { id: 64, name: "千变者贾修", pr: null, wr: null },
+      { id: 64, name: "荆棘之甲", pr: null, wr: null },
+    ],
+    boots: [
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+    ],
+    core: [
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "冰脉护手" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "千变者贾修" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "冰脉护手" },{ id: 64, name: "千变者贾修" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6803,7 +6803,7 @@ const BUILDS = {
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "海克斯科技枪刃" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -6874,10 +6874,10 @@ const BUILDS = {
       { id: 64, name: "荆棘之甲", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "焚天" },{ id: 64, name: "冰脉护手" }], pr: null, wr: null },
