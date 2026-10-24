@@ -1,6 +1,6 @@
 /* ============================================================
    海克斯出装助手 · 自动生成数据（请勿手动编辑）
-   生成时间：2026-10-23 08:48 UTC
+   生成时间：2026-10-24 08:22 UTC
    数据来源：arammayhem.com（版本 26.20，更新于 2026-10-20）
    图标来源：Riot Games Data Dragon
    ============================================================ */
@@ -207,13 +207,11 @@ const AUGMENTS = [
   { name: "虚幻武器", rarity: "gold", wr: 43.54, pr: 43.54, rank: 13 },
   { name: "坦克引擎", rarity: "gold", wr: 43.46, pr: 43.46, rank: 6 },
   { name: "纯粹主义者", rarity: "silver", wr: 42.18, pr: 42.18, rank: 53 },
-  { name: "暴击飞弹", rarity: "gold", wr: 41.83, pr: 41.83, rank: 10 },
   { name: "尤里卡", rarity: "prismatic", wr: 40.16, pr: 40.16, rank: 15 },
   { name: "渴血", rarity: "silver", wr: 40.0, pr: 40.0, rank: 34 },
   { name: "牙仙子", rarity: "gold", wr: 39.27, pr: 39.27, rank: 35 },
   { name: "双生火焰", rarity: "silver", wr: 39.27, pr: 39.27, rank: 50 },
   { name: "逃跑计划", rarity: "silver", wr: 38.7, pr: 38.7, rank: 26 },
-  { name: "飞身踢", rarity: "prismatic", wr: 38.38, pr: 38.38, rank: 31 },
   { name: "易损", rarity: "gold", wr: 37.92, pr: 37.92, rank: 17 },
   { name: "升级：无尽之刃", rarity: "gold", wr: 37.04, pr: 37.04, rank: 23 },
   { name: "重量级打击手", rarity: "silver", wr: 36.78, pr: 36.78, rank: 16 },
@@ -253,7 +251,6 @@ const AUGMENTS = [
   { name: "无尽大杀四方", rarity: "gold", wr: 23.71, pr: 23.71, rank: 68 },
   { name: "炼狱导管", rarity: "prismatic", wr: 23.35, pr: 23.35, rank: 25 },
   { name: "面包和奶酪", rarity: "gold", wr: 22.95, pr: 22.95, rank: 108 },
-  { name: "连拨击锤", rarity: "prismatic", wr: 22.65, pr: 22.65, rank: 87 },
   { name: "升级：中娅", rarity: "silver", wr: 22.53, pr: 22.53, rank: 84 },
   { name: "罪恶快感", rarity: "gold", wr: 22.39, pr: 22.39, rank: 85 },
   { name: "最终形态", rarity: "prismatic", wr: 21.77, pr: 21.77, rank: 70 },
@@ -272,7 +269,6 @@ const AUGMENTS = [
   { name: "终极不可阻挡", rarity: "silver", wr: 19.2, pr: 19.2, rank: 173 },
   { name: "会心防御", rarity: "silver", wr: 19.0, pr: 19.0, rank: 46 },
   { name: "扇巴掌", rarity: "silver", wr: 19.0, pr: 19.0, rank: 96 },
-  { name: "空投熊", rarity: "prismatic", wr: 18.86, pr: 18.86, rank: 29 },
   { name: "终极刷新", rarity: "prismatic", wr: 18.65, pr: 18.65, rank: 161 },
   { name: "高压锅", rarity: "gold", wr: 18.59, pr: 18.59, rank: 115 },
   { name: "夜狩", rarity: "gold", wr: 18.59, pr: 18.59, rank: 147 },
@@ -301,7 +297,6 @@ const AUGMENTS = [
   { name: "尖端发明家", rarity: "gold", wr: 14.27, pr: 14.27, rank: 136 },
   { name: "火上浇油", rarity: "gold", wr: 14.0, pr: 14.0, rank: 123 },
   { name: "飞升仪式", rarity: "prismatic", wr: 13.31, pr: 13.31, rank: 188 },
-  { name: "掷骰狂人", rarity: "prismatic", wr: 13.2, pr: 13.2, rank: 90 },
   { name: "踢踏舞", rarity: "prismatic", wr: 13.17, pr: 13.17, rank: 94 },
   { name: "下雪天", rarity: "silver", wr: 13.14, pr: 13.14, rank: 183 },
   { name: "战争交响乐", rarity: "prismatic", wr: 12.99, pr: 12.99, rank: 114 },
@@ -309,7 +304,6 @@ const AUGMENTS = [
   { name: "快中求稳", rarity: "silver", wr: 12.61, pr: 12.61, rank: 71 },
   { name: "注魔", rarity: "silver", wr: 12.42, pr: 12.42, rank: 159 },
   { name: "缩小射线", rarity: "gold", wr: 12.1, pr: 12.1, rank: 176 },
-  { name: "心灵净化", rarity: "gold", wr: 11.78, pr: 11.78, rank: 172 },
   { name: "溢流", rarity: "gold", wr: 11.75, pr: 11.75, rank: 105 },
   { name: "精怪魔法", rarity: "prismatic", wr: 11.67, pr: 11.67, rank: 164 },
   { name: "你摸不到", rarity: "prismatic", wr: 11.61, pr: 11.61, rank: 167 },
@@ -317,7 +311,6 @@ const AUGMENTS = [
   { name: "超强大脑", rarity: "gold", wr: 11.06, pr: 11.06, rank: 88 },
   { name: "物法皆修", rarity: "prismatic", wr: 11.0, pr: 11.0, rank: 128 },
   { name: "利刃华尔兹", rarity: "prismatic", wr: 10.52, pr: 10.52, rank: 133 },
-  { name: "由暴生急", rarity: "silver", wr: 10.41, pr: 10.41, rank: 170 },
   { name: "狂徒豪气", rarity: "gold", wr: 10.33, pr: 10.33, rank: 56 },
   { name: "保持坚定", rarity: "silver", wr: 10.33, pr: 10.33, rank: 67 },
   { name: "杀意翻涌", rarity: "silver", wr: 10.15, pr: 10.15, rank: 146 },
@@ -353,7 +346,6 @@ const AUGMENTS = [
   { name: "鲨鱼诱饵", rarity: "gold", wr: 6.59, pr: 6.59, rank: 153 },
   { name: "夺金", rarity: "prismatic", wr: 6.53, pr: 6.53, rank: 109 },
   { name: "仆从大师", rarity: "gold", wr: 6.28, pr: 6.28, rank: 124 },
-  { name: "我们的治疗", rarity: "gold", wr: 6.26, pr: 6.26, rank: 189 },
   { name: "不动如山", rarity: "gold", wr: 6.1, pr: 6.1, rank: 169 },
   { name: "濒死悟道", rarity: "prismatic", wr: 5.77, pr: 5.77, rank: 141 },
   { name: "自适应防护", rarity: "silver", wr: 5.74, pr: 5.74, rank: 148 },
@@ -386,10 +378,7 @@ const AUGMENTS = [
   { name: "蛋白粉奶昔", rarity: "prismatic", wr: 2.31, pr: 2.31, rank: 138 },
   { name: "惊惧", rarity: "prismatic", wr: 2.31, pr: 2.31, rank: 193 },
   { name: "仁慈打击", rarity: "gold", wr: 2.05, pr: 2.05, rank: 165 },
-  { name: "藏身草丛", rarity: "gold", wr: 1.78, pr: 1.78, rank: 184 },
-  { name: "位面转移", rarity: "prismatic", wr: 1.63, pr: 1.63, rank: 199 },
   { name: "至高天诺言", rarity: "prismatic", wr: 1.3, pr: 1.3, rank: 132 },
-  { name: "魄罗蛮冲", rarity: "prismatic", wr: 1.17, pr: 1.17, rank: 200 },
   { name: "闪光弹", rarity: "silver", wr: 0.71, pr: 0.71, rank: 182 },
   { name: "闪闪现现", rarity: "silver", wr: 0.67, pr: 0.67, rank: 192 },
 ];
