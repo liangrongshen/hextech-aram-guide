@@ -1,6 +1,6 @@
 /* ============================================================
    海克斯出装助手 · 自动生成数据（请勿手动编辑）
-   生成时间：2026-10-24 08:22 UTC
+   生成时间：2026-10-25 08:40 UTC
    数据来源：arammayhem.com（版本 26.20，更新于 2026-10-20）
    图标来源：Riot Games Data Dragon
    ============================================================ */
@@ -564,10 +564,10 @@ const BUILDS = {
   /* ---------- hecarim ---------- */
   "hecarim": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.81, pr: 36.97, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.81, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.53, pr: 29.26 },
-        { order: ["E","Q","W"], wr: 50.81, pr: 11.94 },
+        { order: ["Q","W","E"], wr: 51.53, pr: null },
+        { order: ["E","Q","W"], wr: 50.81, pr: null },
       ],
     },
     starting: [
@@ -584,9 +584,6 @@ const BUILDS = {
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "朔极之矛" },{ id: 64, name: "魔宗" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "朔极之矛" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "朔极之矛" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -601,18 +598,18 @@ const BUILDS = {
   /* ---------- teemo ---------- */
   "teemo": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.98, pr: 38.93, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.98, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.79, pr: 25.28 },
-        { order: ["E","Q","W"], wr: 49.77, pr: 14.02 },
+        { order: ["Q","W","E"], wr: 49.79, pr: null },
+        { order: ["E","Q","W"], wr: 49.77, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "短剑", pr: null, wr: null },
       { id: 64, name: "以太精魂", pr: null, wr: null },
+      { id: 64, name: "复用型药水", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -638,10 +635,10 @@ const BUILDS = {
   /* ---------- aurelionsol ---------- */
   "aurelionsol": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.03, pr: 39.36, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.03, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.81, pr: 25.35 },
-        { order: ["E","Q","W"], wr: 51.54, pr: 13.22 },
+        { order: ["Q","W","E"], wr: 51.81, pr: null },
+        { order: ["E","Q","W"], wr: 51.54, pr: null },
       ],
     },
     starting: [
@@ -649,7 +646,7 @@ const BUILDS = {
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "蓝水晶", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -675,10 +672,10 @@ const BUILDS = {
   /* ---------- twistedfate ---------- */
   "twistedfate": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.4, pr: 35.47, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.4, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.19, pr: 30.18 },
-        { order: ["E","Q","W"], wr: 51.13, pr: 12.04 },
+        { order: ["Q","W","E"], wr: 52.19, pr: null },
+        { order: ["E","Q","W"], wr: 51.13, pr: null },
       ],
     },
     starting: [
@@ -712,18 +709,18 @@ const BUILDS = {
   /* ---------- yasuo ---------- */
   "yasuo": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 55.52, pr: 38.69, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 55.52, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 55.24, pr: 24.64 },
-        { order: ["E","Q","W"], wr: 56.33, pr: 14.55 },
+        { order: ["Q","W","E"], wr: 55.24, pr: null },
+        { order: ["E","Q","W"], wr: 56.33, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "灵巧披风", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "灵巧披风", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "荧尘", pr: null, wr: null },
+      { id: 64, name: "以太精魂", pr: null, wr: null },
+      { id: 64, name: "灵巧披风", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
@@ -749,24 +746,24 @@ const BUILDS = {
   /* ---------- caitlyn ---------- */
   "caitlyn": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.07, pr: 37.8, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.07, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.32, pr: 28.0 },
-        { order: ["E","Q","W"], wr: 50.74, pr: 11.99 },
+        { order: ["Q","W","E"], wr: 51.32, pr: null },
+        { order: ["E","Q","W"], wr: 50.74, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
+      { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
+      { id: 64, name: "十字镐", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -786,18 +783,18 @@ const BUILDS = {
   /* ---------- tahmkench ---------- */
   "tahmkench": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.92, pr: 38.17, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.92, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.21, pr: 27.96 },
-        { order: ["E","Q","W"], wr: 48.83, pr: 12.08 },
+        { order: ["Q","W","E"], wr: 49.21, pr: null },
+        { order: ["E","Q","W"], wr: 48.83, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
+      { id: 64, name: "治疗宝珠", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
@@ -823,10 +820,10 @@ const BUILDS = {
   /* ---------- morgana ---------- */
   "morgana": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.87, pr: 34.83, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.87, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.11, pr: 26.5 },
-        { order: ["W","Q","E"], wr: 52.69, pr: 15.0 },
+        { order: ["Q","W","E"], wr: 52.11, pr: null },
+        { order: ["W","Q","E"], wr: 52.69, pr: null },
       ],
     },
     starting: [
@@ -860,24 +857,24 @@ const BUILDS = {
   /* ---------- lillia ---------- */
   "lillia": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 58.0, pr: 39.13, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 58.0, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 57.67, pr: 25.11 },
-        { order: ["E","Q","W"], wr: 57.23, pr: 13.84 },
+        { order: ["Q","W","E"], wr: 57.67, pr: null },
+        { order: ["E","Q","W"], wr: 57.23, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "蓝水晶", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
@@ -897,10 +894,10 @@ const BUILDS = {
   /* ---------- brand ---------- */
   "brand": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.9, pr: 34.27, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.9, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.83, pr: 23.78 },
-        { order: ["E","Q","W"], wr: 52.46, pr: 12.15 },
+        { order: ["Q","W","E"], wr: 52.83, pr: null },
+        { order: ["E","Q","W"], wr: 52.46, pr: null },
       ],
     },
     starting: [
@@ -908,7 +905,7 @@ const BUILDS = {
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "蓝水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -934,10 +931,10 @@ const BUILDS = {
   /* ---------- masteryi ---------- */
   "masteryi": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.3, pr: 39.84, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.3, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.96, pr: 25.38 },
-        { order: ["E","Q","W"], wr: 52.14, pr: 12.45 },
+        { order: ["Q","W","E"], wr: 51.96, pr: null },
+        { order: ["E","Q","W"], wr: 52.14, pr: null },
       ],
     },
     starting: [
@@ -971,17 +968,17 @@ const BUILDS = {
   /* ---------- yone ---------- */
   "yone": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.45, pr: 39.24, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.45, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.08, pr: 26.2 },
-        { order: ["E","Q","W"], wr: 52.98, pr: 12.26 },
+        { order: ["Q","W","E"], wr: 53.08, pr: null },
+        { order: ["E","Q","W"], wr: 52.98, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "斥候弹弓", pr: null, wr: null },
-      { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "暴风之剑", pr: null, wr: null },
     ],
     boots: [
@@ -1008,10 +1005,10 @@ const BUILDS = {
   /* ---------- graves ---------- */
   "graves": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.23, pr: 39.54, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.23, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.76, pr: 25.18 },
-        { order: ["E","Q","W"], wr: 52.79, pr: 12.68 },
+        { order: ["Q","W","E"], wr: 52.76, pr: null },
+        { order: ["E","Q","W"], wr: 52.79, pr: null },
       ],
     },
     starting: [
@@ -1022,15 +1019,15 @@ const BUILDS = {
       { id: 64, name: "考尔菲德的战锤", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "凡性的提醒" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1045,10 +1042,10 @@ const BUILDS = {
   /* ---------- vayne ---------- */
   "vayne": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 55.52, pr: 35.06, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 55.52, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 55.97, pr: 26.94 },
-        { order: ["W","Q","E"], wr: 56.74, pr: 14.52 },
+        { order: ["Q","W","E"], wr: 55.97, pr: null },
+        { order: ["W","Q","E"], wr: 56.74, pr: null },
       ],
     },
     starting: [
@@ -1083,10 +1080,10 @@ const BUILDS = {
   /* ---------- ryze ---------- */
   "ryze": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.39, pr: 40.1, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.39, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.0, pr: 24.9 },
-        { order: ["E","Q","W"], wr: 51.09, pr: 12.98 },
+        { order: ["Q","W","E"], wr: 51.0, pr: null },
+        { order: ["E","Q","W"], wr: 51.09, pr: null },
       ],
     },
     starting: [
@@ -1121,18 +1118,18 @@ const BUILDS = {
   /* ---------- missfortune ---------- */
   "missfortune": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.82, pr: 35.54, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.82, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.87, pr: 24.85 },
-        { order: ["E","Q","W"], wr: 49.32, pr: 16.03 },
+        { order: ["Q","W","E"], wr: 48.87, pr: null },
+        { order: ["E","Q","W"], wr: 49.32, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "复用型药水", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
@@ -1158,10 +1155,10 @@ const BUILDS = {
   /* ---------- sett ---------- */
   "sett": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.21, pr: 34.95, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.21, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.27, pr: 25.65 },
-        { order: ["W","Q","E"], wr: 53.23, pr: 15.34 },
+        { order: ["Q","W","E"], wr: 52.27, pr: null },
+        { order: ["W","Q","E"], wr: 53.23, pr: null },
       ],
     },
     starting: [
@@ -1180,7 +1177,7 @@ const BUILDS = {
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "霸王血铠" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "霸王血铠" },{ id: 64, name: "斯特拉克的挑战护手" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1195,10 +1192,10 @@ const BUILDS = {
   /* ---------- smolder ---------- */
   "smolder": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.85, pr: 36.56, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.85, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.25, pr: 29.12 },
-        { order: ["E","Q","W"], wr: 46.26, pr: 11.97 },
+        { order: ["Q","W","E"], wr: 47.25, pr: null },
+        { order: ["E","Q","W"], wr: 46.26, pr: null },
       ],
     },
     starting: [
@@ -1206,7 +1203,7 @@ const BUILDS = {
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "荧尘", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
@@ -1216,8 +1213,8 @@ const BUILDS = {
     ],
     core: [
       { items: [{ id: 64, name: "夺萃之镰" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "夺萃之镰" },{ id: 64, name: "朔极之矛" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "夺萃之镰" },{ id: 64, name: "疾射火炮" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "夺萃之镰" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "凡性的提醒" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1232,10 +1229,10 @@ const BUILDS = {
   /* ---------- xinzhao ---------- */
   "xinzhao": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.79, pr: 34.7, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.79, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.84, pr: 24.37 },
-        { order: ["E","Q","W"], wr: 52.22, pr: 12.27 },
+        { order: ["Q","W","E"], wr: 51.84, pr: null },
+        { order: ["E","Q","W"], wr: 52.22, pr: null },
       ],
     },
     starting: [
@@ -1247,8 +1244,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -1269,17 +1266,17 @@ const BUILDS = {
   /* ---------- kayn ---------- */
   "kayn": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.74, pr: 35.88, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.74, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 54.4, pr: 29.89 },
-        { order: ["E","Q","W"], wr: 53.42, pr: 12.01 },
+        { order: ["Q","W","E"], wr: 54.4, pr: null },
+        { order: ["E","Q","W"], wr: 53.42, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
@@ -1289,9 +1286,6 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1306,10 +1300,10 @@ const BUILDS = {
   /* ---------- lucian ---------- */
   "lucian": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.49, pr: 39.53, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.49, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.09, pr: 25.12 },
-        { order: ["E","Q","W"], wr: 50.02, pr: 12.65 },
+        { order: ["Q","W","E"], wr: 50.09, pr: null },
+        { order: ["E","Q","W"], wr: 50.02, pr: null },
       ],
     },
     starting: [
@@ -1343,10 +1337,10 @@ const BUILDS = {
   /* ---------- kayle ---------- */
   "kayle": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 54.46, pr: 35.53, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 54.46, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 54.31, pr: 23.61 },
-        { order: ["E","Q","W"], wr: 55.34, pr: 17.72 },
+        { order: ["Q","W","E"], wr: 54.31, pr: null },
+        { order: ["E","Q","W"], wr: 55.34, pr: null },
       ],
     },
     starting: [
@@ -1357,9 +1351,9 @@ const BUILDS = {
       { id: 64, name: "爆裂魔杖", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
@@ -1380,24 +1374,24 @@ const BUILDS = {
   /* ---------- jinx ---------- */
   "jinx": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.32, pr: 36.48, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.32, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.8, pr: 29.38 },
-        { order: ["E","Q","W"], wr: 51.94, pr: 11.86 },
+        { order: ["Q","W","E"], wr: 52.8, pr: null },
+        { order: ["E","Q","W"], wr: 51.94, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "暴风之剑", pr: null, wr: null },
+      { id: 64, name: "狂热", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "十字镐", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -1417,10 +1411,10 @@ const BUILDS = {
   /* ---------- ekko ---------- */
   "ekko": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.24, pr: 39.69, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.24, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.92, pr: 25.09 },
-        { order: ["E","Q","W"], wr: 51.03, pr: 12.96 },
+        { order: ["Q","W","E"], wr: 50.92, pr: null },
+        { order: ["E","Q","W"], wr: 51.03, pr: null },
       ],
     },
     starting: [
@@ -1428,13 +1422,13 @@ const BUILDS = {
       { id: 64, name: "守护者法球", pr: null, wr: null },
       { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "荧尘", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -1454,10 +1448,10 @@ const BUILDS = {
   /* ---------- seraphine ---------- */
   "seraphine": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 55.52, pr: 38.85, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 55.52, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 55.24, pr: 25.35 },
-        { order: ["E","Q","W"], wr: 55.08, pr: 13.24 },
+        { order: ["Q","W","E"], wr: 55.24, pr: null },
+        { order: ["E","Q","W"], wr: 55.08, pr: null },
       ],
     },
     starting: [
@@ -1465,11 +1459,11 @@ const BUILDS = {
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
+      { id: 64, name: "复用型药水", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
@@ -1491,10 +1485,10 @@ const BUILDS = {
   /* ---------- singed ---------- */
   "singed": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.43, pr: 39.6, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.43, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.11, pr: 26.0 },
-        { order: ["E","Q","W"], wr: 50.92, pr: 12.26 },
+        { order: ["Q","W","E"], wr: 51.11, pr: null },
+        { order: ["E","Q","W"], wr: 50.92, pr: null },
       ],
     },
     starting: [
@@ -1508,7 +1502,7 @@ const BUILDS = {
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "瑞莱的冰晶节杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
@@ -1528,10 +1522,10 @@ const BUILDS = {
   /* ---------- trundle ---------- */
   "trundle": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.01, pr: 35.5, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.01, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.36, pr: 26.11 },
-        { order: ["E","Q","W"], wr: 48.27, pr: 14.58 },
+        { order: ["Q","W","E"], wr: 48.36, pr: null },
+        { order: ["E","Q","W"], wr: 48.27, pr: null },
       ],
     },
     starting: [
@@ -1543,9 +1537,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "帝国指令" },{ id: 64, name: "班德尔音管" },{ id: 64, name: "凛冬之临" }], pr: null, wr: null },
@@ -1565,24 +1559,24 @@ const BUILDS = {
   /* ---------- yunara ---------- */
   "yunara": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.05, pr: 38.98, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.05, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.85, pr: 26.52 },
-        { order: ["E","Q","W"], wr: 51.31, pr: 12.03 },
+        { order: ["Q","W","E"], wr: 51.85, pr: null },
+        { order: ["E","Q","W"], wr: 51.31, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "狂热", pr: null, wr: null },
+      { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "缚炉之斧", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "育恩塔尔荒野箭" },{ id: 64, name: "卢安娜的飓风" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -1602,24 +1596,24 @@ const BUILDS = {
   /* ---------- swain ---------- */
   "swain": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.69, pr: 38.59, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.69, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.63, pr: 27.19 },
-        { order: ["E","Q","W"], wr: 47.34, pr: 12.5 },
+        { order: ["Q","W","E"], wr: 47.63, pr: null },
+        { order: ["E","Q","W"], wr: 47.34, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "复用型药水", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -1639,10 +1633,10 @@ const BUILDS = {
   /* ---------- gangplank ---------- */
   "gangplank": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.3, pr: 39.08, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.3, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.02, pr: 24.86 },
-        { order: ["E","Q","W"], wr: 49.15, pr: 13.62 },
+        { order: ["Q","W","E"], wr: 49.02, pr: null },
+        { order: ["E","Q","W"], wr: 49.15, pr: null },
       ],
     },
     starting: [
@@ -1656,7 +1650,7 @@ const BUILDS = {
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "夺萃之镰" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -1676,10 +1670,10 @@ const BUILDS = {
   /* ---------- sion ---------- */
   "sion": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.62, pr: 36.45, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.62, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.87, pr: 29.19 },
-        { order: ["E","Q","W"], wr: 51.58, pr: 11.75 },
+        { order: ["Q","W","E"], wr: 51.87, pr: null },
+        { order: ["E","Q","W"], wr: 51.58, pr: null },
       ],
     },
     starting: [
@@ -1713,18 +1707,18 @@ const BUILDS = {
   /* ---------- malzahar ---------- */
   "malzahar": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.94, pr: 35.01, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.94, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.64, pr: 23.73 },
-        { order: ["E","Q","W"], wr: 53.64, pr: 18.38 },
+        { order: ["Q","W","E"], wr: 52.64, pr: null },
+        { order: ["E","Q","W"], wr: 53.64, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "蓝水晶", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -1750,10 +1744,10 @@ const BUILDS = {
   /* ---------- hwei ---------- */
   "hwei": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.28, pr: 40.03, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.28, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.92, pr: 25.38 },
-        { order: ["E","Q","W"], wr: 51.48, pr: 12.33 },
+        { order: ["Q","W","E"], wr: 51.92, pr: null },
+        { order: ["E","Q","W"], wr: 51.48, pr: null },
       ],
     },
     starting: [
@@ -1765,8 +1759,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -1787,10 +1781,10 @@ const BUILDS = {
   /* ---------- jhin ---------- */
   "jhin": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.92, pr: 36.6, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.92, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.35, pr: 29.25 },
-        { order: ["E","Q","W"], wr: 47.67, pr: 12.0 },
+        { order: ["Q","W","E"], wr: 48.35, pr: null },
+        { order: ["E","Q","W"], wr: 47.67, pr: null },
       ],
     },
     starting: [
@@ -1798,19 +1792,19 @@ const BUILDS = {
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "十字镐", pr: null, wr: null },
-      { id: 64, name: "鞋子", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "十字镐", pr: null, wr: null },
-      { id: 64, name: "鞋子", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "疾射火炮" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "疾射火炮" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1825,10 +1819,10 @@ const BUILDS = {
   /* ---------- fiora ---------- */
   "fiora": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.79, pr: 39.54, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.79, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.52, pr: 26.05 },
-        { order: ["E","Q","W"], wr: 52.38, pr: 12.23 },
+        { order: ["Q","W","E"], wr: 52.52, pr: null },
+        { order: ["E","Q","W"], wr: 52.38, pr: null },
       ],
     },
     starting: [
@@ -1841,13 +1835,13 @@ const BUILDS = {
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
       { items: [{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "三相之力" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "贪欲九头蛇" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -1862,10 +1856,10 @@ const BUILDS = {
   /* ---------- drmundo ---------- */
   "drmundo": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.41, pr: 39.63, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.96, pr: 25.53 },
-        { order: ["E","Q","W"], wr: 52.23, pr: 12.66 },
+        { order: ["Q","W","E"], wr: 51.96, pr: null },
+        { order: ["E","Q","W"], wr: 52.23, pr: null },
       ],
     },
     starting: [
@@ -1873,7 +1867,7 @@ const BUILDS = {
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
+      { id: 64, name: "心之钢", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
@@ -1899,18 +1893,18 @@ const BUILDS = {
   /* ---------- karthus ---------- */
   "karthus": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.39, pr: 37.89, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.39, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.3, pr: 24.64 },
-        { order: ["E","Q","W"], wr: 51.67, pr: 15.28 },
+        { order: ["Q","W","E"], wr: 51.3, pr: null },
+        { order: ["E","Q","W"], wr: 51.67, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
-      { id: 64, name: "蓝水晶", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -1935,10 +1929,10 @@ const BUILDS = {
   /* ---------- aurora ---------- */
   "aurora": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.46, pr: 39.65, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.46, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.2, pr: 25.28 },
-        { order: ["E","Q","W"], wr: 50.86, pr: 12.56 },
+        { order: ["Q","W","E"], wr: 51.2, pr: null },
+        { order: ["E","Q","W"], wr: 50.86, pr: null },
       ],
     },
     starting: [
@@ -1951,8 +1945,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -1972,24 +1966,24 @@ const BUILDS = {
   /* ---------- viktor ---------- */
   "viktor": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.69, pr: 32.83, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.69, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.59, pr: 23.07 },
-        { order: ["E","Q","W"], wr: 50.17, pr: 12.17 },
+        { order: ["Q","W","E"], wr: 50.59, pr: null },
+        { order: ["E","Q","W"], wr: 50.17, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -2009,22 +2003,22 @@ const BUILDS = {
   /* ---------- alistar ---------- */
   "alistar": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.06, pr: 36.16, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.06, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.62, pr: 29.49 },
-        { order: ["E","Q","W"], wr: 49.18, pr: 11.85 },
+        { order: ["Q","W","E"], wr: 49.62, pr: null },
+        { order: ["E","Q","W"], wr: 49.18, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "巨人腰带", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "守护者号角", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
@@ -2046,10 +2040,10 @@ const BUILDS = {
   /* ---------- corki ---------- */
   "corki": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.42, pr: 37.78, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.42, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.1, pr: 24.23 },
-        { order: ["E","Q","W"], wr: 50.82, pr: 15.17 },
+        { order: ["Q","W","E"], wr: 50.1, pr: null },
+        { order: ["E","Q","W"], wr: 50.82, pr: null },
       ],
     },
     starting: [
@@ -2063,7 +2057,7 @@ const BUILDS = {
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -2083,10 +2077,10 @@ const BUILDS = {
   /* ---------- zed ---------- */
   "zed": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.87, pr: 39.13, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.87, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.74, pr: 25.45 },
-        { order: ["E","Q","W"], wr: 51.69, pr: 12.76 },
+        { order: ["Q","W","E"], wr: 51.74, pr: null },
+        { order: ["E","Q","W"], wr: 51.69, pr: null },
       ],
     },
     starting: [
@@ -2097,15 +2091,12 @@ const BUILDS = {
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "电震涡流剑" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2120,10 +2111,10 @@ const BUILDS = {
   /* ---------- belveth ---------- */
   "belveth": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.38, pr: 37.92, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.38, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.0, pr: 24.74 },
-        { order: ["E","Q","W"], wr: 47.63, pr: 14.32 },
+        { order: ["Q","W","E"], wr: 47.0, pr: null },
+        { order: ["E","Q","W"], wr: 47.63, pr: null },
       ],
     },
     starting: [
@@ -2134,9 +2125,9 @@ const BUILDS = {
       { id: 64, name: "暴风之剑", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
@@ -2157,10 +2148,10 @@ const BUILDS = {
   /* ---------- veigar ---------- */
   "veigar": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.17, pr: 37.69, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.17, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.3, pr: 28.42 },
-        { order: ["E","Q","W"], wr: 49.73, pr: 12.26 },
+        { order: ["Q","W","E"], wr: 50.3, pr: null },
+        { order: ["E","Q","W"], wr: 49.73, pr: null },
       ],
     },
     starting: [
@@ -2168,12 +2159,12 @@ const BUILDS = {
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "万世催化石", pr: null, wr: null },
+      { id: 64, name: "女神之泪", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -2194,18 +2185,18 @@ const BUILDS = {
   /* ---------- ahri ---------- */
   "ahri": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.15, pr: 37.2, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.15, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.52, pr: 29.13 },
-        { order: ["E","Q","W"], wr: 51.84, pr: 11.99 },
+        { order: ["Q","W","E"], wr: 52.52, pr: null },
+        { order: ["E","Q","W"], wr: 51.84, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
-      { id: 64, name: "无用大棒", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "无用大棒", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -2231,10 +2222,10 @@ const BUILDS = {
   /* ---------- gwen ---------- */
   "gwen": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 57.43, pr: 39.96, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 57.43, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 57.07, pr: 25.34 },
-        { order: ["E","Q","W"], wr: 56.99, pr: 12.4 },
+        { order: ["Q","W","E"], wr: 57.07, pr: null },
+        { order: ["E","Q","W"], wr: 56.99, pr: null },
       ],
     },
     starting: [
@@ -2268,24 +2259,24 @@ const BUILDS = {
   /* ---------- tristana ---------- */
   "tristana": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.47, pr: 36.73, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.47, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.22, pr: 23.75 },
-        { order: ["E","Q","W"], wr: 53.38, pr: 18.0 },
+        { order: ["Q","W","E"], wr: 52.22, pr: null },
+        { order: ["E","Q","W"], wr: 53.38, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "狂热", pr: null, wr: null },
-      { id: 64, name: "灵巧披风", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "十字镐", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "纳沃利烁刃" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -2305,10 +2296,10 @@ const BUILDS = {
   /* ---------- maokai ---------- */
   "maokai": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.1, pr: 36.18, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.1, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.27, pr: 25.93 },
-        { order: ["E","Q","W"], wr: 51.67, pr: 14.9 },
+        { order: ["Q","W","E"], wr: 51.27, pr: null },
+        { order: ["E","Q","W"], wr: 51.67, pr: null },
       ],
     },
     starting: [
@@ -2319,10 +2310,10 @@ const BUILDS = {
       { id: 64, name: "增幅典籍", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -2342,10 +2333,10 @@ const BUILDS = {
   /* ---------- rell ---------- */
   "rell": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 54.03, pr: 34.85, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 54.03, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 54.07, pr: 25.84 },
-        { order: ["W","Q","E"], wr: 54.29, pr: 12.74 },
+        { order: ["Q","W","E"], wr: 54.07, pr: null },
+        { order: ["W","Q","E"], wr: 54.29, pr: null },
       ],
     },
     starting: [
@@ -2356,9 +2347,9 @@ const BUILDS = {
       { id: 64, name: "巨人腰带", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -2379,24 +2370,24 @@ const BUILDS = {
   /* ---------- velkoz ---------- */
   "velkoz": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.21, pr: 36.96, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.21, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.63, pr: 29.52 },
-        { order: ["E","Q","W"], wr: 49.78, pr: 11.83 },
+        { order: ["Q","W","E"], wr: 50.63, pr: null },
+        { order: ["E","Q","W"], wr: 49.78, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "复用型药水", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -2416,18 +2407,18 @@ const BUILDS = {
   /* ---------- zilean ---------- */
   "zilean": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.89, pr: 36.88, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.89, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.32, pr: 29.71 },
-        { order: ["E","Q","W"], wr: 49.57, pr: 11.88 },
+        { order: ["Q","W","E"], wr: 50.32, pr: null },
+        { order: ["E","Q","W"], wr: 49.57, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
+      { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
       { id: 64, name: "蓝水晶", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "女神之泪", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
@@ -2453,10 +2444,10 @@ const BUILDS = {
   /* ---------- galio ---------- */
   "galio": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.59, pr: 36.63, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.59, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.8, pr: 27.77 },
-        { order: ["E","Q","W"], wr: 53.55, pr: 11.85 },
+        { order: ["Q","W","E"], wr: 53.8, pr: null },
+        { order: ["E","Q","W"], wr: 53.55, pr: null },
       ],
     },
     starting: [
@@ -2469,8 +2460,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -2490,16 +2481,16 @@ const BUILDS = {
   /* ---------- tryndamere ---------- */
   "tryndamere": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.44, pr: 38.96, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.44, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.16, pr: 25.07 },
-        { order: ["E","Q","W"], wr: 51.56, pr: 13.82 },
+        { order: ["Q","W","E"], wr: 51.16, pr: null },
+        { order: ["E","Q","W"], wr: 51.56, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
+      { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "提亚马特", pr: null, wr: null },
     ],
@@ -2527,10 +2518,10 @@ const BUILDS = {
   /* ---------- katarina ---------- */
   "katarina": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.26, pr: 37.9, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.26, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.11, pr: 24.83 },
-        { order: ["E","Q","W"], wr: 45.89, pr: 14.43 },
+        { order: ["Q","W","E"], wr: 45.11, pr: null },
+        { order: ["E","Q","W"], wr: 45.89, pr: null },
       ],
     },
     starting: [
@@ -2541,8 +2532,8 @@ const BUILDS = {
       { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
@@ -2564,10 +2555,10 @@ const BUILDS = {
   /* ---------- fizz ---------- */
   "fizz": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.42, pr: 34.53, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.42, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.53, pr: 23.62 },
-        { order: ["E","Q","W"], wr: 53.14, pr: 15.18 },
+        { order: ["Q","W","E"], wr: 52.53, pr: null },
+        { order: ["E","Q","W"], wr: 53.14, pr: null },
       ],
     },
     starting: [
@@ -2601,16 +2592,16 @@ const BUILDS = {
   /* ---------- syndra ---------- */
   "syndra": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.68, pr: 38.88, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.68, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.62, pr: 26.06 },
-        { order: ["E","Q","W"], wr: 51.35, pr: 12.62 },
+        { order: ["Q","W","E"], wr: 51.62, pr: null },
+        { order: ["E","Q","W"], wr: 51.35, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "复用型药水", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
@@ -2638,10 +2629,10 @@ const BUILDS = {
   /* ---------- ambessa ---------- */
   "ambessa": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.26, pr: 39.0, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.26, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.98, pr: 26.09 },
-        { order: ["E","Q","W"], wr: 50.86, pr: 12.26 },
+        { order: ["Q","W","E"], wr: 50.98, pr: null },
+        { order: ["E","Q","W"], wr: 50.86, pr: null },
       ],
     },
     starting: [
@@ -2653,14 +2644,11 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "无穷饥渴" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "星蚀" },{ id: 64, name: "朔极之矛" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2675,29 +2663,29 @@ const BUILDS = {
   /* ---------- jax ---------- */
   "jax": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.82, pr: 34.67, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.82, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.92, pr: 24.28 },
-        { order: ["W","Q","E"], wr: 51.74, pr: 14.02 },
+        { order: ["Q","W","E"], wr: 50.92, pr: null },
+        { order: ["W","Q","E"], wr: 51.74, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "耀光", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "焚天" },{ id: 64, name: "朔极之矛" }], pr: null, wr: null },
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "黄昏与黎明" },{ id: 64, name: "海克斯科技枪刃" },{ id: 64, name: "中娅沙漏" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2712,10 +2700,10 @@ const BUILDS = {
   /* ---------- twitch ---------- */
   "twitch": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.3, pr: 35.35, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.3, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.19, pr: 23.54 },
-        { order: ["E","Q","W"], wr: 52.38, pr: 18.18 },
+        { order: ["Q","W","E"], wr: 51.19, pr: null },
+        { order: ["E","Q","W"], wr: 52.38, pr: null },
       ],
     },
     starting: [
@@ -2723,7 +2711,7 @@ const BUILDS = {
       { id: 64, name: "十字镐", pr: null, wr: null },
       { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "狂热", pr: null, wr: null },
-      { id: 64, name: "暴风之剑", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
@@ -2749,10 +2737,10 @@ const BUILDS = {
   /* ---------- shen ---------- */
   "shen": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.18, pr: 39.29, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.18, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.77, pr: 24.99 },
-        { order: ["E","Q","W"], wr: 51.25, pr: 13.78 },
+        { order: ["Q","W","E"], wr: 50.77, pr: null },
+        { order: ["E","Q","W"], wr: 51.25, pr: null },
       ],
     },
     starting: [
@@ -2786,23 +2774,23 @@ const BUILDS = {
   /* ---------- thresh ---------- */
   "thresh": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.24, pr: 39.11, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.24, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.9, pr: 25.61 },
-        { order: ["E","Q","W"], wr: 46.04, pr: 12.96 },
+        { order: ["Q","W","E"], wr: 45.9, pr: null },
+        { order: ["E","Q","W"], wr: 46.04, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
@@ -2823,29 +2811,29 @@ const BUILDS = {
   /* ---------- viego ---------- */
   "viego": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.61, pr: 38.31, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.61, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.39, pr: 26.06 },
-        { order: ["E","Q","W"], wr: 50.42, pr: 12.28 },
+        { order: ["Q","W","E"], wr: 50.39, pr: null },
+        { order: ["E","Q","W"], wr: 50.42, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "十字镐", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "不朽盾弓" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -2860,10 +2848,10 @@ const BUILDS = {
   /* ---------- senna ---------- */
   "senna": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.41, pr: 36.79, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.98, pr: 29.69 },
-        { order: ["E","Q","W"], wr: 49.08, pr: 11.88 },
+        { order: ["Q","W","E"], wr: 49.98, pr: null },
+        { order: ["E","Q","W"], wr: 49.08, pr: null },
       ],
     },
     starting: [
@@ -2897,17 +2885,17 @@ const BUILDS = {
   /* ---------- rumble ---------- */
   "rumble": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.97, pr: 39.4, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.97, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.78, pr: 26.2 },
-        { order: ["E","Q","W"], wr: 52.51, pr: 12.33 },
+        { order: ["Q","W","E"], wr: 52.78, pr: null },
+        { order: ["E","Q","W"], wr: 52.51, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "幽魂面具", pr: null, wr: null },
     ],
     boots: [
@@ -2934,10 +2922,10 @@ const BUILDS = {
   /* ---------- aphelios ---------- */
   "aphelios": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.54, pr: 34.46, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.54, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.43, pr: 27.15 },
-        { order: ["E","Q","W"], wr: 51.34, pr: 14.77 },
+        { order: ["Q","W","E"], wr: 51.43, pr: null },
+        { order: ["E","Q","W"], wr: 51.34, pr: null },
       ],
     },
     starting: [
@@ -2948,10 +2936,10 @@ const BUILDS = {
       { id: 64, name: "锯齿短匕", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -2971,10 +2959,10 @@ const BUILDS = {
   /* ---------- briar ---------- */
   "briar": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.21, pr: 33.87, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.21, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.13, pr: 23.92 },
-        { order: ["W","Q","E"], wr: 54.02, pr: 17.7 },
+        { order: ["Q","W","E"], wr: 52.13, pr: null },
+        { order: ["W","Q","E"], wr: 54.02, pr: null },
       ],
     },
     starting: [
@@ -2991,9 +2979,7 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "焚天" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3008,10 +2994,10 @@ const BUILDS = {
   /* ---------- ezreal ---------- */
   "ezreal": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.7, pr: 39.41, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.7, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.44, pr: 26.15 },
-        { order: ["E","Q","W"], wr: 45.15, pr: 12.19 },
+        { order: ["Q","W","E"], wr: 45.44, pr: null },
+        { order: ["E","Q","W"], wr: 45.15, pr: null },
       ],
     },
     starting: [
@@ -3019,18 +3005,18 @@ const BUILDS = {
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "耀光", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "耀光", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "魔宗" },{ id: 64, name: "朔极之矛" }], pr: null, wr: null },
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "魔宗" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "魔宗" },{ id: 64, name: "破败王者之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "魔宗" },{ id: 64, name: "收集者" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3045,10 +3031,10 @@ const BUILDS = {
   /* ---------- shyvana ---------- */
   "shyvana": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.97, pr: 37.19, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.97, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.19, pr: 27.31 },
-        { order: ["E","Q","W"], wr: 52.97, pr: 13.36 },
+        { order: ["Q","W","E"], wr: 53.19, pr: null },
+        { order: ["E","Q","W"], wr: 52.97, pr: null },
       ],
     },
     starting: [
@@ -3082,10 +3068,10 @@ const BUILDS = {
   /* ---------- sylas ---------- */
   "sylas": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.45, pr: 34.32, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.45, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.6, pr: 24.41 },
-        { order: ["W","E","Q"], wr: 50.18, pr: 12.31 },
+        { order: ["Q","W","E"], wr: 48.6, pr: null },
+        { order: ["W","E","Q"], wr: 50.18, pr: null },
       ],
     },
     starting: [
@@ -3119,24 +3105,24 @@ const BUILDS = {
   /* ---------- xerath ---------- */
   "xerath": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.61, pr: 36.82, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.61, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.1, pr: 29.73 },
-        { order: ["E","Q","W"], wr: 49.42, pr: 11.89 },
+        { order: ["Q","W","E"], wr: 50.1, pr: null },
+        { order: ["E","Q","W"], wr: 49.42, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "复用型药水", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -3156,10 +3142,10 @@ const BUILDS = {
   /* ---------- draven ---------- */
   "draven": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.21, pr: 36.57, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.21, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.79, pr: 29.61 },
-        { order: ["E","Q","W"], wr: 47.98, pr: 11.95 },
+        { order: ["Q","W","E"], wr: 48.79, pr: null },
+        { order: ["E","Q","W"], wr: 47.98, pr: null },
       ],
     },
     starting: [
@@ -3172,13 +3158,13 @@ const BUILDS = {
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "饮血剑" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3193,16 +3179,16 @@ const BUILDS = {
   /* ---------- sona ---------- */
   "sona": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.61, pr: 35.07, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.61, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.1, pr: 27.62 },
-        { order: ["W","Q","E"], wr: 51.9, pr: 13.14 },
+        { order: ["Q","W","E"], wr: 51.1, pr: null },
+        { order: ["W","Q","E"], wr: 51.9, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "禁忌雕像", pr: null, wr: null },
     ],
@@ -3230,10 +3216,10 @@ const BUILDS = {
   /* ---------- malphite ---------- */
   "malphite": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.8, pr: 38.66, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.8, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.65, pr: 25.18 },
-        { order: ["E","Q","W"], wr: 47.8, pr: 12.75 },
+        { order: ["Q","W","E"], wr: 47.65, pr: null },
+        { order: ["E","Q","W"], wr: 47.8, pr: null },
       ],
     },
     starting: [
@@ -3267,10 +3253,10 @@ const BUILDS = {
   /* ---------- shaco ---------- */
   "shaco": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.41, pr: 36.4, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.45, pr: 24.19 },
-        { order: ["E","Q","W"], wr: 46.59, pr: 14.07 },
+        { order: ["Q","W","E"], wr: 46.45, pr: null },
+        { order: ["E","Q","W"], wr: 46.59, pr: null },
       ],
     },
     starting: [
@@ -3287,9 +3273,9 @@ const BUILDS = {
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "电震涡流剑" }], pr: null, wr: null },
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "电震涡流剑" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3304,22 +3290,22 @@ const BUILDS = {
   /* ---------- kaisa ---------- */
   "kaisa": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.28, pr: 35.14, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.28, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.29, pr: 24.64 },
-        { order: ["W","Q","E"], wr: 48.66, pr: 14.14 },
+        { order: ["Q","W","E"], wr: 48.29, pr: null },
+        { order: ["W","Q","E"], wr: 48.66, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "短剑", pr: null, wr: null },
+      { id: 64, name: "以太精魂", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "十字镐", pr: null, wr: null },
-      { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "短剑", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
@@ -3341,18 +3327,18 @@ const BUILDS = {
   /* ---------- zyra ---------- */
   "zyra": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.32, pr: 38.28, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.32, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.24, pr: 26.04 },
-        { order: ["E","Q","W"], wr: 51.76, pr: 12.65 },
+        { order: ["Q","W","E"], wr: 52.24, pr: null },
+        { order: ["E","Q","W"], wr: 51.76, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "复用型药水", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
-      { id: 64, name: "蓝水晶", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -3378,25 +3364,25 @@ const BUILDS = {
   /* ---------- nasus ---------- */
   "nasus": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.22, pr: 37.37, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.22, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.22, pr: 25.79 },
-        { order: ["E","Q","W"], wr: 47.25, pr: 13.66 },
+        { order: ["Q","W","E"], wr: 47.22, pr: null },
+        { order: ["E","Q","W"], wr: 47.25, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "耀光", pr: null, wr: null },
       { id: 64, name: "鞋子", pr: null, wr: null },
+      { id: 64, name: "耀光", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "耀光", pr: null, wr: null },
       { id: 64, name: "鞋子", pr: null, wr: null },
+      { id: 64, name: "耀光", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "瑞莱的冰晶节杖" }], pr: null, wr: null },
@@ -3416,24 +3402,24 @@ const BUILDS = {
   /* ---------- chogath ---------- */
   "chogath": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.94, pr: 37.58, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.94, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.96, pr: 28.04 },
-        { order: ["E","Q","W"], wr: 47.84, pr: 12.44 },
+        { order: ["Q","W","E"], wr: 47.96, pr: null },
+        { order: ["E","Q","W"], wr: 47.84, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
+      { id: 64, name: "晶体护腕", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -3453,10 +3439,10 @@ const BUILDS = {
   /* ---------- zaahen ---------- */
   "zaahen": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.81, pr: 39.71, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.81, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.34, pr: 25.49 },
-        { order: ["E","Q","W"], wr: 53.3, pr: 12.41 },
+        { order: ["Q","W","E"], wr: 53.34, pr: null },
+        { order: ["E","Q","W"], wr: 53.3, pr: null },
       ],
     },
     starting: [
@@ -3469,13 +3455,13 @@ const BUILDS = {
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "焚天" },{ id: 64, name: "朔极之矛" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "无穷饥渴" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "无穷饥渴" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "挺进破坏者" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3490,10 +3476,10 @@ const BUILDS = {
   /* ---------- udyr ---------- */
   "udyr": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.45, pr: 34.72, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.45, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.63, pr: 25.44 },
-        { order: ["E","Q","W"], wr: 47.48, pr: 13.56 },
+        { order: ["Q","W","E"], wr: 47.63, pr: null },
+        { order: ["E","Q","W"], wr: 47.48, pr: null },
       ],
     },
     starting: [
@@ -3511,8 +3497,8 @@ const BUILDS = {
     ],
     core: [
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "残疫" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3527,24 +3513,24 @@ const BUILDS = {
   /* ---------- mel ---------- */
   "mel": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.12, pr: 39.8, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.12, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.84, pr: 25.33 },
-        { order: ["E","Q","W"], wr: 46.56, pr: 12.59 },
+        { order: ["Q","W","E"], wr: 46.84, pr: null },
+        { order: ["E","Q","W"], wr: 46.56, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "复用型药水", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -3564,18 +3550,18 @@ const BUILDS = {
   /* ---------- pantheon ---------- */
   "pantheon": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.39, pr: 37.98, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.39, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.53, pr: 27.36 },
-        { order: ["E","Q","W"], wr: 50.22, pr: 11.98 },
+        { order: ["Q","W","E"], wr: 50.53, pr: null },
+        { order: ["E","Q","W"], wr: 50.22, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
@@ -3584,9 +3570,7 @@ const BUILDS = {
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "星蚀" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3601,10 +3585,10 @@ const BUILDS = {
   /* ---------- ashe ---------- */
   "ashe": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 51.78, pr: 34.85, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 51.78, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.34, pr: 26.93 },
-        { order: ["W","Q","E"], wr: 52.14, pr: 15.03 },
+        { order: ["Q","W","E"], wr: 52.34, pr: null },
+        { order: ["W","Q","E"], wr: 52.14, pr: null },
       ],
     },
     starting: [
@@ -3638,18 +3622,18 @@ const BUILDS = {
   /* ---------- heimerdinger ---------- */
   "heimerdinger": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.65, pr: 36.77, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.65, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.86, pr: 29.1 },
-        { order: ["E","Q","W"], wr: 50.11, pr: 11.82 },
+        { order: ["Q","W","E"], wr: 50.86, pr: null },
+        { order: ["E","Q","W"], wr: 50.11, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "蓝水晶", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
+      { id: 64, name: "女神之泪", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -3675,23 +3659,23 @@ const BUILDS = {
   /* ---------- darius ---------- */
   "darius": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.3, pr: 39.12, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.3, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.05, pr: 26.67 },
-        { order: ["E","Q","W"], wr: 46.86, pr: 12.06 },
+        { order: ["Q","W","E"], wr: 47.05, pr: null },
+        { order: ["E","Q","W"], wr: 46.86, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
@@ -3712,10 +3696,10 @@ const BUILDS = {
   /* ---------- jarvaniv ---------- */
   "jarvaniv": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.43, pr: 39.53, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.43, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.14, pr: 25.63 },
-        { order: ["E","Q","W"], wr: 48.15, pr: 12.41 },
+        { order: ["Q","W","E"], wr: 48.14, pr: null },
+        { order: ["E","Q","W"], wr: 48.15, pr: null },
       ],
     },
     starting: [
@@ -3723,7 +3707,7 @@ const BUILDS = {
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
@@ -3732,9 +3716,9 @@ const BUILDS = {
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3749,10 +3733,10 @@ const BUILDS = {
   /* ---------- janna ---------- */
   "janna": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.41, pr: 37.86, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.18, pr: 25.47 },
-        { order: ["E","Q","W"], wr: 53.19, pr: 13.77 },
+        { order: ["Q","W","E"], wr: 52.18, pr: null },
+        { order: ["E","Q","W"], wr: 53.19, pr: null },
       ],
     },
     starting: [
@@ -3786,24 +3770,24 @@ const BUILDS = {
   /* ---------- amumu ---------- */
   "amumu": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.29, pr: 37.61, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.29, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.03, pr: 24.93 },
-        { order: ["E","Q","W"], wr: 49.38, pr: 13.26 },
+        { order: ["Q","W","E"], wr: 49.03, pr: null },
+        { order: ["E","Q","W"], wr: 49.38, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "斑比的熔渣", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "斑比的熔渣", pr: null, wr: null },
+      { id: 64, name: "巨人腰带", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -3823,24 +3807,24 @@ const BUILDS = {
   /* ---------- lux ---------- */
   "lux": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.39, pr: 35.92, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.39, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.29, pr: 23.71 },
-        { order: ["E","Q","W"], wr: 49.1, pr: 18.67 },
+        { order: ["Q","W","E"], wr: 48.29, pr: null },
+        { order: ["E","Q","W"], wr: 49.1, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "蓝水晶", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "荧尘", pr: null, wr: null },
+      { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "复用型药水", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -3860,10 +3844,10 @@ const BUILDS = {
   /* ---------- yuumi ---------- */
   "yuumi": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.33, pr: 34.94, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.33, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.34, pr: 23.59 },
-        { order: ["E","Q","W"], wr: 51.15, pr: 13.7 },
+        { order: ["Q","W","E"], wr: 50.34, pr: null },
+        { order: ["E","Q","W"], wr: 51.15, pr: null },
       ],
     },
     starting: [
@@ -3896,10 +3880,10 @@ const BUILDS = {
   /* ---------- nautilus ---------- */
   "nautilus": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.08, pr: 36.18, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.08, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.32, pr: 26.77 },
-        { order: ["E","Q","W"], wr: 50.12, pr: 12.04 },
+        { order: ["Q","W","E"], wr: 50.32, pr: null },
+        { order: ["E","Q","W"], wr: 50.12, pr: null },
       ],
     },
     starting: [
@@ -3907,7 +3891,7 @@ const BUILDS = {
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
@@ -3933,10 +3917,10 @@ const BUILDS = {
   /* ---------- talon ---------- */
   "talon": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.85, pr: 33.75, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.85, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.03, pr: 25.56 },
-        { order: ["W","Q","E"], wr: 51.36, pr: 17.48 },
+        { order: ["Q","W","E"], wr: 50.03, pr: null },
+        { order: ["W","Q","E"], wr: 51.36, pr: null },
       ],
     },
     starting: [
@@ -3947,15 +3931,12 @@ const BUILDS = {
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -3970,24 +3951,24 @@ const BUILDS = {
   /* ---------- volibear ---------- */
   "volibear": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.66, pr: 35.62, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.66, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.57, pr: 24.68 },
-        { order: ["W","Q","E"], wr: 49.41, pr: 14.0 },
+        { order: ["Q","W","E"], wr: 48.57, pr: null },
+        { order: ["W","Q","E"], wr: 49.41, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "短剑", pr: null, wr: null },
       { id: 64, name: "以太精魂", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "以太精魂", pr: null, wr: null },
-      { id: 64, name: "斥候弹弓", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -4007,18 +3988,18 @@ const BUILDS = {
   /* ---------- jayce ---------- */
   "jayce": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.54, pr: 41.29, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.54, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.51, pr: 25.71 },
-        { order: ["E","Q","W"], wr: 46.03, pr: 11.74 },
+        { order: ["Q","W","E"], wr: 46.51, pr: null },
+        { order: ["E","Q","W"], wr: 46.03, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
@@ -4027,9 +4008,7 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "魔宗" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "魔宗" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4044,24 +4023,24 @@ const BUILDS = {
   /* ---------- mordekaiser ---------- */
   "mordekaiser": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.4, pr: 39.26, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.4, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.24, pr: 26.63 },
-        { order: ["E","Q","W"], wr: 47.83, pr: 12.07 },
+        { order: ["Q","W","E"], wr: 48.24, pr: null },
+        { order: ["E","Q","W"], wr: 47.83, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "幽魂面具", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
+      { id: 64, name: "巨人腰带", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -4081,10 +4060,10 @@ const BUILDS = {
   /* ---------- vladimir ---------- */
   "vladimir": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.26, pr: 39.36, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.26, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.02, pr: 25.69 },
-        { order: ["E","Q","W"], wr: 49.05, pr: 12.47 },
+        { order: ["Q","W","E"], wr: 49.02, pr: null },
+        { order: ["E","Q","W"], wr: 49.05, pr: null },
       ],
     },
     starting: [
@@ -4096,9 +4075,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "裂隙制造者" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -4118,10 +4097,10 @@ const BUILDS = {
   /* ---------- poppy ---------- */
   "poppy": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.91, pr: 39.46, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.91, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.69, pr: 26.16 },
-        { order: ["E","Q","W"], wr: 48.6, pr: 12.2 },
+        { order: ["Q","W","E"], wr: 48.69, pr: null },
+        { order: ["E","Q","W"], wr: 48.6, pr: null },
       ],
     },
     starting: [
@@ -4155,10 +4134,10 @@ const BUILDS = {
   /* ---------- rengar ---------- */
   "rengar": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.35, pr: 37.59, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.35, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.71, pr: 28.38 },
-        { order: ["E","Q","W"], wr: 49.32, pr: 12.04 },
+        { order: ["Q","W","E"], wr: 49.71, pr: null },
+        { order: ["E","Q","W"], wr: 49.32, pr: null },
       ],
     },
     starting: [
@@ -4175,9 +4154,7 @@ const BUILDS = {
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "亵渎九头蛇" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4192,24 +4169,24 @@ const BUILDS = {
   /* ---------- leona ---------- */
   "leona": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.92, pr: 35.25, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.92, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.9, pr: 24.84 },
-        { order: ["W","Q","E"], wr: 50.42, pr: 13.22 },
+        { order: ["Q","W","E"], wr: 49.9, pr: null },
+        { order: ["W","Q","E"], wr: 50.42, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "布甲", pr: null, wr: null },
+      { id: 64, name: "锁子甲", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "斑比的熔渣", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -4229,25 +4206,24 @@ const BUILDS = {
   /* ---------- kogmaw ---------- */
   "kogmaw": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.72, pr: 34.39, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.72, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.72, pr: 23.77 },
-        { order: ["W","Q","E"], wr: 50.37, pr: 14.84 },
+        { order: ["Q","W","E"], wr: 49.72, pr: null },
+        { order: ["W","Q","E"], wr: 50.37, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "十字镐", pr: null, wr: null },
+      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
+      { id: 64, name: "荧尘", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "鞋子", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "十字镐", pr: null, wr: null },
-      { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "鞋子", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" },{ id: 64, name: "卢安娜的飓风" }], pr: null, wr: null },
@@ -4267,10 +4243,10 @@ const BUILDS = {
   /* ---------- xayah ---------- */
   "xayah": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.64, pr: 34.94, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.64, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.45, pr: 23.58 },
-        { order: ["E","Q","W"], wr: 53.54, pr: 12.95 },
+        { order: ["Q","W","E"], wr: 53.45, pr: null },
+        { order: ["E","Q","W"], wr: 53.54, pr: null },
       ],
     },
     starting: [
@@ -4304,18 +4280,18 @@ const BUILDS = {
   /* ---------- varus ---------- */
   "varus": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.99, pr: 38.55, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.99, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.9, pr: 26.2 },
-        { order: ["E","Q","W"], wr: 45.42, pr: 12.04 },
+        { order: ["Q","W","E"], wr: 45.9, pr: null },
+        { order: ["E","Q","W"], wr: 45.42, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "吸血鬼节杖", pr: null, wr: null },
-      { id: 64, name: "狂热", pr: null, wr: null },
       { id: 64, name: "十字镐", pr: null, wr: null },
       { id: 64, name: "短剑", pr: null, wr: null },
+      { id: 64, name: "短剑", pr: null, wr: null },
+      { id: 64, name: "吸血鬼节杖", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
@@ -4324,9 +4300,9 @@ const BUILDS = {
       { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "魔宗" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "狂妄" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "卢安娜的飓风" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "魔宗" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" },{ id: 64, name: "卢安娜的飓风" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4341,24 +4317,24 @@ const BUILDS = {
   /* ---------- ziggs ---------- */
   "ziggs": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.49, pr: 40.12, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.49, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.22, pr: 25.42 },
-        { order: ["E","Q","W"], wr: 48.85, pr: 12.55 },
+        { order: ["Q","W","E"], wr: 49.22, pr: null },
+        { order: ["E","Q","W"], wr: 48.85, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "复用型药水", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "蓝水晶", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "荧尘", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "黯炎火炬" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -4378,10 +4354,10 @@ const BUILDS = {
   /* ---------- ornn ---------- */
   "ornn": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.95, pr: 36.26, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.95, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.22, pr: 27.41 },
-        { order: ["W","Q","E"], wr: 51.4, pr: 12.48 },
+        { order: ["Q","W","E"], wr: 51.22, pr: null },
+        { order: ["W","Q","E"], wr: 51.4, pr: null },
       ],
     },
     starting: [
@@ -4393,8 +4369,8 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
@@ -4415,24 +4391,24 @@ const BUILDS = {
   /* ---------- monkeyking ---------- */
   "monkeyking": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.96, pr: 39.38, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.96, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.61, pr: 25.06 },
-        { order: ["E","Q","W"], wr: 47.96, pr: 13.59 },
+        { order: ["Q","W","E"], wr: 47.61, pr: null },
+        { order: ["E","Q","W"], wr: 47.96, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "提亚马特", pr: null, wr: null },
-      { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "提亚马特", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
@@ -4452,10 +4428,10 @@ const BUILDS = {
   /* ---------- soraka ---------- */
   "soraka": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.41, pr: 34.53, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.56, pr: 24.9 },
-        { order: ["W","Q","E"], wr: 49.73, pr: 15.57 },
+        { order: ["Q","W","E"], wr: 48.56, pr: null },
+        { order: ["W","Q","E"], wr: 49.73, pr: null },
       ],
     },
     starting: [
@@ -4489,10 +4465,10 @@ const BUILDS = {
   /* ---------- kassadin ---------- */
   "kassadin": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.98, pr: 34.87, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.98, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.08, pr: 23.75 },
-        { order: ["E","Q","W"], wr: 51.93, pr: 17.79 },
+        { order: ["Q","W","E"], wr: 51.08, pr: null },
+        { order: ["E","Q","W"], wr: 51.93, pr: null },
       ],
     },
     starting: [
@@ -4500,7 +4476,7 @@ const BUILDS = {
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -4526,25 +4502,24 @@ const BUILDS = {
   /* ---------- gragas ---------- */
   "gragas": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.54, pr: 37.68, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.54, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.45, pr: 25.5 },
-        { order: ["E","Q","W"], wr: 48.49, pr: 12.62 },
+        { order: ["Q","W","E"], wr: 48.45, pr: null },
+        { order: ["E","Q","W"], wr: 48.49, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "耀光", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "无用大棒", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "耀光", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -4564,10 +4539,10 @@ const BUILDS = {
   /* ---------- khazix ---------- */
   "khazix": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.51, pr: 33.5, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.51, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.09, pr: 27.34 },
-        { order: ["W","Q","E"], wr: 49.85, pr: 17.1 },
+        { order: ["Q","W","E"], wr: 49.09, pr: null },
+        { order: ["W","Q","E"], wr: 49.85, pr: null },
       ],
     },
     starting: [
@@ -4584,9 +4559,6 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "魔宗" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "狂妄" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4601,17 +4573,17 @@ const BUILDS = {
   /* ---------- samira ---------- */
   "samira": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.12, pr: 39.83, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.12, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.7, pr: 25.21 },
-        { order: ["E","Q","W"], wr: 46.61, pr: 12.35 },
+        { order: ["Q","W","E"], wr: 46.7, pr: null },
+        { order: ["E","Q","W"], wr: 46.61, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
@@ -4622,8 +4594,8 @@ const BUILDS = {
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "凡性的提醒" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "多米尼克领主的致意" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -4638,10 +4610,10 @@ const BUILDS = {
   /* ---------- blitzcrank ---------- */
   "blitzcrank": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.14, pr: 39.68, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.14, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.89, pr: 25.73 },
-        { order: ["E","Q","W"], wr: 46.88, pr: 12.53 },
+        { order: ["Q","W","E"], wr: 46.89, pr: null },
+        { order: ["E","Q","W"], wr: 46.88, pr: null },
       ],
     },
     starting: [
@@ -4675,24 +4647,24 @@ const BUILDS = {
   /* ---------- nidalee ---------- */
   "nidalee": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.05, pr: 40.38, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.05, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 44.97, pr: 25.84 },
-        { order: ["E","Q","W"], wr: 44.74, pr: 12.06 },
+        { order: ["Q","W","E"], wr: 44.97, pr: null },
+        { order: ["E","Q","W"], wr: 44.74, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "复用型药水", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "复用型药水", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -4712,24 +4684,24 @@ const BUILDS = {
   /* ---------- garen ---------- */
   "garen": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.74, pr: 35.27, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.74, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.68, pr: 23.82 },
-        { order: ["E","Q","W"], wr: 50.09, pr: 18.76 },
+        { order: ["Q","W","E"], wr: 48.68, pr: null },
+        { order: ["E","Q","W"], wr: 50.09, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "净蚀", pr: null, wr: null },
+      { id: 64, name: "复用型药水", pr: null, wr: null },
+      { id: 64, name: "提亚马特", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "挺进破坏者" },{ id: 64, name: "幻影之舞" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
@@ -4749,24 +4721,24 @@ const BUILDS = {
   /* ---------- kalista ---------- */
   "kalista": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.36, pr: 35.81, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.36, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.08, pr: 23.31 },
-        { order: ["E","Q","W"], wr: 54.66, pr: 19.58 },
+        { order: ["Q","W","E"], wr: 53.08, pr: null },
+        { order: ["E","Q","W"], wr: 54.66, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "十字镐", pr: null, wr: null },
       { id: 64, name: "短剑", pr: null, wr: null },
       { id: 64, name: "短剑", pr: null, wr: null },
+      { id: 64, name: "吸血鬼节杖", pr: null, wr: null },
       { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "破败王者之刃" },{ id: 64, name: "鬼索的狂暴之刃" },{ id: 64, name: "卢安娜的飓风" }], pr: null, wr: null },
@@ -4786,22 +4758,22 @@ const BUILDS = {
   /* ---------- milio ---------- */
   "milio": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.87, pr: 35.62, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.87, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.99, pr: 26.85 },
-        { order: ["E","Q","W"], wr: 50.03, pr: 11.78 },
+        { order: ["Q","W","E"], wr: 49.99, pr: null },
+        { order: ["E","Q","W"], wr: 50.03, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "禁忌雕像", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
@@ -4823,24 +4795,24 @@ const BUILDS = {
   /* ---------- fiddlesticks ---------- */
   "fiddlesticks": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.77, pr: 34.24, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.77, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.68, pr: 23.75 },
-        { order: ["W","Q","E"], wr: 48.81, pr: 16.44 },
+        { order: ["Q","W","E"], wr: 47.68, pr: null },
+        { order: ["W","Q","E"], wr: 48.81, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "复用型药水", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "无用大棒", pr: null, wr: null },
       { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "复用型药水", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -4860,18 +4832,18 @@ const BUILDS = {
   /* ---------- sivir ---------- */
   "sivir": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.52, pr: 36.01, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.52, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.0, pr: 28.96 },
-        { order: ["E","Q","W"], wr: 48.15, pr: 11.74 },
+        { order: ["Q","W","E"], wr: 49.0, pr: null },
+        { order: ["E","Q","W"], wr: 48.15, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "暴风之剑", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "暴风之剑", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "十字镐", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
@@ -4897,10 +4869,10 @@ const BUILDS = {
   /* ---------- illaoi ---------- */
   "illaoi": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.24, pr: 35.88, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.24, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.07, pr: 24.68 },
-        { order: ["E","Q","W"], wr: 48.68, pr: 14.95 },
+        { order: ["Q","W","E"], wr: 48.07, pr: null },
+        { order: ["E","Q","W"], wr: 48.68, pr: null },
       ],
     },
     starting: [
@@ -4912,9 +4884,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "焚天" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -4934,10 +4906,10 @@ const BUILDS = {
   /* ---------- renata ---------- */
   "renata": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 53.37, pr: 34.77, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 53.37, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 53.38, pr: 23.61 },
-        { order: ["E","Q","W"], wr: 53.68, pr: 14.15 },
+        { order: ["Q","W","E"], wr: 53.38, pr: null },
+        { order: ["E","Q","W"], wr: 53.68, pr: null },
       ],
     },
     starting: [
@@ -4948,10 +4920,10 @@ const BUILDS = {
       { id: 64, name: "禁忌雕像", pr: null, wr: null },
     ],
     boots: [
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "帝国指令" },{ id: 64, name: "舒瑞娅的战歌" }], pr: null, wr: null },
@@ -4971,10 +4943,10 @@ const BUILDS = {
   /* ---------- sejuani ---------- */
   "sejuani": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.4, pr: 35.52, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.4, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.4, pr: 25.34 },
-        { order: ["W","Q","E"], wr: 50.52, pr: 15.32 },
+        { order: ["Q","W","E"], wr: 49.4, pr: null },
+        { order: ["W","Q","E"], wr: 50.52, pr: null },
       ],
     },
     starting: [
@@ -5008,18 +4980,18 @@ const BUILDS = {
   /* ---------- nocturne ---------- */
   "nocturne": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.93, pr: 38.76, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.93, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.0, pr: 26.95 },
-        { order: ["E","Q","W"], wr: 49.81, pr: 12.15 },
+        { order: ["Q","W","E"], wr: 50.0, pr: null },
+        { order: ["E","Q","W"], wr: 49.81, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "提亚马特", pr: null, wr: null },
-      { id: 64, name: "残暴之力", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
@@ -5028,9 +5000,7 @@ const BUILDS = {
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "海克斯注力刚壁" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "海克斯注力刚壁" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5045,18 +5015,18 @@ const BUILDS = {
   /* ---------- karma ---------- */
   "karma": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.14, pr: 39.44, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.14, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.87, pr: 25.25 },
-        { order: ["E","Q","W"], wr: 48.47, pr: 13.06 },
+        { order: ["Q","W","E"], wr: 47.87, pr: null },
+        { order: ["E","Q","W"], wr: 48.47, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
+      { id: 64, name: "禁忌雕像", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
@@ -5082,10 +5052,10 @@ const BUILDS = {
   /* ---------- aatrox ---------- */
   "aatrox": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.05, pr: 39.7, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.05, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.62, pr: 25.47 },
-        { order: ["E","Q","W"], wr: 45.66, pr: 12.37 },
+        { order: ["Q","W","E"], wr: 45.62, pr: null },
+        { order: ["E","Q","W"], wr: 45.66, pr: null },
       ],
     },
     starting: [
@@ -5102,9 +5072,7 @@ const BUILDS = {
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "无穷饥渴" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "无穷饥渴" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "焚天" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5119,18 +5087,18 @@ const BUILDS = {
   /* ---------- annie ---------- */
   "annie": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.59, pr: 36.29, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.59, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.02, pr: 28.33 },
-        { order: ["E","Q","W"], wr: 50.49, pr: 11.85 },
+        { order: ["Q","W","E"], wr: 51.02, pr: null },
+        { order: ["E","Q","W"], wr: 50.49, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -5156,10 +5124,10 @@ const BUILDS = {
   /* ---------- nilah ---------- */
   "nilah": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.92, pr: 39.95, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.92, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.36, pr: 25.4 },
-        { order: ["E","Q","W"], wr: 52.45, pr: 12.26 },
+        { order: ["Q","W","E"], wr: 52.36, pr: null },
+        { order: ["E","Q","W"], wr: 52.45, pr: null },
       ],
     },
     starting: [
@@ -5167,13 +5135,13 @@ const BUILDS = {
       { id: 64, name: "十字镐", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "锯齿短匕", pr: null, wr: null },
-      { id: 64, name: "灵巧披风", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -5193,10 +5161,10 @@ const BUILDS = {
   /* ---------- leesin ---------- */
   "leesin": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 44.17, pr: 38.77, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 44.17, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 44.27, pr: 26.92 },
-        { order: ["E","Q","W"], wr: 43.99, pr: 12.18 },
+        { order: ["Q","W","E"], wr: 44.27, pr: null },
+        { order: ["E","Q","W"], wr: 43.99, pr: null },
       ],
     },
     starting: [
@@ -5208,14 +5176,11 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "星蚀" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5230,18 +5195,18 @@ const BUILDS = {
   /* ---------- pyke ---------- */
   "pyke": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.58, pr: 39.75, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.58, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.33, pr: 25.56 },
-        { order: ["E","Q","W"], wr: 48.32, pr: 12.35 },
+        { order: ["Q","W","E"], wr: 48.33, pr: null },
+        { order: ["E","Q","W"], wr: 48.32, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "残暴之力", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "残暴之力", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
-      { id: 64, name: "残暴之力", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
@@ -5250,9 +5215,6 @@ const BUILDS = {
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "电震涡流剑" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "夜之锋刃" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5267,10 +5229,10 @@ const BUILDS = {
   /* ---------- vex ---------- */
   "vex": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.74, pr: 38.04, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.74, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.96, pr: 28.61 },
-        { order: ["E","Q","W"], wr: 50.34, pr: 11.88 },
+        { order: ["Q","W","E"], wr: 50.96, pr: null },
+        { order: ["E","Q","W"], wr: 50.34, pr: null },
       ],
     },
     starting: [
@@ -5304,24 +5266,24 @@ const BUILDS = {
   /* ---------- nami ---------- */
   "nami": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.89, pr: 33.73, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.89, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 51.04, pr: 24.16 },
-        { order: ["W","Q","E"], wr: 51.45, pr: 12.46 },
+        { order: ["Q","W","E"], wr: 51.04, pr: null },
+        { order: ["W","Q","E"], wr: 51.45, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "禁忌雕像", pr: null, wr: null },
-      { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "帝国指令" },{ id: 64, name: "耳语头环" },{ id: 64, name: "月石再生器" }], pr: null, wr: null },
@@ -5341,10 +5303,10 @@ const BUILDS = {
   /* ---------- ivern ---------- */
   "ivern": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.1, pr: 34.93, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.1, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.11, pr: 23.72 },
-        { order: ["E","Q","W"], wr: 50.82, pr: 18.6 },
+        { order: ["Q","W","E"], wr: 49.11, pr: null },
+        { order: ["E","Q","W"], wr: 50.82, pr: null },
       ],
     },
     starting: [
@@ -5378,15 +5340,15 @@ const BUILDS = {
   /* ---------- kindred ---------- */
   "kindred": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 52.12, pr: 37.45, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 52.12, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 52.6, pr: 28.71 },
-        { order: ["E","Q","W"], wr: 51.79, pr: 11.95 },
+        { order: ["Q","W","E"], wr: 52.6, pr: null },
+        { order: ["E","Q","W"], wr: 51.79, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "十字镐", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "十字镐", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
@@ -5415,10 +5377,10 @@ const BUILDS = {
   /* ---------- taric ---------- */
   "taric": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.07, pr: 37.3, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.07, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.9, pr: 24.82 },
-        { order: ["E","Q","W"], wr: 50.87, pr: 16.0 },
+        { order: ["Q","W","E"], wr: 49.9, pr: null },
+        { order: ["E","Q","W"], wr: 50.87, pr: null },
       ],
     },
     starting: [
@@ -5452,18 +5414,18 @@ const BUILDS = {
   /* ---------- orianna ---------- */
   "orianna": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.33, pr: 35.64, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.33, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.83, pr: 29.16 },
-        { order: ["E","Q","W"], wr: 49.03, pr: 11.79 },
+        { order: ["Q","W","E"], wr: 49.83, pr: null },
+        { order: ["E","Q","W"], wr: 49.03, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "守护者法球", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -5489,10 +5451,10 @@ const BUILDS = {
   /* ---------- reksai ---------- */
   "reksai": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.48, pr: 39.31, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.48, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.25, pr: 25.66 },
-        { order: ["E","Q","W"], wr: 48.49, pr: 12.52 },
+        { order: ["Q","W","E"], wr: 48.25, pr: null },
+        { order: ["E","Q","W"], wr: 48.49, pr: null },
       ],
     },
     starting: [
@@ -5500,12 +5462,12 @@ const BUILDS = {
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "守护者号角", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
@@ -5526,10 +5488,10 @@ const BUILDS = {
   /* ---------- diana ---------- */
   "diana": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.05, pr: 36.7, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.05, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.49, pr: 28.5 },
-        { order: ["E","Q","W"], wr: 48.06, pr: 11.87 },
+        { order: ["Q","W","E"], wr: 48.49, pr: null },
+        { order: ["E","Q","W"], wr: 48.06, pr: null },
       ],
     },
     starting: [
@@ -5541,9 +5503,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "法师之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "无终恨意" },{ id: 64, name: "裂隙制造者" }], pr: null, wr: null },
@@ -5563,10 +5525,10 @@ const BUILDS = {
   /* ---------- lulu ---------- */
   "lulu": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.34, pr: 34.79, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.34, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.38, pr: 23.77 },
-        { order: ["E","Q","W"], wr: 50.14, pr: 13.79 },
+        { order: ["Q","W","E"], wr: 49.38, pr: null },
+        { order: ["E","Q","W"], wr: 50.14, pr: null },
       ],
     },
     starting: [
@@ -5600,10 +5562,10 @@ const BUILDS = {
   /* ---------- gnar ---------- */
   "gnar": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.5, pr: 35.89, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.5, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.94, pr: 28.76 },
-        { order: ["E","Q","W"], wr: 45.27, pr: 11.78 },
+        { order: ["Q","W","E"], wr: 45.94, pr: null },
+        { order: ["E","Q","W"], wr: 45.27, pr: null },
       ],
     },
     starting: [
@@ -5617,7 +5579,7 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
@@ -5637,18 +5599,18 @@ const BUILDS = {
   /* ---------- quinn ---------- */
   "quinn": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.76, pr: 39.29, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.76, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 49.5, pr: 25.08 },
-        { order: ["E","Q","W"], wr: 49.44, pr: 12.66 },
+        { order: ["Q","W","E"], wr: 49.5, pr: null },
+        { order: ["E","Q","W"], wr: 49.44, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "暴风之剑", pr: null, wr: null },
-      { id: 64, name: "灵巧披风", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "十字镐", pr: null, wr: null },
+      { id: 64, name: "灵巧披风", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
@@ -5674,10 +5636,10 @@ const BUILDS = {
   /* ---------- urgot ---------- */
   "urgot": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.44, pr: 34.27, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.44, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.29, pr: 23.81 },
-        { order: ["W","E","Q"], wr: 48.05, pr: 13.04 },
+        { order: ["Q","W","E"], wr: 46.29, pr: null },
+        { order: ["W","E","Q"], wr: 48.05, pr: null },
       ],
     },
     starting: [
@@ -5691,7 +5653,7 @@ const BUILDS = {
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
@@ -5711,10 +5673,10 @@ const BUILDS = {
   /* ---------- azir ---------- */
   "azir": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.77, pr: 33.64, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.77, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.94, pr: 25.78 },
-        { order: ["W","Q","E"], wr: 49.28, pr: 17.61 },
+        { order: ["Q","W","E"], wr: 47.94, pr: null },
+        { order: ["W","Q","E"], wr: 49.28, pr: null },
       ],
     },
     starting: [
@@ -5726,9 +5688,9 @@ const BUILDS = {
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "纳什之牙" },{ id: 64, name: "兰德里的折磨" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -5748,24 +5710,24 @@ const BUILDS = {
   /* ---------- taliyah ---------- */
   "taliyah": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.01, pr: 40.82, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.01, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.47, pr: 24.9 },
-        { order: ["E","Q","W"], wr: 47.21, pr: 12.32 },
+        { order: ["Q","W","E"], wr: 47.47, pr: null },
+        { order: ["E","Q","W"], wr: 47.21, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -5785,10 +5747,10 @@ const BUILDS = {
   /* ---------- zeri ---------- */
   "zeri": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 44.24, pr: 42.66, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 44.24, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 43.39, pr: 24.71 },
-        { order: ["E","Q","W"], wr: 43.12, pr: 11.41 },
+        { order: ["Q","W","E"], wr: 43.39, pr: null },
+        { order: ["E","Q","W"], wr: 43.12, pr: null },
       ],
     },
     starting: [
@@ -5822,10 +5784,10 @@ const BUILDS = {
   /* ---------- qiyana ---------- */
   "qiyana": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.76, pr: 35.86, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.76, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.4, pr: 29.67 },
-        { order: ["E","Q","W"], wr: 46.87, pr: 12.06 },
+        { order: ["Q","W","E"], wr: 47.4, pr: null },
+        { order: ["E","Q","W"], wr: 46.87, pr: null },
       ],
     },
     starting: [
@@ -5836,15 +5798,12 @@ const BUILDS = {
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "公理圆弧" },{ id: 64, name: "收集者" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -5859,24 +5818,24 @@ const BUILDS = {
   /* ---------- skarner ---------- */
   "skarner": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.01, pr: 36.49, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.01, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.39, pr: 29.0 },
-        { order: ["E","Q","W"], wr: 45.87, pr: 11.81 },
+        { order: ["Q","W","E"], wr: 46.39, pr: null },
+        { order: ["E","Q","W"], wr: 45.87, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "狂徒铠甲" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -5896,25 +5855,24 @@ const BUILDS = {
   /* ---------- akshan ---------- */
   "akshan": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.65, pr: 39.58, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.65, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.26, pr: 25.16 },
-        { order: ["E","Q","W"], wr: 50.42, pr: 12.9 },
+        { order: ["Q","W","E"], wr: 50.26, pr: null },
+        { order: ["E","Q","W"], wr: 50.42, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "十字镐", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "锯齿短匕", pr: null, wr: null },
-      { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "吸血鬼节杖", pr: null, wr: null },
-      { id: 64, name: "鞋子", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
+      { id: 64, name: "暴风之剑", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
-      { id: 64, name: "短剑", pr: null, wr: null },
-      { id: 64, name: "吸血鬼节杖", pr: null, wr: null },
-      { id: 64, name: "鞋子", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" },{ id: 64, name: "多米尼克领主的致意" }], pr: null, wr: null },
@@ -5934,10 +5892,10 @@ const BUILDS = {
   /* ---------- zoe ---------- */
   "zoe": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.99, pr: 39.72, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.99, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.66, pr: 25.34 },
-        { order: ["E","Q","W"], wr: 46.55, pr: 12.41 },
+        { order: ["Q","W","E"], wr: 46.66, pr: null },
+        { order: ["E","Q","W"], wr: 46.55, pr: null },
       ],
     },
     starting: [
@@ -5948,8 +5906,8 @@ const BUILDS = {
       { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
@@ -5971,24 +5929,24 @@ const BUILDS = {
   /* ---------- kled ---------- */
   "kled": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.44, pr: 36.79, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.44, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.86, pr: 28.63 },
-        { order: ["E","Q","W"], wr: 47.27, pr: 11.73 },
+        { order: ["Q","W","E"], wr: 47.86, pr: null },
+        { order: ["E","Q","W"], wr: 47.27, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "提亚马特", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "巨型九头蛇" },{ id: 64, name: "霸王血铠" }], pr: null, wr: null },
@@ -6008,17 +5966,17 @@ const BUILDS = {
   /* ---------- riven ---------- */
   "riven": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 50.83, pr: 39.5, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 50.83, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 50.41, pr: 25.7 },
-        { order: ["E","Q","W"], wr: 50.6, pr: 12.35 },
+        { order: ["Q","W","E"], wr: 50.41, pr: null },
+        { order: ["E","Q","W"], wr: 50.6, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
@@ -6028,9 +5986,7 @@ const BUILDS = {
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "死亡之舞" },{ id: 64, name: "朔极之矛" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "星蚀" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6045,10 +6001,10 @@ const BUILDS = {
   /* ---------- vi ---------- */
   "vi": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.12, pr: 38.79, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.12, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.9, pr: 25.7 },
-        { order: ["E","Q","W"], wr: 49.07, pr: 12.74 },
+        { order: ["Q","W","E"], wr: 48.9, pr: null },
+        { order: ["E","Q","W"], wr: 49.07, pr: null },
       ],
     },
     starting: [
@@ -6059,15 +6015,12 @@ const BUILDS = {
       { id: 64, name: "晶体护腕", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "无尽之刃" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "星蚀" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6082,10 +6035,10 @@ const BUILDS = {
   /* ---------- warwick ---------- */
   "warwick": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.94, pr: 39.94, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.94, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.62, pr: 25.7 },
-        { order: ["E","Q","W"], wr: 46.55, pr: 12.18 },
+        { order: ["Q","W","E"], wr: 46.62, pr: null },
+        { order: ["E","Q","W"], wr: 46.55, pr: null },
       ],
     },
     starting: [
@@ -6098,8 +6051,8 @@ const BUILDS = {
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "破败王者之刃" },{ id: 64, name: "振奋盔甲" }], pr: null, wr: null },
@@ -6119,24 +6072,24 @@ const BUILDS = {
   /* ---------- lissandra ---------- */
   "lissandra": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.41, pr: 36.24, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.8, pr: 29.69 },
-        { order: ["E","Q","W"], wr: 48.25, pr: 11.91 },
+        { order: ["Q","W","E"], wr: 48.8, pr: null },
+        { order: ["E","Q","W"], wr: 48.25, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "命定灰烬", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "海克斯科技发电机", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "铁板靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "残疫" },{ id: 64, name: "中娅沙漏" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -6156,24 +6109,24 @@ const BUILDS = {
   /* ---------- nunu ---------- */
   "nunu": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.28, pr: 35.33, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.28, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.43, pr: 25.41 },
-        { order: ["W","Q","E"], wr: 47.05, pr: 15.34 },
+        { order: ["Q","W","E"], wr: 46.43, pr: null },
+        { order: ["W","Q","E"], wr: 47.05, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "无用大棒", pr: null, wr: null },
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "治疗宝珠", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
+      { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "风暴狂涌" },{ id: 64, name: "影焰" }], pr: null, wr: null },
@@ -6193,22 +6146,22 @@ const BUILDS = {
   /* ---------- anivia ---------- */
   "anivia": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.69, pr: 35.91, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.69, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.57, pr: 23.81 },
-        { order: ["E","Q","W"], wr: 47.25, pr: 17.7 },
+        { order: ["Q","W","E"], wr: 46.57, pr: null },
+        { order: ["E","Q","W"], wr: 47.25, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "复用型药水", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
-      { id: 64, name: "守护者法球", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
@@ -6230,24 +6183,24 @@ const BUILDS = {
   /* ---------- evelynn ---------- */
   "evelynn": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.22, pr: 39.49, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.22, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.98, pr: 25.45 },
-        { order: ["E","Q","W"], wr: 48.1, pr: 12.89 },
+        { order: ["Q","W","E"], wr: 47.98, pr: null },
+        { order: ["E","Q","W"], wr: 48.1, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "无用大棒", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "无用大棒", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "巫妖之祸" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -6267,18 +6220,18 @@ const BUILDS = {
   /* ---------- leblanc ---------- */
   "leblanc": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 43.58, pr: 34.4, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 43.58, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 43.91, pr: 26.19 },
-        { order: ["W","Q","E"], wr: 44.5, pr: 16.0 },
+        { order: ["Q","W","E"], wr: 43.91, pr: null },
+        { order: ["W","Q","E"], wr: 44.5, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "无用大棒", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
       { id: 64, name: "海克斯科技发电机", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -6304,18 +6257,18 @@ const BUILDS = {
   /* ---------- neeko ---------- */
   "neeko": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.37, pr: 39.84, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.37, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.03, pr: 25.2 },
-        { order: ["E","Q","W"], wr: 45.88, pr: 12.62 },
+        { order: ["Q","W","E"], wr: 46.03, pr: null },
+        { order: ["E","Q","W"], wr: 45.88, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
-      { id: 64, name: "复用型药水", pr: null, wr: null },
-      { id: 64, name: "遗失的章节", pr: null, wr: null },
+      { id: 64, name: "女神之泪", pr: null, wr: null },
+      { id: 64, name: "守护者法球", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
@@ -6341,24 +6294,24 @@ const BUILDS = {
   /* ---------- cassiopeia ---------- */
   "cassiopeia": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.97, pr: 35.53, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.97, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.82, pr: 23.77 },
-        { order: ["E","Q","W"], wr: 49.59, pr: 18.25 },
+        { order: ["Q","W","E"], wr: 48.82, pr: null },
+        { order: ["E","Q","W"], wr: 49.59, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "命定灰烬", pr: null, wr: null },
       { id: 64, name: "女神之泪", pr: null, wr: null },
       { id: 64, name: "遗失的章节", pr: null, wr: null },
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "生命药水", pr: null, wr: null },
       { id: 64, name: "命定灰烬", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "法师之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "时光之杖" },{ id: 64, name: "大天使之杖" },{ id: 64, name: "兰德里的折磨" }], pr: null, wr: null },
@@ -6378,24 +6331,25 @@ const BUILDS = {
   /* ---------- elise ---------- */
   "elise": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.17, pr: 34.84, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.17, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.66, pr: 27.48 },
-        { order: ["W","Q","E"], wr: 47.94, pr: 13.66 },
+        { order: ["Q","W","E"], wr: 47.66, pr: null },
+        { order: ["W","Q","E"], wr: 47.94, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "耀光", pr: null, wr: null },
-      { id: 64, name: "海克斯科技发电机", pr: null, wr: null },
       { id: 64, name: "爆裂魔杖", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "鞋子", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "耀光", pr: null, wr: null },
+      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "鞋子", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
@@ -6415,10 +6369,10 @@ const BUILDS = {
   /* ---------- naafiri ---------- */
   "naafiri": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.02, pr: 39.35, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.02, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.8, pr: 25.66 },
-        { order: ["E","Q","W"], wr: 47.64, pr: 12.36 },
+        { order: ["Q","W","E"], wr: 47.8, pr: null },
+        { order: ["E","Q","W"], wr: 47.64, pr: null },
       ],
     },
     starting: [
@@ -6435,9 +6389,6 @@ const BUILDS = {
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "公理圆弧" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "赛瑞尔达的怨恨" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "收集者" },{ id: 64, name: "星蚀" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6452,10 +6403,10 @@ const BUILDS = {
   /* ---------- irelia ---------- */
   "irelia": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 44.29, pr: 39.26, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 44.29, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 44.18, pr: 26.38 },
-        { order: ["E","Q","W"], wr: 43.99, pr: 12.08 },
+        { order: ["Q","W","E"], wr: 44.18, pr: null },
+        { order: ["E","Q","W"], wr: 43.99, pr: null },
       ],
     },
     starting: [
@@ -6463,12 +6414,12 @@ const BUILDS = {
       { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "提亚马特", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
@@ -6489,17 +6440,17 @@ const BUILDS = {
   /* ---------- locke ---------- */
   "locke": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 44.28, pr: 39.36, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.71, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 44.28, pr: 25.16 },
-        { order: ["E","Q","W"], wr: 44.31, pr: 12.49 },
+        { order: ["Q","W","E"], wr: 46.67, pr: null },
+        { order: ["E","Q","W"], wr: 46.59, pr: null },
       ],
     },
     starting: [
-      { id: 64, name: "增幅典籍", pr: null, wr: null },
-      { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "海克斯科技发电机", pr: null, wr: null },
       { id: 64, name: "无用大棒", pr: null, wr: null },
+      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
+      { id: 64, name: "增幅典籍", pr: null, wr: null },
+      { id: 64, name: "耀光", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
     ],
     boots: [
@@ -6511,7 +6462,7 @@ const BUILDS = {
     core: [
       { items: [{ id: 64, name: "巫妖之祸" },{ id: 64, name: "影焰" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
       { items: [{ id: 64, name: "影焰" },{ id: 64, name: "巫妖之祸" },{ id: 64, name: "灭世者的死亡之帽" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "卢登的回声" },{ id: 64, name: "巫妖之祸" },{ id: 64, name: "影焰" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "巫妖之祸" },{ id: 64, name: "影焰" },{ id: 64, name: "风暴狂涌" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6526,10 +6477,10 @@ const BUILDS = {
   /* ---------- zac ---------- */
   "zac": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.73, pr: 35.17, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.73, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.69, pr: 23.75 },
-        { order: ["E","Q","W"], wr: 46.28, pr: 13.26 },
+        { order: ["Q","W","E"], wr: 45.69, pr: null },
+        { order: ["E","Q","W"], wr: 46.28, pr: null },
       ],
     },
     starting: [
@@ -6563,18 +6514,18 @@ const BUILDS = {
   /* ---------- renekton ---------- */
   "renekton": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.01, pr: 39.62, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.01, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.81, pr: 26.33 },
-        { order: ["E","Q","W"], wr: 45.74, pr: 12.05 },
+        { order: ["Q","W","E"], wr: 45.81, pr: null },
+        { order: ["E","Q","W"], wr: 45.74, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "锯齿短匕", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "锯齿短匕", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
@@ -6585,7 +6536,7 @@ const BUILDS = {
     core: [
       { items: [{ id: 64, name: "焚天" },{ id: 64, name: "星蚀" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
-      { items: [{ id: 64, name: "狂妄" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
+      { items: [{ id: 64, name: "星蚀" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
     ],
     runes: {
       prismatic: [
@@ -6600,23 +6551,23 @@ const BUILDS = {
   /* ---------- olaf ---------- */
   "olaf": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.06, pr: 38.72, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.06, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.94, pr: 25.76 },
-        { order: ["E","Q","W"], wr: 46.94, pr: 12.39 },
+        { order: ["Q","W","E"], wr: 46.94, pr: null },
+        { order: ["E","Q","W"], wr: 46.94, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
-      { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
     ],
     core: [
@@ -6637,10 +6588,10 @@ const BUILDS = {
   /* ---------- akali ---------- */
   "akali": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 44.64, pr: 39.83, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 44.64, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 44.5, pr: 25.54 },
-        { order: ["E","Q","W"], wr: 44.36, pr: 12.31 },
+        { order: ["Q","W","E"], wr: 44.5, pr: null },
+        { order: ["E","Q","W"], wr: 44.36, pr: null },
       ],
     },
     starting: [
@@ -6674,10 +6625,10 @@ const BUILDS = {
   /* ---------- kennen ---------- */
   "kennen": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.29, pr: 37.01, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.29, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 46.63, pr: 28.55 },
-        { order: ["E","Q","W"], wr: 46.11, pr: 11.9 },
+        { order: ["Q","W","E"], wr: 46.63, pr: null },
+        { order: ["E","Q","W"], wr: 46.11, pr: null },
       ],
     },
     starting: [
@@ -6711,10 +6662,10 @@ const BUILDS = {
   /* ---------- rakan ---------- */
   "rakan": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 48.7, pr: 34.25, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 48.7, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.66, pr: 24.6 },
-        { order: ["W","Q","E"], wr: 49.14, pr: 12.42 },
+        { order: ["Q","W","E"], wr: 48.66, pr: null },
+        { order: ["W","Q","E"], wr: 49.14, pr: null },
       ],
     },
     starting: [
@@ -6722,7 +6673,7 @@ const BUILDS = {
       { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "班德尔玻璃镜", pr: null, wr: null },
-      { id: 64, name: "抗魔斗篷", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
@@ -6748,24 +6699,24 @@ const BUILDS = {
   /* ---------- camille ---------- */
   "camille": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 45.56, pr: 39.36, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 45.56, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.17, pr: 25.68 },
-        { order: ["E","Q","W"], wr: 45.36, pr: 12.37 },
+        { order: ["Q","W","E"], wr: 45.17, pr: null },
+        { order: ["E","Q","W"], wr: 45.36, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "长剑", pr: null, wr: null },
       { id: 64, name: "耀光", pr: null, wr: null },
       { id: 64, name: "守护者之刃", pr: null, wr: null },
-      { id: 64, name: "提亚马特", pr: null, wr: null },
       { id: 64, name: "长剑", pr: null, wr: null },
+      { id: 64, name: "守护者之刃", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "轻灵之靴", pr: null, wr: null },
-      { id: 64, name: "水银之靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "明朗之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "三相之力" },{ id: 64, name: "焚天" },{ id: 64, name: "死亡之舞" }], pr: null, wr: null },
@@ -6785,18 +6736,18 @@ const BUILDS = {
   /* ---------- braum ---------- */
   "braum": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 49.23, pr: 38.9, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 49.23, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 48.94, pr: 25.58 },
-        { order: ["E","Q","W"], wr: 49.16, pr: 12.97 },
+        { order: ["Q","W","E"], wr: 48.94, pr: null },
+        { order: ["E","Q","W"], wr: 49.16, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "布甲", pr: null, wr: null },
+      { id: 64, name: "锁子甲", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "守护者号角", pr: null, wr: null },
       { id: 64, name: "巨人腰带", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "生命药水", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
@@ -6822,10 +6773,10 @@ const BUILDS = {
   /* ---------- bard ---------- */
   "bard": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 42.07, pr: 35.69, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 42.07, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 42.61, pr: 30.55 },
-        { order: ["E","Q","W"], wr: 41.86, pr: 11.71 },
+        { order: ["Q","W","E"], wr: 42.61, pr: null },
+        { order: ["E","Q","W"], wr: 41.86, pr: null },
       ],
     },
     starting: [
@@ -6833,12 +6784,12 @@ const BUILDS = {
       { id: 64, name: "禁忌雕像", pr: null, wr: null },
       { id: 64, name: "增幅典籍", pr: null, wr: null },
       { id: 64, name: "守护者法球", pr: null, wr: null },
-      { id: 64, name: "无用大棒", pr: null, wr: null },
+      { id: 64, name: "爆裂魔杖", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "法师之靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
     ],
     core: [
@@ -6859,24 +6810,24 @@ const BUILDS = {
   /* ---------- rammus ---------- */
   "rammus": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 47.15, pr: 34.56, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 47.15, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 47.19, pr: 24.16 },
-        { order: ["W","Q","E"], wr: 47.54, pr: 12.09 },
+        { order: ["Q","W","E"], wr: 47.19, pr: null },
+        { order: ["W","Q","E"], wr: 47.54, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "布甲", pr: null, wr: null },
+      { id: 64, name: "锁子甲", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "棘刺背心", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "斑比的熔渣", pr: null, wr: null },
-      { id: 64, name: "红水晶", pr: null, wr: null },
+      { id: 64, name: "布甲", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "狂战士胫甲", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "荆棘之甲" },{ id: 64, name: "狂徒铠甲" }], pr: null, wr: null },
@@ -6896,24 +6847,24 @@ const BUILDS = {
   /* ---------- ksante ---------- */
   "ksante": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 43.17, pr: 38.2, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 43.17, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 43.33, pr: 28.1 },
-        { order: ["E","Q","W"], wr: 42.99, pr: 11.94 },
+        { order: ["Q","W","E"], wr: 43.33, pr: null },
+        { order: ["E","Q","W"], wr: 42.99, pr: null },
       ],
     },
     starting: [
+      { id: 64, name: "布甲", pr: null, wr: null },
+      { id: 64, name: "锁子甲", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
       { id: 64, name: "锁子甲", pr: null, wr: null },
-      { id: 64, name: "幽魂斗篷", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
-      { id: 64, name: "水银之靴", pr: null, wr: null },
       { id: 64, name: "铁板靴", pr: null, wr: null },
-      { id: 64, name: "轻灵之靴", pr: null, wr: null },
       { id: 64, name: "明朗之靴", pr: null, wr: null },
+      { id: 64, name: "水银之靴", pr: null, wr: null },
+      { id: 64, name: "轻灵之靴", pr: null, wr: null },
     ],
     core: [
       { items: [{ id: 64, name: "心之钢" },{ id: 64, name: "冰脉护手" },{ id: 64, name: "无终恨意" }], pr: null, wr: null },
@@ -6933,18 +6884,18 @@ const BUILDS = {
   /* ---------- yorick ---------- */
   "yorick": {
     skill: {
-      main: { order: ["Q","E","W"], wr: 46.41, pr: 39.99, label: "最常见加点" },
+      main: { order: ["Q","E","W"], wr: 46.41, pr: null, label: "最常见加点" },
       alternates: [
-        { order: ["Q","W","E"], wr: 45.92, pr: 25.3 },
-        { order: ["E","Q","W"], wr: 45.84, pr: 12.86 },
+        { order: ["Q","W","E"], wr: 45.92, pr: null },
+        { order: ["E","Q","W"], wr: 45.84, pr: null },
       ],
     },
     starting: [
       { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "红水晶", pr: null, wr: null },
-      { id: 64, name: "巨人腰带", pr: null, wr: null },
       { id: 64, name: "掘道钻头", pr: null, wr: null },
       { id: 64, name: "荧尘", pr: null, wr: null },
+      { id: 64, name: "红水晶", pr: null, wr: null },
     ],
     boots: [
       { id: 64, name: "水银之靴", pr: null, wr: null },
